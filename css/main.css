@@ -1,4 +1,8 @@
 body {
   color: #333; }
+  body header {
+    background: url("../img/images/background-img.jpg") no-repeat;
+    background-size: cover;
+    background-position: 100%; }
 
 /*# sourceMappingURL=main.css.map */
