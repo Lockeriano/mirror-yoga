@@ -1,3 +1,17 @@
+p {
+  color: #aeaeae;
+  font-family: "PTSerif Regular";
+  font-size: 16px;
+  line-height: 30px; }
+
+body .p-number {
+  font-family: "PTSerif Regular";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 28px;
+  color: #e8e8e8; }
+body .green-text {
+  color: #66a900; }
 body header {
   background: url("../img/images/background-img.jpg") no-repeat;
   background-size: cover;
@@ -41,5 +55,13 @@ body header {
       line-height: 28px;
       letter-spacing: 0.5px;
       padding-bottom: 255px; }
+body #about h2 {
+  display: inline;
+  font-family: "Poppins";
+  font-size: 30px;
+  line-height: 28px;
+  color: #333333; }
+body #about p:first-of-type {
+  padding-top: 40px; }
 
 /*# sourceMappingURL=main.css.map */

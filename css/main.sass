@@ -2,8 +2,25 @@ $primary-color: #333
 $white: #ffffff
 $serif: "PTSerif Regular"
 $black: #000000
+$poppins: "Poppins"
+$dark-grey: #333333
+
+p
+	color: #aeaeae
+	font-family: $serif
+	font-size: 16px
+	line-height: 30px
 
 body
+	.p-number
+		font-family: $serif
+		font-weight: 700
+		font-size: 64px
+		line-height: 28px
+		color: #e8e8e8
+
+	.green-text
+		color: #66a900
 
 	header
 		background: url("../img/images/background-img.jpg") no-repeat
@@ -60,3 +77,15 @@ body
 				line-height: 28px
 				letter-spacing: 0.5px
 				padding-bottom: 255px
+
+	#about
+
+		h2
+			display: inline
+			font-family: $poppins
+			font-size: 30px
+			line-height: 28px
+			color: $dark-grey
+
+		p:first-of-type
+			padding-top: 40px
