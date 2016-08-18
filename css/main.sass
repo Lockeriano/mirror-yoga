@@ -22,70 +22,84 @@ body
 	.green-text
 		color: #66a900
 
-	header
-		background: url("../img/images/background-img.jpg") no-repeat
-		background-size: cover
-		background-position: 50%
+	#wrapper
+		width: 100%
+		margin: 0 auto
 
-		nav
-			text-align:center
-			#logo
-				padding-top: 36px
+		header
+			background: url("../img/images/background-img.jpg") no-repeat
+			background-size: cover
+			background-position: 50%
 
-			ul
-				padding-top: 36px
-				text-align: right
-				font-size: 0
+			nav
+				text-align:center
+				#logo
+					padding-top: 36px
 
-				li
-					display: inline
+				ul
+					padding-top: 36px
+					text-align: right
+					font-size: 0
 
-					a
-						display: inline-block
-						text-decoration: none !important
-						margin: 16px
-						font-family: $serif
-						font-size: 14px
-						color: $white
+					li
+						display: inline
 
-				li:last-child
-					a
-						margin-right: 0px
+						a
+							display: inline-block
+							text-decoration: none !important
+							margin: 16px
+							font-family: $serif
+							font-size: 14px
+							color: $white
 
-				li:first-child
-					a
-						margin-left: 0px
-	
-		.heading
-			padding-left: 47px
-			padding-top: 236px
+					li:last-child
+						a
+							margin-right: 0px
 
-			h1
-				text-shadow: 0px 2px 16px rgba(0,0,0,0.29)
-				font-size: 50px
-				font-family: "Poppins"
-				color: $white
-				text-transform: uppercase
-				line-height: 52px
-				font-weight: 500
-			p
-				padding-top: 20px
-				font-family: $serif
-				font-size: 16px
-				color: $white
-				font-weight: 500
+					li:first-child
+						a
+							margin-left: 0px
+		
+			.heading
+				padding-left: 47px
+				padding-top: 236px
+
+				h1
+					text-shadow: 0px 2px 16px rgba(0,0,0,0.29)
+					font-size: 50px
+					font-family: "Poppins"
+					color: $white
+					text-transform: uppercase
+					line-height: 52px
+					font-weight: 500
+				p
+					padding-top: 20px
+					font-family: $serif
+					font-size: 16px
+					color: $white
+					font-weight: 500
+					line-height: 28px
+					letter-spacing: 0.5px
+					padding-bottom: 255px
+
+		#about
+			.top-shape
+				width: 100%
+
+			h2
+				display: inline
+				font-family: $poppins
+				font-size: 30px
 				line-height: 28px
-				letter-spacing: 0.5px
-				padding-bottom: 255px
+				color: $dark-grey
 
-	#about
+			p:first-of-type
+				padding-top: 40px
 
-		h2
-			display: inline
-			font-family: $poppins
-			font-size: 30px
-			line-height: 28px
-			color: $dark-grey
+			.lead
+				font-family: $poppins
+				font-size: 16px
+				line-height: 30px
+				color: #999999
+				letter-spacing: 1px
 
-		p:first-of-type
-			padding-top: 40px

@@ -12,56 +12,67 @@ body .p-number {
   color: #e8e8e8; }
 body .green-text {
   color: #66a900; }
-body header {
-  background: url("../img/images/background-img.jpg") no-repeat;
-  background-size: cover;
-  background-position: 50%; }
-  body header nav #logo {
-    padding-top: 36px; }
-  body header nav ul {
-    padding-top: 36px;
-    text-align: right;
-    font-size: 0; }
-    body header nav ul li {
-      display: inline; }
-      body header nav ul li a {
-        display: inline-block;
-        text-decoration: none !important;
-        margin: 16px;
+body #wrapper {
+  width: 100%;
+  margin: 0 auto; }
+  body #wrapper header {
+    background: url("../img/images/background-img.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50%; }
+    body #wrapper header nav #logo {
+      padding-top: 36px; }
+    body #wrapper header nav ul {
+      padding-top: 36px;
+      text-align: right;
+      font-size: 0; }
+      body #wrapper header nav ul li {
+        display: inline; }
+        body #wrapper header nav ul li a {
+          display: inline-block;
+          text-decoration: none !important;
+          margin: 16px;
+          font-family: "PTSerif Regular";
+          font-size: 14px;
+          color: #ffffff; }
+      body #wrapper header nav ul li:last-child a {
+        margin-right: 0px; }
+      body #wrapper header nav ul li:first-child a {
+        margin-left: 0px; }
+    body #wrapper header .heading {
+      padding-left: 47px;
+      padding-top: 236px; }
+      body #wrapper header .heading h1 {
+        text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.29);
+        font-size: 50px;
+        font-family: "Poppins";
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 52px;
+        font-weight: 500; }
+      body #wrapper header .heading p {
+        padding-top: 20px;
         font-family: "PTSerif Regular";
-        font-size: 14px;
-        color: #ffffff; }
-    body header nav ul li:last-child a {
-      margin-right: 0px; }
-    body header nav ul li:first-child a {
-      margin-left: 0px; }
-  body header .heading {
-    padding-left: 47px;
-    padding-top: 236px; }
-    body header .heading h1 {
-      text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.29);
-      font-size: 50px;
-      font-family: "Poppins";
-      color: #ffffff;
-      text-transform: uppercase;
-      line-height: 52px;
-      font-weight: 500; }
-    body header .heading p {
-      padding-top: 20px;
-      font-family: "PTSerif Regular";
-      font-size: 16px;
-      color: #ffffff;
-      font-weight: 500;
-      line-height: 28px;
-      letter-spacing: 0.5px;
-      padding-bottom: 255px; }
-body #about h2 {
-  display: inline;
-  font-family: "Poppins";
-  font-size: 30px;
-  line-height: 28px;
-  color: #333333; }
-body #about p:first-of-type {
-  padding-top: 40px; }
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        padding-bottom: 255px; }
+  body #wrapper #about .top-shape {
+    width: 100%; }
+  body #wrapper #about h2 {
+    display: inline;
+    font-family: "Poppins";
+    font-size: 30px;
+    line-height: 28px;
+    color: #333333; }
+  body #wrapper #about p:first-of-type {
+    padding-top: 40px; }
+  body #wrapper #about .lead {
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+    letter-spacing: 1px; }
 
 /*# sourceMappingURL=main.css.map */
