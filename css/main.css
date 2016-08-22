@@ -4,6 +4,10 @@ p {
   font-size: 16px;
   line-height: 30px; }
 
+.nopadding {
+  margin: 0 !important;
+  padding: 0 !important; }
+
 body .p-number {
   font-family: "PTSerif Regular";
   font-weight: 700;
@@ -15,10 +19,14 @@ body .green-text {
 body #wrapper {
   width: 100%;
   margin: 0 auto; }
+  body #wrapper .top-shape {
+    width: 100%; }
+  body #wrapper .bottom-shape {
+    width: 100%; }
   body #wrapper header {
     background: url("../img/images/background-img.jpg") no-repeat;
     background-size: cover;
-    background-position: 50%; }
+    background-position: 100%; }
     body #wrapper header nav #logo {
       padding-top: 36px; }
     body #wrapper header nav ul {
@@ -58,8 +66,11 @@ body #wrapper {
         line-height: 28px;
         letter-spacing: 0.5px;
         padding-bottom: 255px; }
-  body #wrapper #about .top-shape {
-    width: 100%; }
+  body #wrapper #about .first-article {
+    padding-top: 65px;
+    padding-bottom: 65px; }
+  body #wrapper #about .second-article {
+    padding-bottom: 75px; }
   body #wrapper #about h2 {
     display: inline;
     font-family: "Poppins";
@@ -74,5 +85,32 @@ body #wrapper {
     line-height: 30px;
     color: #999999;
     letter-spacing: 1px; }
+    body #wrapper #about .lead img {
+      padding-right: 10px; }
+    body #wrapper #about .lead .interlude {
+      position: relative; }
+      body #wrapper #about .lead .interlude .container {
+        position: absolute; }
+  body #wrapper #third-section h2 {
+    display: inline;
+    font-family: "Poppins";
+    font-size: 30px;
+    line-height: 28px;
+    color: #333333; }
+  body #wrapper #third-section .accept-icon {
+    padding-right: 10px; }
+  body #wrapper #third-section .col-sm-6 h3 {
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 28px; }
+  body #wrapper #third-section .col-sm-6 p {
+    font-family: "PTSerif Regular";
+    font-size: 14px;
+    line-height: 24px; }
+  body #wrapper #third-section h4 {
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */

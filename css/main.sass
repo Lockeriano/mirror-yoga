@@ -11,6 +11,11 @@ p
 	font-size: 16px
 	line-height: 30px
 
+.nopadding
+	margin: 0 !important
+	padding: 0 !important
+
+
 body
 	.p-number
 		font-family: $serif
@@ -26,10 +31,16 @@ body
 		width: 100%
 		margin: 0 auto
 
+		.top-shape
+			width: 100%
+
+		.bottom-shape
+			width: 100%
+
 		header
 			background: url("../img/images/background-img.jpg") no-repeat
 			background-size: cover
-			background-position: 50%
+			background-position: 100%
 
 			nav
 				text-align:center
@@ -83,8 +94,13 @@ body
 					padding-bottom: 255px
 
 		#about
-			.top-shape
-				width: 100%
+
+			.first-article
+				padding-top: 65px
+				padding-bottom: 65px
+
+			.second-article
+				padding-bottom: 75px
 
 			h2
 				display: inline
@@ -103,3 +119,41 @@ body
 				color: #999999
 				letter-spacing: 1px
 
+				img
+					padding-right: 10px
+
+				.interlude
+					position: relative
+
+					.container
+						position: absolute
+
+		#third-section
+
+			h2
+				display: inline
+				font-family: $poppins
+				font-size: 30px
+				line-height: 28px
+				color: $dark-grey
+
+			.accept-icon
+				padding-right: 10px
+
+			.col-sm-6
+
+				h3
+					font-family: $poppins
+					font-size: 18px
+					line-height: 28px
+
+				p
+					font-family: $serif
+					font-size: 14px
+					line-height: 24px
+
+			h4
+				font-family: $poppins
+				font-size: 16px
+				line-height: 28px
+				margin-bottom: 0
