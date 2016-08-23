@@ -66,6 +66,11 @@ body #wrapper {
         line-height: 28px;
         letter-spacing: 0.5px;
         padding-bottom: 255px; }
+  body #wrapper #about .col-sm-6:first-of-type {
+    padding-left: 190px; }
+  body #wrapper #about .girl-image-1 {
+    max-width: 100%;
+    max-height: 100%; }
   body #wrapper #about .first-article {
     padding-top: 65px;
     padding-bottom: 65px; }
@@ -87,10 +92,39 @@ body #wrapper {
     letter-spacing: 1px; }
     body #wrapper #about .lead img {
       padding-right: 10px; }
-    body #wrapper #about .lead .interlude {
-      position: relative; }
-      body #wrapper #about .lead .interlude .container {
-        position: absolute; }
+  body #wrapper #green-interlude {
+    padding-bottom: 278px;
+    background: url("../img/images/bottom-shape.png") no-repeat; }
+    body #wrapper #green-interlude .container {
+      padding-top: 160px; }
+      body #wrapper #green-interlude .container .col-sm-3:last-of-type {
+        padding-top: 10px; }
+      body #wrapper #green-interlude .container h2 {
+        display: inline;
+        font-family: "PTSerif Regular";
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #ffffff; }
+      body #wrapper #green-interlude .container img {
+        margin-top: 40px;
+        padding-left: 30px; }
+      body #wrapper #green-interlude .container p {
+        font-family: "Poppins Light";
+        font-size: 14px;
+        line-height: 30px;
+        color: #ffffff;
+        letter-spacing: 1px;
+        padding-top: 10px; }
+      body #wrapper #green-interlude .container .btn {
+        height: 57px;
+        width: 270px;
+        background-color: #ffffff; }
+        body #wrapper #green-interlude .container .btn p {
+          font-family: "PTSerif Regular";
+          font-size: 16px;
+          color: #66a900;
+          line-height: 26px; }
   body #wrapper #third-section h2 {
     display: inline;
     font-family: "Poppins";
