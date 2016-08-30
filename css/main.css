@@ -1,6 +1,7 @@
+@import url(fonts.googleapis.com/css?family=Open+Sans);
 p {
   color: #aeaeae;
-  font-family: "PTSerif Regular";
+  font-family: "PT Serif";
   font-size: 16px;
   line-height: 30px; }
 
@@ -9,7 +10,7 @@ p {
   padding: 0 !important; }
 
 body .p-number {
-  font-family: "PTSerif Regular";
+  font-family: "PT Serif";
   font-weight: 700;
   font-size: 64px;
   line-height: 28px;
@@ -39,7 +40,7 @@ body #wrapper {
           display: inline-block;
           text-decoration: none !important;
           margin: 16px;
-          font-family: "PTSerif Regular";
+          font-family: "PT Serif";
           font-size: 14px;
           color: #ffffff; }
       body #wrapper header nav ul li:last-child a {
@@ -59,7 +60,7 @@ body #wrapper {
         font-weight: 500; }
       body #wrapper header .heading p {
         padding-top: 20px;
-        font-family: "PTSerif Regular";
+        font-family: "PT Serif";
         font-size: 16px;
         color: #ffffff;
         font-weight: 500;
@@ -74,9 +75,6 @@ body #wrapper {
     background: url("../img/images/girl-image-2-bg.png");
     background-size: cover;
     background-position: 1%; }
-  body #wrapper #about .girl-image-1 {
-    max-width: 100%;
-    max-height: 100%; }
   body #wrapper #about .first-article {
     padding-top: 65px;
     padding-bottom: 65px; }
@@ -99,7 +97,7 @@ body #wrapper {
     body #wrapper #about .lead img {
       padding-right: 10px; }
   body #wrapper #green-interlude {
-    padding-bottom: 278px;
+    padding-bottom: 30px;
     background: url("../img/images/bottom-shape.png") no-repeat; }
     body #wrapper #green-interlude .container {
       padding-top: 160px; }
@@ -107,7 +105,7 @@ body #wrapper {
         padding-top: 10px; }
       body #wrapper #green-interlude .container h2 {
         display: inline;
-        font-family: "PTSerif Regular";
+        font-family: "PT Serif";
         font-size: 30px;
         line-height: 30px;
         font-weight: 700;
@@ -127,39 +125,46 @@ body #wrapper {
         width: 270px;
         background-color: #ffffff; }
         body #wrapper #green-interlude .container .btn p {
-          font-family: "PTSerif Regular";
+          font-family: "PT Serif";
           font-size: 16px;
           color: #66a900;
           line-height: 26px; }
+  body #wrapper #second-section #background-girl-image-3 {
+    padding-top: 139px;
+    background: url("../img/images/girl-image-3-bg.png") no-repeat;
+    background-size: cover;
+    background-position: 100%; }
+    body #wrapper #second-section #background-girl-image-3 .third-article {
+      padding-bottom: 200px; }
+  body #wrapper #second-section h2 {
+    display: inline;
+    font-family: "Poppins";
+    font-size: 30px;
+    line-height: 28px;
+    color: #333333; }
+  body #wrapper #second-section .accept-icon {
+    padding-right: 10px; }
+  body #wrapper #second-section .col-sm-6 h3 {
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 28px; }
+  body #wrapper #second-section .col-sm-6 p {
+    font-family: "PT Serif";
+    font-size: 14px;
+    line-height: 24px; }
+  body #wrapper #second-section h4 {
+    font-family: "Poppins";
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 0; }
   body #wrapper #third-section h2 {
     display: inline;
     font-family: "Poppins";
     font-size: 30px;
     line-height: 28px;
     color: #333333; }
-  body #wrapper #third-section .accept-icon {
-    padding-right: 10px; }
-  body #wrapper #third-section .col-sm-6 h3 {
-    font-family: "Poppins";
-    font-size: 18px;
-    line-height: 28px; }
-  body #wrapper #third-section .col-sm-6 p {
-    font-family: "PTSerif Regular";
-    font-size: 14px;
-    line-height: 24px; }
-  body #wrapper #third-section h4 {
-    font-family: "Poppins";
-    font-size: 16px;
-    line-height: 28px;
-    margin-bottom: 0; }
-  body #wrapper #fourth-section h2 {
-    display: inline;
-    font-family: "Poppins";
-    font-size: 30px;
-    line-height: 28px;
-    color: #333333; }
-  body #wrapper #fourth-section p {
-    font-family: "PTSerif Regular";
+  body #wrapper #third-section p {
+    font-family: "PT Serif";
     font-size: 16px;
     line-height: 24px; }
 
