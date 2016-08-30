@@ -66,8 +66,14 @@ body #wrapper {
         line-height: 28px;
         letter-spacing: 0.5px;
         padding-bottom: 255px; }
-  body #wrapper #about .col-sm-6:first-of-type {
-    padding-left: 190px; }
+  body #wrapper #about #background-girl-image-1 {
+    background: url("../img/images/girl-image-1-bg.png");
+    background-size: cover;
+    background-position: 100%; }
+  body #wrapper #about #background-girl-image-2 {
+    background: url("../img/images/girl-image-2-bg.png");
+    background-size: cover;
+    background-position: 1%; }
   body #wrapper #about .girl-image-1 {
     max-width: 100%;
     max-height: 100%; }
