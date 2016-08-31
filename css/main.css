@@ -96,35 +96,35 @@ body #wrapper {
     letter-spacing: 1px; }
     body #wrapper #about .lead img {
       padding-right: 10px; }
-  body #wrapper #green-interlude {
+  body #wrapper #interlude {
     padding-bottom: 30px;
     background: url("../img/images/bottom-shape.png") no-repeat; }
-    body #wrapper #green-interlude .container {
+    body #wrapper #interlude .container {
       padding-top: 160px; }
-      body #wrapper #green-interlude .container .col-sm-3:last-of-type {
+      body #wrapper #interlude .container .col-sm-3:last-of-type {
         padding-top: 10px; }
-      body #wrapper #green-interlude .container h2 {
+      body #wrapper #interlude .container h2 {
         display: inline;
         font-family: "PT Serif";
         font-size: 30px;
         line-height: 30px;
         font-weight: 700;
         color: #ffffff; }
-      body #wrapper #green-interlude .container img {
+      body #wrapper #interlude .container img {
         margin-top: 40px;
         padding-left: 30px; }
-      body #wrapper #green-interlude .container p {
+      body #wrapper #interlude .container p {
         font-family: "Poppins Light";
         font-size: 14px;
         line-height: 30px;
         color: #ffffff;
         letter-spacing: 1px;
         padding-top: 10px; }
-      body #wrapper #green-interlude .container .btn {
+      body #wrapper #interlude .container .btn {
         height: 57px;
         width: 270px;
         background-color: #ffffff; }
-        body #wrapper #green-interlude .container .btn p {
+        body #wrapper #interlude .container .btn p {
           font-family: "PT Serif";
           font-size: 16px;
           color: #66a900;
