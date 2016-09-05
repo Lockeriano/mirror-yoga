@@ -129,6 +129,33 @@ body #wrapper {
           font-size: 16px;
           color: #66a900;
           line-height: 26px; }
+  body #wrapper #second-section #carousel div {
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    top: 325%;
+    border-radius: 10px;
+    width: 40%;
+    height: 100%;
+    -webkit-user-select: none; }
+  body #wrapper #second-section #carousel .client-1 {
+    top: 325%;
+    opacity: 1;
+    z-index: 500;
+    left: 10%;
+    transform: matrix(0.75, 0, 0, 0.75, 0, 0); }
+  body #wrapper #second-section #carousel .client-2 {
+    top: 320%;
+    opacity: 1;
+    z-index: 300;
+    left: 0%;
+    transform: matrix(0.75, 0, 0, 0.75, 0, 0); }
+  body #wrapper #second-section #carousel .client-3 {
+    top: 320%;
+    opacity: 1;
+    z-index: 300;
+    left: 20%;
+    transform: matrix(0.75, 0, 0, 0.75, 0, 0); }
   body #wrapper #second-section #background-girl-image-3 {
     padding-top: 139px;
     background: url("../img/images/girl-image-3-bg.png") no-repeat;
