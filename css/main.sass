@@ -178,17 +178,19 @@ body
 
 		#second-section
 			#carousel
+				position: relative
+
 				div
 					position: absolute
 					text-align: center
-					font-size: 100px
+					color: white
 					top: 325%
 					border-radius: 10px
-					width: 40%
 					height: 100%
 					-webkit-user-select: none
 
 				.client-1
+					padding-top: 30px
 					top: 325%
 					opacity: 1
 					z-index: 500
@@ -196,18 +198,47 @@ body
 					transform: matrix(0.75, 0, 0, 0.75, 0, 0)
 
 				.client-2
-					top: 320%
-					opacity: 1
+					opacity: 0.1
 					z-index: 300
 					left: 0%
 					transform: matrix(0.75, 0, 0, 0.75, 0, 0)
 
 				.client-3
-					top: 320%
-					opacity: 1
+					opacity: 0.1
 					z-index: 300
 					left: 20%
 					transform: matrix(0.75, 0, 0, 0.75, 0, 0)
+
+				.car-left
+					width: 34px
+					height: 34px
+					background-color: #333333
+					border-radius: 50%
+					left: 15.5%
+					margin-top: 150px
+					z-index: 600
+					font-size: 18px
+					line-height: 35px
+				.car-left:hover
+					background-color: #66a900
+					border: solid 4px #BBD196
+					line-height: 27px
+
+				.car-right
+					width: 34px
+					height: 34px
+					background-color: #333333
+					border-radius: 50%
+					left: 30%
+					margin-top: 150px
+					z-index: 600
+					font-size: 18px
+					line-height: 35px
+				.car-right:hover
+					background-color: #66a900
+					border: solid 4px #BBD196
+					font-size: 18px
+					line-height: 27px
 
 			#background-girl-image-3
 				padding-top: 139px
@@ -249,14 +280,16 @@ body
 
 
 		#third-section
-			h2
-				display: inline
-				font-family: $poppins
-				font-size: 30px
-				line-height: 28px
-				color: $dark-grey
+			.container
+				padding-top: 200px
+				h2
+					display: inline
+					font-family: $poppins
+					font-size: 30px
+					line-height: 28px
+					color: $dark-grey
 
-			p
-				font-family: $serif
-				font-size: 16px
-				line-height: 24px
+				p
+					font-family: $serif
+					font-size: 16px
+					line-height: 24px
