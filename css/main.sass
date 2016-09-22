@@ -180,41 +180,67 @@ body
 			#carousel
 				position: relative
 
+				#carousel > li
+					width: 40%
+					height: 100%
+
+				li
+					position: absolute
+					text-align: center
+					color: white
+					border-radius: 10px
+					height: 100%
+					-webkit-user-select: none
 				div
 					position: absolute
 					text-align: center
 					color: white
-					top: 325%
 					border-radius: 10px
 					height: 100%
 					-webkit-user-select: none
 
 				.client-1
-					padding-top: 30px
-					top: 325%
 					opacity: 1
 					z-index: 500
-					left: 10%
-					transform: matrix(0.75, 0, 0, 0.75, 0, 0)
+					left: 14%
+					display: inline-block
+					height: auto
+					float: left
+					border: 0
+					max-height: 400px
+					max-width: 400px
+					height: auto
+					width: auto
+					transform: matrix(1, 0, 0, 1, 0, 0)
 
 				.client-2
 					opacity: 0.1
 					z-index: 300
-					left: 0%
-					transform: matrix(0.75, 0, 0, 0.75, 0, 0)
+					left: 10%
+					display: inline-block
+					height: auto
+					float: left
+					width: 100%
+					border: 0
+					transform:matrix(0.75, 0, 0, 0.75, 0, 0)
 
 				.client-3
 					opacity: 0.1
 					z-index: 300
-					left: 20%
-					transform: matrix(0.75, 0, 0, 0.75, 0, 0)
+					left: 26%
+					display: inline-block
+					height: auto
+					float: left
+					width: 100%
+					border: 0
+					transform:matrix(0.75, 0, 0, 0.75, 0, 0)
 
 				.car-left
 					width: 34px
 					height: 34px
 					background-color: #333333
 					border-radius: 50%
-					left: 15.5%
+					left: 16%
 					margin-top: 150px
 					z-index: 600
 					font-size: 18px
@@ -229,7 +255,7 @@ body
 					height: 34px
 					background-color: #333333
 					border-radius: 50%
-					left: 30%
+					left: 33%
 					margin-top: 150px
 					z-index: 600
 					font-size: 18px
