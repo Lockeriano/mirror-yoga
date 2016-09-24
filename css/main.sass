@@ -177,6 +177,8 @@ body
 						line-height: 26px
 
 		#second-section
+			.col-sm-6
+				margin-top: 40px
 			#carousel
 				position: relative
 
@@ -210,6 +212,7 @@ body
 					width: 370px
 					height: auto
 					transform: translate(30px, 30px)
+					transition-duration: 1s
 
 				.client-2
 					opacity: 0.1
@@ -222,6 +225,7 @@ body
 					border: 0
 					width: 370px
 					height: auto
+					transition-duration: 1s
 
 				.client-3
 					opacity: 0.1
@@ -234,6 +238,7 @@ body
 					border: 0
 					width: 370px
 					height: auto
+					transition-duration: 1s
 
 				.car-left
 					width: 34px
@@ -306,16 +311,88 @@ body
 
 
 		#third-section
+			padding-top: 300px
 			.container
-				padding-top: 200px
+
 				h2
 					display: inline
 					font-family: $poppins
-					font-size: 30px
+					font-size: 40px
 					line-height: 28px
 					color: $dark-grey
 
 				p
 					font-family: $serif
 					font-size: 16px
-					line-height: 24px
+					line-height: 30px
+
+				p:first-of-type
+					padding-top: 50px
+
+				.box
+					display: inline-block
+					height: 420px
+					width: 350px
+					-webkit-box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.3)
+					-moz-box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.3)
+					box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.3)
+					text-align: center
+					padding: 0
+					padding-top: 50px
+					margin-top: 70px
+
+					h3
+						font-size: 14px
+						line-height: 28px
+						text-transform: uppercase
+						font-family: $poppins
+
+					i
+						margin-left: 10px
+
+					.button:hover
+						background: #66a900
+						cursor: pointer
+						transition-duration: 0.5s
+						color: $white
+
+					h3:hover
+						color: #66a900
+						cursor: pointer
+						text-decoration: underline
+
+
+					p
+						padding-top: 10px
+						font-size: 14px
+						line-height: 28px
+						font-family: $serif
+						padding: 10px
+						font-weight: bold
+
+					.button
+						background: #f6f6f6
+						height: 42px
+						padding: 0
+						text-transform: uppercase
+						letter-spacing: 1.4px
+						line-height: 42px
+						border-left: 3px solid #66a900
+						border-right: 3px solid #66a900
+						padding-top: 10px
+						font-size: 14px
+						line-height: 28px
+						font-family: $poppins
+
+
+				.box-1
+					margin-left: 15px
+					margin-right: 15px
+
+				.box-2
+					margin-left: 15px
+					margin-right: 15px
+
+				.box-3
+					margin-left: 15px
+					margin-right: 15px
