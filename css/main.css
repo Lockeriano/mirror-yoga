@@ -30,7 +30,7 @@ body #wrapper {
     background-position: 100%; }
     body #wrapper header nav {
       text-align: center; }
-      body #wrapper header nav #logo {
+      body #wrapper header nav img {
         padding-top: 36px;
         float: left; }
       body #wrapper header nav ul {
@@ -225,6 +225,10 @@ body #wrapper {
     background-position: 100%; }
     body #wrapper #second-section #background-girl-image-3 .third-article {
       padding-bottom: 200px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article p {
+        font-family: "PT Serif";
+        font-size: 14px;
+        line-height: 24px; }
   body #wrapper #second-section h2 {
     display: inline;
     font-family: "Poppins";
@@ -233,19 +237,28 @@ body #wrapper {
     color: #333333; }
   body #wrapper #second-section .accept-icon {
     padding-right: 10px; }
-  body #wrapper #second-section .col-sm-6 h3 {
+  body #wrapper #second-section h3 {
     font-family: "Poppins";
     font-size: 18px;
     line-height: 28px; }
-  body #wrapper #second-section .col-sm-6 p {
+  body #wrapper #second-section .container .row .col-sm-offset-6 p {
     font-family: "PT Serif";
     font-size: 14px;
-    line-height: 24px; }
-  body #wrapper #second-section h4 {
+    line-height: 24px;
+    padding-left: 40px;
+    letter-spacing: -0.5px; }
+  body #wrapper #second-section .container .row .col-sm-offset-6 p:nth-child(1) {
+    padding-top: 50px;
+    padding-bottom: 15px; }
+  body #wrapper #second-section .container .row .col-sm-offset-6 img {
+    padding-top: 40px;
+    position: absolute;
+    float: left; }
+  body #wrapper #second-section .container .row .col-sm-offset-6 h4 {
     font-family: "Poppins";
     font-size: 16px;
     line-height: 28px;
-    margin-bottom: 0; }
+    padding-left: 40px; }
   body #wrapper #third-section {
     padding-top: 300px; }
     body #wrapper #third-section .container h2 {
