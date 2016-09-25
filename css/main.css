@@ -17,12 +17,22 @@ body .p-number {
   color: #e8e8e8; }
 body .green-text {
   color: #66a900; }
+body .first-int {
+  width: 100%;
+  position: relative; }
+body .second-int {
+  width: 100%;
+  position: relative; }
 body #wrapper {
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  /* #first-interlude
+   * padding-bottom: 50px
+   * background: url("../img/images/first-shape.png") no-repeat
+   * background-size: contain */
+  /* #second-interlude
+   * background: url("../img/images/second-shape.png") no-repeat */ }
   body #wrapper .top-shape {
-    width: 100%; }
-  body #wrapper .bottom-shape {
     width: 100%; }
   body #wrapper header {
     background: url("../img/images/background-img.jpg") no-repeat;
@@ -73,11 +83,14 @@ body #wrapper {
   body #wrapper #about #background-girl-image-1 {
     background: url("../img/images/girl-image-1-bg.png");
     background-size: cover;
-    background-position: 100%; }
+    background-position: 100%;
+    padding-top: 100px; }
   body #wrapper #about #background-girl-image-2 {
     background: url("../img/images/girl-image-2-bg.png");
     background-size: cover;
-    background-position: 1%; }
+    background-position: 1%;
+    padding-top: 100px;
+    padding-bottom: 100px; }
   body #wrapper #about .first-article {
     padding-top: 65px;
     padding-bottom: 65px; }
@@ -99,39 +112,36 @@ body #wrapper {
     letter-spacing: 1px; }
     body #wrapper #about .lead img {
       padding-right: 10px; }
-  body #wrapper #first-interlude {
-    padding-bottom: 50px;
-    background: url("../img/images/first-shape.png") no-repeat; }
-    body #wrapper #first-interlude .container {
-      padding-top: 160px; }
-      body #wrapper #first-interlude .container .col-sm-3:last-of-type {
-        padding-top: 10px; }
-      body #wrapper #first-interlude .container h2 {
-        display: inline;
-        font-family: "PT Serif";
-        font-size: 30px;
-        line-height: 30px;
-        font-weight: 700;
-        color: #ffffff; }
-      body #wrapper #first-interlude .container img {
-        margin-top: 40px;
-        padding-left: 30px; }
-      body #wrapper #first-interlude .container p {
-        font-family: "Poppins Light";
-        font-size: 14px;
-        line-height: 30px;
-        color: #ffffff;
-        letter-spacing: 1px;
-        padding-top: 10px; }
-      body #wrapper #first-interlude .container .btn {
-        height: 57px;
-        width: 270px;
-        background-color: #ffffff; }
-        body #wrapper #first-interlude .container .btn p {
-          font-family: "PT Serif";
-          font-size: 16px;
-          color: #66a900;
-          line-height: 26px; }
+  body #wrapper #first-interlude .container .row-1 {
+    position: absolute;
+    margin-top: -8em; }
+  body #wrapper #first-interlude .container .col-md-3:last-of-type {
+    padding-top: 20px; }
+  body #wrapper #first-interlude .container h2 {
+    display: inline;
+    font-family: "PT Serif";
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff; }
+  body #wrapper #first-interlude .container img {
+    margin-top: 40px; }
+  body #wrapper #first-interlude .container p {
+    font-family: "Poppins Light";
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    letter-spacing: -0.3px;
+    padding-top: 10px; }
+  body #wrapper #first-interlude .container .btn {
+    height: 57px;
+    width: 270px;
+    background-color: #ffffff; }
+    body #wrapper #first-interlude .container .btn p {
+      font-family: "PT Serif";
+      font-size: 16px;
+      color: #66a900;
+      line-height: 26px; }
   body #wrapper #second-section .col-sm-6 {
     margin-top: 40px; }
   body #wrapper #second-section #carousel {
@@ -257,10 +267,10 @@ body #wrapper {
   body #wrapper #second-section .container .row .col-sm-offset-6 h4 {
     font-family: "Poppins";
     font-size: 16px;
-    line-height: 28px;
+    line-height: 14px;
     padding-left: 40px; }
   body #wrapper #third-section {
-    padding-top: 300px; }
+    padding-top: 200px; }
     body #wrapper #third-section .container h2 {
       display: inline;
       font-family: "Poppins";
@@ -330,39 +340,36 @@ body #wrapper {
     body #wrapper #third-section .container .box-3 {
       margin-left: 15px;
       margin-right: 15px; }
-  body #wrapper #second-interlude {
-    background: url("../img/images/second-shape.png") no-repeat; }
-    body #wrapper #second-interlude .container {
-      padding-top: 300px;
-      padding-bottom: 50px; }
-      body #wrapper #second-interlude .container .col-sm-3:last-of-type {
-        padding-top: 10px; }
-      body #wrapper #second-interlude .container h2 {
-        display: inline;
-        font-family: "PT Serif";
-        font-size: 30px;
-        line-height: 30px;
-        font-weight: 700;
-        color: #ffffff; }
-      body #wrapper #second-interlude .container img {
-        margin-top: 40px;
-        padding-left: 30px; }
-      body #wrapper #second-interlude .container p {
-        font-family: "Poppins Light";
-        font-size: 14px;
-        line-height: 30px;
-        color: #ffffff;
-        letter-spacing: 1px;
-        padding-top: 10px; }
-      body #wrapper #second-interlude .container .btn {
-        height: 57px;
-        width: 270px;
-        background-color: #ffffff; }
-        body #wrapper #second-interlude .container .btn p {
-          font-family: "PT Serif";
-          font-size: 16px;
-          color: #66a900;
-          line-height: 26px; }
+  body #wrapper #second-interlude .container .row-1 {
+    position: absolute;
+    margin-top: -10em; }
+  body #wrapper #second-interlude .container .col-md-3:last-of-type {
+    padding-top: 20px; }
+  body #wrapper #second-interlude .container h2 {
+    display: inline;
+    font-family: "PT Serif";
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #ffffff; }
+  body #wrapper #second-interlude .container img {
+    margin-top: 40px; }
+  body #wrapper #second-interlude .container p {
+    font-family: "Poppins Light";
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    letter-spacing: -0.3px;
+    padding-top: 10px; }
+  body #wrapper #second-interlude .container .btn {
+    height: 57px;
+    width: 270px;
+    background-color: #ffffff; }
+    body #wrapper #second-interlude .container .btn p {
+      font-family: "PT Serif";
+      font-size: 16px;
+      color: #66a900;
+      line-height: 26px; }
   body #wrapper footer {
     padding-top: 120px;
     padding-bottom: 20px; }

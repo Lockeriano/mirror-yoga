@@ -28,15 +28,18 @@ body
 
 	.green-text
 		color: #66a900
+	.first-int
+		width: 100%
+		position: relative
+	.second-int
+		width: 100%
+		position: relative
 
 	#wrapper
 		width: 100%
 		margin: 0 auto
 
 		.top-shape
-			width: 100%
-
-		.bottom-shape
 			width: 100%
 
 		header
@@ -101,11 +104,14 @@ body
 				background: url("../img/images/girl-image-1-bg.png")
 				background-size: cover
 				background-position: 100%
+				padding-top: 100px
 
 			#background-girl-image-2
 				background: url("../img/images/girl-image-2-bg.png")
 				background-size: cover
 				background-position: 1%
+				padding-top: 100px
+				padding-bottom: 100px
 
 			.first-article
 				padding-top: 65px
@@ -136,15 +142,21 @@ body
 				img
 					padding-right: 10px
 
-		#first-interlude
+		/* #first-interlude
 			padding-bottom: 50px
 			background: url("../img/images/first-shape.png") no-repeat
+			background-size: contain */
+
+		#first-interlude
 
 			.container
-				padding-top: 160px
 
-				.col-sm-3:last-of-type
-					padding-top: 10px
+				.row-1
+					position: absolute
+					margin-top: -8em
+
+				.col-md-3:last-of-type
+					padding-top: 20px
 
 				h2
 					display: inline
@@ -156,14 +168,13 @@ body
 
 				img
 					margin-top: 40px
-					padding-left: 30px
 
 				p
 					font-family: "Poppins Light"
 					font-size: 14px
 					line-height: 30px
 					color: $white
-					letter-spacing: 1px
+					letter-spacing: -0.3px
 					padding-top: 10px
 
 				.btn
@@ -325,12 +336,12 @@ body
 						h4
 							font-family: $poppins
 							font-size: 16px
-							line-height: 28px
+							line-height: 14px
 							padding-left: 40px
 
 
 		#third-section
-			padding-top: 300px
+			padding-top: 200px
 			.container
 
 				h2
@@ -417,15 +428,19 @@ body
 					margin-left: 15px
 					margin-right: 15px
 
+		/* #second-interlude
+			background: url("../img/images/second-shape.png") no-repeat */
+
 		#second-interlude
-			background: url("../img/images/second-shape.png") no-repeat
 
 			.container
-				padding-top: 300px
-				padding-bottom: 50px
 
-				.col-sm-3:last-of-type
-					padding-top: 10px
+				.row-1
+					position: absolute
+					margin-top: -10em
+
+				.col-md-3:last-of-type
+					padding-top: 20px
 
 				h2
 					display: inline
@@ -437,16 +452,15 @@ body
 
 				img
 					margin-top: 40px
-					padding-left: 30px
 
 				p
 					font-family: "Poppins Light"
 					font-size: 14px
 					line-height: 30px
 					color: $white
-					letter-spacing: 1px
+					letter-spacing: -0.3px
 					padding-top: 10px
-
+				
 				.btn
 					height: 57px
 					width: 270px
