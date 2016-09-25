@@ -31,7 +31,8 @@ body #wrapper {
     body #wrapper header nav {
       text-align: center; }
       body #wrapper header nav #logo {
-        padding-top: 36px; }
+        padding-top: 36px;
+        float: left; }
       body #wrapper header nav ul {
         padding-top: 36px;
         text-align: right;
