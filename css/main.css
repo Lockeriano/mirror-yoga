@@ -26,10 +26,6 @@ body .second-int {
 body #wrapper {
   max-width: 100%;
   margin: 0 auto;
-  /* #first-interlude
-   * padding-bottom: 50px
-   * background: url("../img/images/first-shape.png") no-repeat
-   * background-size: contain */
   /* #second-interlude
    * background: url("../img/images/second-shape.png") no-repeat */ }
   body #wrapper .top-shape {
@@ -239,6 +235,8 @@ body #wrapper {
         font-family: "PT Serif";
         font-size: 14px;
         line-height: 24px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article .padding-maker {
+        padding-top: 60px; }
   body #wrapper #second-section h2 {
     display: inline;
     font-family: "Poppins";
@@ -398,6 +396,8 @@ body #wrapper {
   .arrow {
     display: none; } }
 @media (max-width: 768px) {
+  body #wrapper .p-number {
+    font-size: 72px; }
   body #wrapper header {
     background-position: left;
     padding-bottom: 250px; }
@@ -443,6 +443,46 @@ body #wrapper {
       line-height: 26px; }
   body #wrapper #first-interlude .first-int {
     height: 220px; }
+  body #wrapper #second-section #background-girl-image-3 {
+    background-position: 0%; }
+    body #wrapper #second-section #background-girl-image-3 .third-article {
+      padding-bottom: 200px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article p {
+        font-size: 20px;
+        line-height: 32px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article h2 {
+        font-size: 42px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article .padding-maker {
+        padding-top: 30px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article .accept-icon {
+        padding-right: 10px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article h3 {
+        font-size: 26px;
+        line-height: 28px; }
+  body #wrapper #second-section .container .row .col-md-offset-6 h2 {
+    font-size: 42px; }
+  body #wrapper #second-section .container .row .col-md-offset-6 p {
+    font-family: "PT Serif";
+    font-size: 20px;
+    line-height: 34px;
+    padding-left: 40px;
+    letter-spacing: -0.5px; }
+  body #wrapper #second-section .container .row .col-md-offset-6 p:nth-child(1) {
+    padding-top: 50px;
+    padding-bottom: 15px; }
+  body #wrapper #second-section .container .row .col-md-offset-6 #student-info {
+    text-align: right;
+    padding-top: 40px; }
+  body #wrapper #second-section .container .row .col-md-offset-6 img {
+    padding-top: 25px;
+    position: absolute;
+    float: left; }
+  body #wrapper #second-section .container .row .col-md-offset-6 h4 {
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: 14px;
+    padding-left: 40px;
+    float: right; }
   body #wrapper #carousel {
     display: none; }
   body #wrapper #background-girl-image-1 {
