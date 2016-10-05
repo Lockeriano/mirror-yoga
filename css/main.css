@@ -58,7 +58,7 @@ body #wrapper {
       padding-left: 47px;
       padding-top: 236px; }
       body #wrapper header .heading h1 {
-        text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.29);
+        text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.3);
         font-size: 50px;
         font-family: "Poppins";
         color: #ffffff;
@@ -267,55 +267,72 @@ body #wrapper {
     padding-left: 40px; }
   body #wrapper #third-section {
     padding-top: 200px; }
-    body #wrapper #third-section .container h2 {
+    body #wrapper #third-section h2 {
       display: inline;
       font-family: "Poppins";
       font-size: 40px;
       line-height: 28px;
       color: #333333; }
-    body #wrapper #third-section .container p {
+    body #wrapper #third-section p {
       font-family: "PT Serif";
       font-size: 16px;
       line-height: 30px; }
-    body #wrapper #third-section .container p:first-of-type {
+    body #wrapper #third-section p:first-of-type {
       padding-top: 50px; }
-    body #wrapper #third-section .container .box {
-      max-width: 100%;
+  body #wrapper #prices-section #prices {
+    display: block;
+    background-image: url("../img/images/price-background.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 150px; }
+    body #wrapper #prices-section #prices .container .box {
+      z-index: 1;
+      width: 100%;
+      max-width: 350px;
       display: inline-block;
-      height: 420px;
-      width: 350px;
+      height: 460px;
       -webkit-box-shadow: 0px 0px 45px -10px rgba(0, 0, 0, 0.3);
       -moz-box-shadow: 0px 0px 45px -10px rgba(0, 0, 0, 0.3);
       box-shadow: 0px 0px 45px -10px rgba(0, 0, 0, 0.3);
       text-align: center;
       padding: 0;
-      padding-top: 50px;
-      margin-top: 70px; }
-      body #wrapper #third-section .container .box h3 {
+      padding: 50px 0 100px;
+      margin-top: 50px; }
+      body #wrapper #prices-section #prices .container .box h2 {
+        display: inline;
+        font-family: "Poppins";
+        font-size: 40px;
+        line-height: 28px;
+        color: #333333; }
+      body #wrapper #prices-section #prices .container .box p {
+        font-family: "PT Serif";
+        font-size: 16px;
+        line-height: 30px; }
+      body #wrapper #prices-section #prices .container .box h3 {
         font-size: 14px;
         line-height: 28px;
         text-transform: uppercase;
         font-family: "Poppins"; }
-      body #wrapper #third-section .container .box i {
+      body #wrapper #prices-section #prices .container .box i {
         margin-left: 10px; }
-      body #wrapper #third-section .container .box .button:hover {
+      body #wrapper #prices-section #prices .container .box .button:hover {
         background: #66a900;
         cursor: pointer;
         transition-duration: 0.5s;
         color: #ffffff; }
-      body #wrapper #third-section .container .box h3:hover {
+      body #wrapper #prices-section #prices .container .box h3:hover {
         color: #66a900;
         cursor: pointer;
         text-decoration: underline;
         transition-duration: 0.3s; }
-      body #wrapper #third-section .container .box p {
+      body #wrapper #prices-section #prices .container .box p {
         padding-top: 10px;
         font-size: 14px;
         line-height: 28px;
         font-family: "PT Serif";
         padding: 10px;
         font-weight: bold; }
-      body #wrapper #third-section .container .box .button {
+      body #wrapper #prices-section #prices .container .box .button {
         background: #f6f6f6;
         height: 42px;
         padding: 0;
@@ -328,15 +345,18 @@ body #wrapper {
         font-size: 14px;
         line-height: 28px;
         font-family: "Poppins"; }
-    body #wrapper #third-section .container .box-1 {
-      margin-left: 15px;
-      margin-right: 15px; }
-    body #wrapper #third-section .container .box-2 {
-      margin-left: 15px;
-      margin-right: 15px; }
-    body #wrapper #third-section .container .box-3 {
-      margin-left: 15px;
-      margin-right: 15px; }
+    body #wrapper #prices-section #prices .container .box-1 {
+      background-image: url("../img/images/price-box-overlay-1.png");
+      background-repeat: no-repeat;
+      background-position: bottom center; }
+    body #wrapper #prices-section #prices .container .box-2 {
+      background-image: url("../img/images/price-box-overlay-2.png");
+      background-repeat: no-repeat;
+      background-position: bottom center; }
+    body #wrapper #prices-section #prices .container .box-3 {
+      background-image: url("../img/images/images/price-box-overlay-3.png");
+      background-repeat: no-repeat;
+      background-position: bottom center; }
   body #wrapper #second-interlude .container .row-1 {
     position: absolute;
     margin-top: -10em; }
