@@ -1,4 +1,3 @@
-@import url(fonts.googleapis.com/css?family=Open+Sans);
 p {
   color: #aeaeae;
   font-family: "PT Serif";
@@ -107,7 +106,6 @@ body #wrapper {
     body #wrapper #about .lead img {
       padding-right: 10px; }
   body #wrapper #first-interlude .container .row-1 {
-    position: absolute;
     margin-top: -8em; }
   body #wrapper #first-interlude .container .col-md-3:last-of-type {
     padding-top: 20px; }
@@ -357,36 +355,37 @@ body #wrapper {
       background-image: url("../img/images/images/price-box-overlay-3.png");
       background-repeat: no-repeat;
       background-position: bottom center; }
-  body #wrapper #second-interlude .container .row-1 {
-    position: absolute;
-    margin-top: -10em; }
-  body #wrapper #second-interlude .container .col-md-3:last-of-type {
-    padding-top: 20px; }
-  body #wrapper #second-interlude .container h2 {
-    display: inline;
-    font-family: "PT Serif";
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #ffffff; }
-  body #wrapper #second-interlude .container img {
-    margin-top: 40px; }
-  body #wrapper #second-interlude .container p {
-    font-family: "Poppins Light";
-    font-size: 14px;
-    line-height: 30px;
-    color: #ffffff;
-    letter-spacing: -0.3px;
-    padding-top: 10px; }
-  body #wrapper #second-interlude .container .btn {
-    height: 57px;
-    width: 270px;
-    background-color: #ffffff; }
-    body #wrapper #second-interlude .container .btn p {
+  body #wrapper #second-interlude .container {
+    max-width: 100%; }
+    body #wrapper #second-interlude .container .row-1 {
+      margin-top: -10em; }
+    body #wrapper #second-interlude .container .col-md-3:last-of-type {
+      padding-top: 20px; }
+    body #wrapper #second-interlude .container h2 {
+      display: inline;
       font-family: "PT Serif";
-      font-size: 16px;
-      color: #66a900;
-      line-height: 26px; }
+      font-size: 30px;
+      line-height: 30px;
+      font-weight: 700;
+      color: #ffffff; }
+    body #wrapper #second-interlude .container img {
+      margin-top: 40px; }
+    body #wrapper #second-interlude .container p {
+      font-family: "Poppins Light";
+      font-size: 14px;
+      line-height: 30px;
+      color: #ffffff;
+      letter-spacing: -0.3px;
+      padding-top: 10px; }
+    body #wrapper #second-interlude .container .btn {
+      height: 57px;
+      width: 270px;
+      background-color: #ffffff; }
+      body #wrapper #second-interlude .container .btn p {
+        font-family: "PT Serif";
+        font-size: 16px;
+        color: #66a900;
+        line-height: 26px; }
   body #wrapper footer {
     padding-top: 120px;
     padding-bottom: 20px; }
