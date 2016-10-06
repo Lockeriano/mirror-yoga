@@ -480,20 +480,20 @@ body #wrapper {
       body #wrapper #second-section #background-girl-image-3 .third-article h3 {
         font-size: 26px;
         line-height: 28px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 h2 {
+  body #wrapper #second-section .container .row .column-1 h2 {
     font-size: 42px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 p {
+  body #wrapper #second-section .container .row .column-1 p {
     font-size: 22px;
     line-height: 34px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 p:nth-child(1) {
+  body #wrapper #second-section .container .row .column-1 p:nth-child(1) {
     padding-top: 40px;
     padding-bottom: 10px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 #student-info {
+  body #wrapper #second-section .container .row .column-1 #student-info {
     text-align: right;
     padding-top: 40px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 img {
+  body #wrapper #second-section .container .row .column-1 img {
     padding-top: 25px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 h4 {
+  body #wrapper #second-section .container .row .column-1 h4 {
     font-size: 20px;
     padding-left: 40px;
     float: right; }
