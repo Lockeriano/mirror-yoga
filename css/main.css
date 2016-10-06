@@ -8,20 +8,20 @@ p {
   margin: 0 !important;
   padding: 0 !important; }
 
-body .p-number {
+.green-text {
+  color: #66a900; }
+
+.p-number {
   font-family: "PT Serif";
   font-weight: 700;
   font-size: 64px;
   line-height: 28px;
   color: #e8e8e8; }
-body .green-text {
-  color: #66a900; }
+
 body .first-int {
-  width: 100%;
-  position: relative; }
+  width: 100%; }
 body .second-int {
-  width: 100%;
-  position: relative; }
+  width: 100%; }
 body #wrapper {
   max-width: 100%;
   margin: 0 auto; }
@@ -31,48 +31,48 @@ body #wrapper {
     background: url("../img/images/background-img.jpg") no-repeat;
     background-size: cover;
     background-position: 100% 100%; }
-    body #wrapper header nav {
-      text-align: center; }
-      body #wrapper header nav img {
-        padding-top: 36px;
-        float: left; }
-      body #wrapper header nav ul {
-        padding-top: 36px;
-        text-align: right;
-        font-size: 0; }
-        body #wrapper header nav ul li {
-          display: inline; }
-          body #wrapper header nav ul li a {
-            display: inline-block;
-            text-decoration: none !important;
-            margin: 16px;
-            font-family: "PT Serif";
-            font-size: 14px;
-            color: #ffffff; }
-        body #wrapper header nav ul li:last-child a {
-          margin-right: 0px; }
-        body #wrapper header nav ul li:first-child a {
-          margin-left: 0px; }
     body #wrapper header .heading {
       padding-left: 47px;
       padding-top: 236px; }
-      body #wrapper header .heading h1 {
-        text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.3);
-        font-size: 50px;
-        font-family: "Poppins";
-        color: #ffffff;
-        text-transform: uppercase;
-        line-height: 52px;
-        font-weight: 500; }
-      body #wrapper header .heading p {
-        padding-top: 20px;
-        font-family: "PT Serif";
-        font-size: 16px;
-        color: #ffffff;
-        font-weight: 500;
-        line-height: 28px;
-        letter-spacing: 0.5px;
-        padding-bottom: 255px; }
+    body #wrapper header h1 {
+      text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.3);
+      font-size: 50px;
+      font-family: "Poppins";
+      color: #ffffff;
+      text-transform: uppercase;
+      line-height: 52px;
+      font-weight: 500; }
+    body #wrapper header p {
+      padding-top: 20px;
+      font-family: "PT Serif";
+      font-size: 16px;
+      color: #ffffff;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0.5px;
+      padding-bottom: 255px; }
+    body #wrapper header nav .row {
+      text-align: center; }
+    body #wrapper header nav img {
+      padding-top: 36px;
+      float: left; }
+    body #wrapper header nav ul {
+      padding-top: 36px;
+      text-align: right;
+      font-size: 0; }
+      body #wrapper header nav ul li {
+        display: inline; }
+        body #wrapper header nav ul li a {
+          display: inline-block;
+          text-decoration: none !important;
+          margin: 16px;
+          font-family: "PT Serif";
+          font-size: 14px;
+          color: #ffffff; }
+      body #wrapper header nav ul li:last-child a {
+        margin-right: 0px; }
+      body #wrapper header nav ul li:first-child a {
+        margin-left: 0px; }
   body #wrapper #about #background-girl-image-1 {
     background: url("../img/images/girl-image-1-bg.png");
     background-size: cover;
@@ -193,7 +193,7 @@ body #wrapper {
       width: 370px;
       height: auto;
       transition-duration: 1s; }
-    body #wrapper #second-section #carousel .car-left {
+    body #wrapper #second-section #carousel #car-left {
       width: 34px;
       height: 34px;
       background-color: #333333;
@@ -203,11 +203,11 @@ body #wrapper {
       z-index: 600;
       font-size: 18px;
       line-height: 35px; }
-    body #wrapper #second-section #carousel .car-left:hover {
+    body #wrapper #second-section #carousel #car-left:hover {
       background-color: #66a900;
       border: solid 4px #BBD196;
       line-height: 27px; }
-    body #wrapper #second-section #carousel .car-right {
+    body #wrapper #second-section #carousel #car-right {
       width: 34px;
       height: 34px;
       background-color: #333333;
@@ -217,7 +217,7 @@ body #wrapper {
       z-index: 600;
       font-size: 18px;
       line-height: 35px; }
-    body #wrapper #second-section #carousel .car-right:hover {
+    body #wrapper #second-section #carousel #car-right:hover {
       background-color: #66a900;
       border: solid 4px #BBD196;
       font-size: 18px;
