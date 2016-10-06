@@ -107,15 +107,15 @@ body #wrapper {
       padding-right: 10px; }
   body #wrapper #first-interlude .container .row-1 {
     margin-top: -8em; }
-  body #wrapper #first-interlude .container .col-md-3:last-of-type {
-    padding-top: 20px; }
+  body #wrapper #first-interlude .container .column-3 {
+    padding-top: 10px; }
   body #wrapper #first-interlude .container h2 {
     display: inline;
     font-family: "PT Serif";
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #ffffff; }
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 16px;
+    font-weight: 700; }
   body #wrapper #first-interlude .container img {
     margin-top: 40px; }
   body #wrapper #first-interlude .container p {
@@ -127,7 +127,9 @@ body #wrapper {
     padding-top: 10px; }
   body #wrapper #first-interlude .container .btn {
     height: 57px;
+    max-height: 100%;
     width: 270px;
+    max-width: 100%;
     background-color: #ffffff; }
     body #wrapper #first-interlude .container .btn p {
       font-family: "PT Serif";
@@ -358,16 +360,16 @@ body #wrapper {
   body #wrapper #second-interlude .container {
     max-width: 100%; }
     body #wrapper #second-interlude .container .row-1 {
-      margin-top: -10em; }
+      margin-top: -120px; }
     body #wrapper #second-interlude .container .col-md-3:last-of-type {
       padding-top: 20px; }
     body #wrapper #second-interlude .container h2 {
       display: inline;
       font-family: "PT Serif";
-      font-size: 30px;
-      line-height: 30px;
-      font-weight: 700;
-      color: #ffffff; }
+      color: #ffffff;
+      font-size: 32px;
+      line-height: 16px;
+      font-weight: 700; }
     body #wrapper #second-interlude .container img {
       margin-top: 40px; }
     body #wrapper #second-interlude .container p {
@@ -379,7 +381,9 @@ body #wrapper {
       padding-top: 10px; }
     body #wrapper #second-interlude .container .btn {
       height: 57px;
+      max-height: 100%;
       width: 270px;
+      max-width: 100%;
       background-color: #ffffff; }
       body #wrapper #second-interlude .container .btn p {
         font-family: "PT Serif";
@@ -387,7 +391,7 @@ body #wrapper {
         color: #66a900;
         line-height: 26px; }
   body #wrapper footer {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 20px; }
     body #wrapper footer img {
       padding-right: 10px; }

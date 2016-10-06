@@ -1,4 +1,4 @@
-$(function() {
+/* $(function() {
 	$(".car-left").click(function(){
 		$(".client-1").css({
 			"opacity": "0.1",
@@ -37,3 +37,9 @@ $(function() {
 		})
 	})
 })
+*/
+
+
+// znajdź lewy przycisk
+// przy kliknięciu odpal funkcję
+// funkcja ma przesuwać obrazki w lewo
