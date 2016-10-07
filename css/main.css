@@ -1,3 +1,4 @@
+@charset "UTF-8";
 p {
   color: #aeaeae;
   font-family: "PT Serif";
@@ -99,12 +100,31 @@ body #wrapper {
     padding-top: 40px; }
   body #wrapper #about .lead {
     font-family: "Poppins";
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 24px;
     color: #999999;
     letter-spacing: 1px; }
-    body #wrapper #about .lead img {
-      padding-right: 10px; }
+    body #wrapper #about .lead #circle {
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background-color: #66a900;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      margin-right: 10px; }
+    body #wrapper #about .lead #circle:hover {
+      background: #7ecc00;
+      text-decoration: none; }
+    body #wrapper #about .lead a {
+      font-size: "Poppins";
+      font-size: 15px;
+      height: 40px;
+      line-height: 40px;
+      color: #ffffff;
+      text-decoration: none;
+      underline: none;
+      text-align: center; }
   body #wrapper #first-interlude .container .row-1 {
     margin-top: -8em; }
   body #wrapper #first-interlude .container .column-3 {
@@ -136,14 +156,12 @@ body #wrapper {
       font-size: 16px;
       color: #66a900;
       line-height: 26px; }
-  body #wrapper #second-section .col-sm-6 {
-    margin-top: 40px; }
   body #wrapper #second-section #carousel {
-    position: relative; }
-    body #wrapper #second-section #carousel #carousel > li {
-      width: 40%;
-      height: 100%; }
-    body #wrapper #second-section #carousel li {
+    position: relative;
+    max-width: 100%;
+    width: 1600px;
+    max-height: 100%; }
+    body #wrapper #second-section #carousel img {
       position: absolute;
       text-align: center;
       color: white;
@@ -151,22 +169,19 @@ body #wrapper {
       height: 100%;
       -webkit-user-select: none; }
     body #wrapper #second-section #carousel div {
-      position: absolute;
       text-align: center;
       color: white;
       border-radius: 10px;
       height: 100%;
+      width: 100%;
       -webkit-user-select: none; }
     body #wrapper #second-section #carousel .client-1 {
       opacity: 1;
       z-index: 500;
-      left: 11.5%;
+      left: 12%;
       display: block;
       height: auto;
-      float: left;
-      border: 0;
       width: 370px;
-      height: auto;
       transform: translate(30px, 30px);
       transition-duration: 1s; }
     body #wrapper #second-section #carousel .client-2 {
@@ -175,11 +190,6 @@ body #wrapper {
       left: 9%;
       display: block;
       height: auto;
-      float: left;
-      width: 100%;
-      border: 0;
-      width: 370px;
-      height: auto;
       transition-duration: 1s; }
     body #wrapper #second-section #carousel .client-3 {
       opacity: 0.1;
@@ -187,37 +197,35 @@ body #wrapper {
       left: 24%;
       display: block;
       height: auto;
-      float: left;
-      width: 100%;
-      border: 0;
-      width: 370px;
-      height: auto;
       transition-duration: 1s; }
-    body #wrapper #second-section #carousel #car-left {
+    body #wrapper #second-section #carousel #car-buttons #car-left {
+      position: absolute;
       width: 34px;
       height: 34px;
       background-color: #333333;
       border-radius: 50%;
-      left: 16%;
-      margin-top: 150px;
       z-index: 600;
       font-size: 18px;
-      line-height: 35px; }
-    body #wrapper #second-section #carousel #car-left:hover {
+      line-height: 35px;
+      left: 5%;
+      top: 40%;
+      max-width: 100%; }
+    body #wrapper #second-section #carousel #car-buttons #car-left:hover {
       background-color: #66a900;
       border: solid 4px #BBD196;
       line-height: 27px; }
-    body #wrapper #second-section #carousel #car-right {
+    body #wrapper #second-section #carousel #car-buttons #car-right {
+      position: absolute;
       width: 34px;
       height: 34px;
       background-color: #333333;
-      border-radius: 50%;
-      left: 33%;
-      margin-top: 150px;
+      border-radius: 75%;
       z-index: 600;
       font-size: 18px;
-      line-height: 35px; }
-    body #wrapper #second-section #carousel #car-right:hover {
+      line-height: 35px;
+      right: 50%;
+      top: 40%; }
+    body #wrapper #second-section #carousel #car-buttons #car-right:hover {
       background-color: #66a900;
       border: solid 4px #BBD196;
       font-size: 18px;
@@ -253,13 +261,20 @@ body #wrapper {
     line-height: 24px;
     padding-left: 40px;
     letter-spacing: -0.5px; }
+  body #wrapper #second-section .container .row .col-md-offset-6 p:nth-of-type(1):before {
+    font-family: "FontAwesome";
+    content: "";
+    font-size: 20px;
+    position: absolute;
+    font-style: normal;
+    font-weight: normal;
+    top: 80px;
+    left: 15px;
+    color: #333333;
+    opacity: 0.1; }
   body #wrapper #second-section .container .row .col-md-offset-6 p:nth-child(1) {
     padding-top: 50px;
     padding-bottom: 15px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 img {
-    padding-top: 40px;
-    position: absolute;
-    float: left; }
   body #wrapper #second-section .container .row .col-md-offset-6 h4 {
     font-family: "Poppins";
     font-size: 16px;
