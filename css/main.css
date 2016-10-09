@@ -75,16 +75,15 @@ body #wrapper {
       body #wrapper header nav ul li:first-child a {
         margin-left: 0px; }
   body #wrapper #about #background-girl-image-1 {
-    background: url("../img/images/girl-image-1-bg.png");
+    background-image: url("../img/images/girl-image-1-bg.png");
     background-size: cover;
     background-position: 100%;
-    padding-top: 100px; }
+    padding-top: 50px; }
   body #wrapper #about #background-girl-image-2 {
-    background: url("../img/images/girl-image-2-bg.png");
+    background-image: url("../img/images/girl-image-2-bg.png");
     background-size: cover;
     background-position: 1%;
-    padding-top: 100px;
-    padding-bottom: 100px; }
+    padding-top: 100px; }
   body #wrapper #about .first-article {
     padding-top: 65px;
     padding-bottom: 65px; }
@@ -104,7 +103,7 @@ body #wrapper {
     line-height: 24px;
     color: #999999;
     letter-spacing: 1px; }
-    body #wrapper #about .lead #circle {
+    body #wrapper #about .lead .circle {
       display: inline-block;
       height: 40px;
       width: 40px;
@@ -150,12 +149,11 @@ body #wrapper {
     max-height: 100%;
     width: 270px;
     max-width: 100%;
-    background-color: #ffffff; }
-    body #wrapper #first-interlude .container .btn p {
-      font-family: "PT Serif";
-      font-size: 16px;
-      color: #66a900;
-      line-height: 26px; }
+    background-color: #ffffff;
+    font-family: "PT Serif";
+    font-size: 16px;
+    color: #66a900;
+    line-height: 26px; }
   body #wrapper #second-section #carousel {
     position: relative;
     width: 1600px;
@@ -179,21 +177,21 @@ body #wrapper {
       display: block;
       height: auto;
       width: 370px;
-      transition-duration: 1s; }
+      transition-duration: 0.5s; }
     body #wrapper #second-section #carousel .client-2 {
       opacity: 0.1;
       z-index: 300;
       left: 9%;
       display: block;
       height: auto;
-      transition-duration: 1s; }
+      transition-duration: 0.5s; }
     body #wrapper #second-section #carousel .client-3 {
       opacity: 0.1;
       z-index: 300;
       left: 24%;
       display: block;
       height: auto;
-      transition-duration: 1s; }
+      transition-duration: 0.5s; }
     body #wrapper #second-section #carousel #car-buttons {
       position: absolute;
       height: 300px;
@@ -244,7 +242,7 @@ body #wrapper {
         font-size: 14px;
         line-height: 24px; }
       body #wrapper #second-section #background-girl-image-3 .third-article .padding-maker {
-        padding-top: 60px; }
+        padding-top: 40px; }
   body #wrapper #second-section h2 {
     display: inline;
     font-family: "Poppins";
@@ -257,13 +255,13 @@ body #wrapper {
     font-family: "Poppins";
     font-size: 18px;
     line-height: 28px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 p {
+  body #wrapper #second-section .quotes p {
     font-family: "PT Serif";
     font-size: 14px;
     line-height: 24px;
     padding-left: 40px;
     letter-spacing: -0.5px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 p:before {
+  body #wrapper #second-section .quotes p:before {
     font-family: "FontAwesome";
     content: "";
     font-size: 20px;
@@ -274,10 +272,11 @@ body #wrapper {
     left: 15px;
     color: #333333;
     opacity: 0.1; }
-  body #wrapper #second-section .container .row .col-md-offset-6 p:nth-child(1) {
+  body #wrapper #second-section .quotes p:nth-of-type(1) {
+    font-style: italic;
     padding-top: 50px;
     padding-bottom: 15px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 h4 {
+  body #wrapper #second-section .quotes h4 {
     font-family: "Poppins";
     font-size: 16px;
     line-height: 14px;
@@ -401,12 +400,11 @@ body #wrapper {
       max-height: 100%;
       width: 270px;
       max-width: 100%;
-      background-color: #ffffff; }
-      body #wrapper #second-interlude .container .btn p {
-        font-family: "PT Serif";
-        font-size: 16px;
-        color: #66a900;
-        line-height: 26px; }
+      background-color: #ffffff;
+      font-family: "PT Serif";
+      font-size: 16px;
+      color: #66a900;
+      line-height: 26px; }
   body #wrapper footer {
     padding-top: 80px;
     padding-bottom: 20px; }
@@ -432,13 +430,30 @@ body #wrapper {
 
 @media (max-width: 1200px) {
   .arrow {
-    display: none; } }
+    display: none; }
+
+  .first-int {
+    height: 250px; } }
+@media (max-width: 992px) {
+  body #wrapper #prices-section #prices .container .box-1 {
+    background-image: none; }
+  body #wrapper #prices-section #prices .container .box-2 {
+    background-image: none; }
+  body #wrapper #prices-section #prices .container .box-3 {
+    background-image: none;
+    margin-bottom: 160px; }
+  body #wrapper .second-int {
+    height: 100px; }
+  body #wrapper .first-int {
+    height: 250px; } }
 @media (max-width: 768px) {
   body #wrapper .p-number {
     font-size: 72px; }
   body #wrapper header {
     background-position: left;
     padding-bottom: 250px; }
+    body #wrapper header nav img {
+      margin-left: 10px; }
     body #wrapper header .heading {
       padding-top: 200px; }
       body #wrapper header .heading h1 {
@@ -559,8 +574,6 @@ body #wrapper {
       font-family: "PT Serif";
       font-size: 16px;
       color: #66a900;
-      line-height: 26px; }
-  body #wrapper #second-interlude .second-int {
-    height: 400px; } }
+      line-height: 26px; } }
 
 /*# sourceMappingURL=main.css.map */

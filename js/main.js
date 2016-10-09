@@ -17,15 +17,15 @@ findLeft.addEventListener("click", function (){
     rightImg.style.transform = ("translate(-150px,20px)");
   }
     else if (leftImg.style.opacity === ("1")) {
-        frontImg.style.opacity = ("1");
-        frontImg.style.zIndex = ("500");
-        frontImg.style.transform = ("translate(30px,20px)");
-        leftImg.style.opacity = ("0.1");
-        leftImg.style.zIndex = ("300");
-        leftImg.style.transform = ("translate(-10px,0px)");
-        rightImg.style.opacity = ("0.1");
-        rightImg.style.zIndex = ("300");
-        rightImg.style.transform = ("translate(0px,0px)");
+      frontImg.style.opacity = ("1");
+      frontImg.style.zIndex = ("500");
+      frontImg.style.transform = ("translate(30px,20px)");
+      leftImg.style.opacity = ("0.1");
+      leftImg.style.zIndex = ("300");
+      leftImg.style.transform = ("translate(-10px,0px)");
+      rightImg.style.opacity = ("0.1");
+      rightImg.style.zIndex = ("300");
+      rightImg.style.transform = ("translate(0px,0px)");
   }
     else {
       frontImg.style.opacity = ("0.1");
