@@ -208,9 +208,8 @@ body
     #second-section
       #carousel
         position: relative
-        max-width: 100%
         width: 1600px
-        max-height: 100%
+        max-width: 100%
 
         img
           position: absolute
@@ -228,13 +227,10 @@ body
           -webkit-user-select: none
 
         .client-1
-          opacity: 1
-          z-index: 500
           left: 12%
           display: block
           height: auto
           width: 370px
-          transform: translate(30px, 30px)
           transition-duration: 1s
 
         .client-2
@@ -253,6 +249,11 @@ body
           height: auto
           transition-duration: 1s
         #car-buttons
+          position: absolute
+          height: 300px
+          width: 500px
+          margin-left: 120px
+          max-width: 100%
 
           #car-left
             position: absolute
@@ -263,8 +264,8 @@ body
             z-index: 600
             font-size: 18px
             line-height: 35px
-            left: 5%
-            top: 40%
+            left: 20%
+            top: 130px
             max-width: 100%
 
           #car-left:hover
@@ -281,8 +282,8 @@ body
             z-index: 600
             font-size: 18px
             line-height: 35px
-            right: 50%
-            top: 40%
+            right: 15%
+            top: 130px
 
           #car-right:hover
             background-color: #66a900
@@ -333,7 +334,7 @@ body
               padding-left: 40px
               letter-spacing: -0.5px
 
-            p:nth-of-type(1):before
+            p:before
               font-family: 'FontAwesome'
               content: "\f10d"
               font-size: 20px

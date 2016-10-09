@@ -158,9 +158,8 @@ body #wrapper {
       line-height: 26px; }
   body #wrapper #second-section #carousel {
     position: relative;
-    max-width: 100%;
     width: 1600px;
-    max-height: 100%; }
+    max-width: 100%; }
     body #wrapper #second-section #carousel img {
       position: absolute;
       text-align: center;
@@ -176,13 +175,10 @@ body #wrapper {
       width: 100%;
       -webkit-user-select: none; }
     body #wrapper #second-section #carousel .client-1 {
-      opacity: 1;
-      z-index: 500;
       left: 12%;
       display: block;
       height: auto;
       width: 370px;
-      transform: translate(30px, 30px);
       transition-duration: 1s; }
     body #wrapper #second-section #carousel .client-2 {
       opacity: 0.1;
@@ -198,38 +194,44 @@ body #wrapper {
       display: block;
       height: auto;
       transition-duration: 1s; }
-    body #wrapper #second-section #carousel #car-buttons #car-left {
+    body #wrapper #second-section #carousel #car-buttons {
       position: absolute;
-      width: 34px;
-      height: 34px;
-      background-color: #333333;
-      border-radius: 50%;
-      z-index: 600;
-      font-size: 18px;
-      line-height: 35px;
-      left: 5%;
-      top: 40%;
+      height: 300px;
+      width: 500px;
+      margin-left: 120px;
       max-width: 100%; }
-    body #wrapper #second-section #carousel #car-buttons #car-left:hover {
-      background-color: #66a900;
-      border: solid 4px #BBD196;
-      line-height: 27px; }
-    body #wrapper #second-section #carousel #car-buttons #car-right {
-      position: absolute;
-      width: 34px;
-      height: 34px;
-      background-color: #333333;
-      border-radius: 75%;
-      z-index: 600;
-      font-size: 18px;
-      line-height: 35px;
-      right: 50%;
-      top: 40%; }
-    body #wrapper #second-section #carousel #car-buttons #car-right:hover {
-      background-color: #66a900;
-      border: solid 4px #BBD196;
-      font-size: 18px;
-      line-height: 27px; }
+      body #wrapper #second-section #carousel #car-buttons #car-left {
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        background-color: #333333;
+        border-radius: 50%;
+        z-index: 600;
+        font-size: 18px;
+        line-height: 35px;
+        left: 20%;
+        top: 130px;
+        max-width: 100%; }
+      body #wrapper #second-section #carousel #car-buttons #car-left:hover {
+        background-color: #66a900;
+        border: solid 4px #BBD196;
+        line-height: 27px; }
+      body #wrapper #second-section #carousel #car-buttons #car-right {
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        background-color: #333333;
+        border-radius: 75%;
+        z-index: 600;
+        font-size: 18px;
+        line-height: 35px;
+        right: 15%;
+        top: 130px; }
+      body #wrapper #second-section #carousel #car-buttons #car-right:hover {
+        background-color: #66a900;
+        border: solid 4px #BBD196;
+        font-size: 18px;
+        line-height: 27px; }
   body #wrapper #second-section #background-girl-image-3 {
     padding-top: 139px;
     background: url("../img/images/girl-image-3-bg.png") no-repeat;
@@ -261,7 +263,7 @@ body #wrapper {
     line-height: 24px;
     padding-left: 40px;
     letter-spacing: -0.5px; }
-  body #wrapper #second-section .container .row .col-md-offset-6 p:nth-of-type(1):before {
+  body #wrapper #second-section .container .row .col-md-offset-6 p:before {
     font-family: "FontAwesome";
     content: "";
     font-size: 20px;
