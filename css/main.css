@@ -19,6 +19,16 @@ p {
   line-height: 28px;
   color: #e8e8e8; }
 
+body #background-girl-image-1 {
+  background-image: url("../img/images/girl-image-1-bg.png");
+  background-size: cover;
+  background-position: 100%;
+  padding-top: 50px; }
+body #background-girl-image-2 {
+  background-image: url("../img/images/girl-image-2-bg.png");
+  background-size: cover;
+  background-position: 1%;
+  padding-top: 100px; }
 body .first-int {
   width: 100%; }
 body .second-int {
@@ -74,16 +84,6 @@ body #wrapper {
         margin-right: 0px; }
       body #wrapper header nav ul li:first-child a {
         margin-left: 0px; }
-  body #wrapper #about #background-girl-image-1 {
-    background-image: url("../img/images/girl-image-1-bg.png");
-    background-size: cover;
-    background-position: 100%;
-    padding-top: 50px; }
-  body #wrapper #about #background-girl-image-2 {
-    background-image: url("../img/images/girl-image-2-bg.png");
-    background-size: cover;
-    background-position: 1%;
-    padding-top: 100px; }
   body #wrapper #about .first-article {
     padding-top: 65px;
     padding-bottom: 65px; }
@@ -157,7 +157,8 @@ body #wrapper {
   body #wrapper #second-section #carousel {
     position: relative;
     width: 1600px;
-    max-width: 100%; }
+    max-width: 100%;
+    padding-top: 100px; }
     body #wrapper #second-section #carousel img {
       position: absolute;
       text-align: center;
@@ -234,9 +235,9 @@ body #wrapper {
     padding-top: 139px;
     background: url("../img/images/girl-image-3-bg.png") no-repeat;
     background-size: cover;
-    background-position: 100%; }
+    background-position: 80%; }
     body #wrapper #second-section #background-girl-image-3 .third-article {
-      padding-bottom: 200px; }
+      padding-bottom: 50px; }
       body #wrapper #second-section #background-girl-image-3 .third-article p {
         font-family: "PT Serif";
         font-size: 14px;
@@ -255,13 +256,13 @@ body #wrapper {
     font-family: "Poppins";
     font-size: 18px;
     line-height: 28px; }
-  body #wrapper #second-section .quotes p {
+  body #wrapper #second-section .quotes .quote-block p {
     font-family: "PT Serif";
     font-size: 14px;
     line-height: 24px;
     padding-left: 40px;
     letter-spacing: -0.5px; }
-  body #wrapper #second-section .quotes p:before {
+  body #wrapper #second-section .quotes .quote-block p:before {
     font-family: "FontAwesome";
     content: "";
     font-size: 20px;
@@ -272,11 +273,11 @@ body #wrapper {
     left: 15px;
     color: #333333;
     opacity: 0.1; }
-  body #wrapper #second-section .quotes p:nth-of-type(1) {
+  body #wrapper #second-section .quotes .quote-block p:nth-of-type(1) {
     font-style: italic;
     padding-top: 50px;
     padding-bottom: 15px; }
-  body #wrapper #second-section .quotes h4 {
+  body #wrapper #second-section .quotes .quote-block h4 {
     font-family: "Poppins";
     font-size: 16px;
     line-height: 14px;
@@ -428,13 +429,72 @@ body #wrapper {
         text-decoration: underline;
         transition-duration: 10s; }
 
+@media (max-width: 1300px) {
+  body #wrapper #about #background-girl-image-1 {
+    background-image: url("../img/images/girl-image-1-bg.png");
+    background-size: cover;
+    background-position: 72%; }
+  body #wrapper #about #background-girl-image-2 {
+    background-image: url("../img/images/girl-image-2-bg.png");
+    background-size: cover 200px;
+    background-repeat: no-repeat;
+    background-position: 5%;
+    height: 490px; } }
 @media (max-width: 1200px) {
-  .arrow {
+  body #wrapper .arrow {
     display: none; }
-
-  .first-int {
-    height: 250px; } }
+  body #wrapper .first-int {
+    height: 250px; }
+  body #wrapper #about .lead {
+    font-family: "Poppins";
+    font-size: 12px;
+    line-height: 20px;
+    color: #999999;
+    letter-spacing: 1px; }
+  body #wrapper #second-section #background-girl-image-3 {
+    padding-top: 100px;
+    background: url("../img/images/girl-image-3-bg.png") no-repeat;
+    background-size: cover;
+    background-position: 100%; }
+  body #wrapper #second-interlude .container {
+    max-width: 100%; }
+    body #wrapper #second-interlude .container .row-1 {
+      margin-top: -120px; }
+    body #wrapper #second-interlude .container h2 {
+      display: inline;
+      font-family: "PT Serif";
+      color: #ffffff;
+      font-size: 32px;
+      line-height: 16px;
+      font-weight: 700; }
+    body #wrapper #second-interlude .container img {
+      margin-top: 40px; }
+    body #wrapper #second-interlude .container p {
+      font-family: "Poppins Light";
+      font-size: 14px;
+      line-height: 30px;
+      color: #ffffff;
+      letter-spacing: -0.3px;
+      padding-top: 10px; }
+    body #wrapper #second-interlude .container .btn {
+      height: 57px;
+      max-height: 100%;
+      width: 270px;
+      max-width: 100%;
+      background-color: #ffffff;
+      font-family: "PT Serif";
+      font-size: 16px;
+      color: #66a900;
+      line-height: 26px; }
+  body #wrapper #second-interlude .second-int {
+    height: 200px; } }
 @media (max-width: 992px) {
+  body #wrapper #about #background-girl-image-1 {
+    background-image: none; }
+  body #wrapper #about #background-girl-image-2 {
+    background-image: none; }
+  body #wrapper #second-section #background-girl-image-3 {
+    background: none; }
   body #wrapper #prices-section #prices .container .box-1 {
     background-image: none; }
   body #wrapper #prices-section #prices .container .box-2 {
@@ -445,7 +505,37 @@ body #wrapper {
   body #wrapper .second-int {
     height: 100px; }
   body #wrapper .first-int {
-    height: 250px; } }
+    height: 250px; }
+  body #wrapper #first-interlude .container .row-1 {
+    margin-top: -8em; }
+  body #wrapper #first-interlude .container .column-3 {
+    padding-top: 10px; }
+  body #wrapper #first-interlude .container h2 {
+    display: inline;
+    font-family: "PT Serif";
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 16px;
+    font-weight: 700; }
+  body #wrapper #first-interlude .container img {
+    margin-top: 40px; }
+  body #wrapper #first-interlude .container p {
+    font-family: "Poppins Light";
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    letter-spacing: -0.3px;
+    padding-top: 10px; }
+  body #wrapper #first-interlude .container .btn {
+    height: 57px;
+    max-height: 100%;
+    width: 270px;
+    max-width: 100%;
+    background-color: #ffffff;
+    font-family: "PT Serif";
+    font-size: 16px;
+    color: #66a900;
+    line-height: 26px; } }
 @media (max-width: 768px) {
   body #wrapper .p-number {
     font-size: 72px; }
