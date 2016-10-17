@@ -309,7 +309,7 @@ body #wrapper {
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: 100% 150px; }
-    body #wrapper #prices-section #prices .container .box {
+    body #wrapper #prices-section #prices .box {
       z-index: 1;
       width: 100%;
       max-width: 350px;
@@ -322,41 +322,41 @@ body #wrapper {
       padding: 0;
       padding: 50px 0 100px;
       margin-top: 50px; }
-      body #wrapper #prices-section #prices .container .box h2 {
+      body #wrapper #prices-section #prices .box h2 {
         display: inline;
         font-family: "Poppins";
         font-size: 40px;
         line-height: 28px;
         color: #333333; }
-      body #wrapper #prices-section #prices .container .box p {
+      body #wrapper #prices-section #prices .box p {
         font-family: "PT Serif";
         font-size: 16px;
         line-height: 30px; }
-      body #wrapper #prices-section #prices .container .box h3 {
+      body #wrapper #prices-section #prices .box h3 {
         font-size: 14px;
         line-height: 28px;
         text-transform: uppercase;
         font-family: "Poppins"; }
-      body #wrapper #prices-section #prices .container .box i {
+      body #wrapper #prices-section #prices .box i {
         margin-left: 10px; }
-      body #wrapper #prices-section #prices .container .box .button:hover {
+      body #wrapper #prices-section #prices .box .button:hover {
         background: #66a900;
         cursor: pointer;
         transition-duration: 0.5s;
         color: #ffffff; }
-      body #wrapper #prices-section #prices .container .box h3:hover {
+      body #wrapper #prices-section #prices .box h3:hover {
         color: #66a900;
         cursor: pointer;
         text-decoration: underline;
         transition-duration: 0.3s; }
-      body #wrapper #prices-section #prices .container .box p {
+      body #wrapper #prices-section #prices .box p {
         padding-top: 10px;
         font-size: 14px;
         line-height: 28px;
         font-family: "PT Serif";
         padding: 10px;
         font-weight: bold; }
-      body #wrapper #prices-section #prices .container .box .button {
+      body #wrapper #prices-section #prices .box .button {
         background: #f6f6f6;
         height: 42px;
         padding: 0;
@@ -369,15 +369,15 @@ body #wrapper {
         font-size: 14px;
         line-height: 28px;
         font-family: "Poppins"; }
-    body #wrapper #prices-section #prices .container .box-1 {
+    body #wrapper #prices-section #prices .box-1 {
       background-image: url("../img/images/price-box-overlay-1.png");
       background-repeat: no-repeat;
       background-position: bottom center; }
-    body #wrapper #prices-section #prices .container .box-2 {
+    body #wrapper #prices-section #prices .box-2 {
       background-image: url("../img/images/price-box-overlay-2.png");
       background-repeat: no-repeat;
       background-position: bottom center; }
-    body #wrapper #prices-section #prices .container .box-3 {
+    body #wrapper #prices-section #prices .box-3 {
       background-image: url("../img/images/images/price-box-overlay-3.png");
       background-repeat: no-repeat;
       background-position: bottom center; }
@@ -385,6 +385,8 @@ body #wrapper {
     max-width: 100%; }
     body #wrapper #second-interlude .container .row-1 {
       margin-top: -120px; }
+      body #wrapper #second-interlude .container .row-1 .column-2 {
+        margin-top: -20px; }
     body #wrapper #second-interlude .container .col-md-3:last-of-type {
       padding-top: 20px; }
     body #wrapper #second-interlude .container h2 {
@@ -395,7 +397,7 @@ body #wrapper {
       line-height: 16px;
       font-weight: 700; }
     body #wrapper #second-interlude .container img {
-      margin-top: 40px; }
+      margin-top: 60px; }
     body #wrapper #second-interlude .container p {
       font-family: "Poppins Light";
       font-size: 14px;
@@ -607,20 +609,20 @@ body #wrapper {
     underline: none;
     text-align: center; }
   body #wrapper #first-interlude {
-    margin-top: 500px;
-    height: 380px;
+    margin-top: 150px;
+    height: 250px;
     display: block;
     background-image: url("../img/images/first-shape.png");
     background-size: 100%; }
     body #wrapper #first-interlude .top-int {
       margin-top: 100px; }
     body #wrapper #first-interlude .container .row-1 .column-1 {
-      text-align: center;
+      text-align: left;
       padding-top: 50px; }
     body #wrapper #first-interlude .container .row-1 .column-2 {
       display: none; }
     body #wrapper #first-interlude .container .row-1 .column-3 {
-      text-align: center; }
+      padding-top: 70px; }
     body #wrapper #first-interlude .container .row-1 h2 {
       display: inline;
       font-family: "PT Serif";
@@ -630,11 +632,10 @@ body #wrapper {
       font-weight: 700; }
     body #wrapper #first-interlude .container .row-1 p {
       font-family: "Poppins Light";
-      font-size: 16px;
+      font-size: 20px;
       line-height: 30px;
       color: #ffffff;
-      letter-spacing: 0.5px;
-      padding-top: 20px;
+      padding-top: 10px;
       padding-bottom: 30px; }
     body #wrapper #first-interlude .container .row-1 .btn {
       height: 57px;
@@ -643,97 +644,125 @@ body #wrapper {
       max-width: 200;
       background-color: #ffffff;
       font-family: "PT Serif";
-      font-size: 16px;
+      font-size: 18px;
       color: #66a900;
       line-height: 26px; }
-      body #wrapper #first-interlude .container .row-1 .btn h2 {
-        font-size: 32px;
-        line-height: 16px;
-        font-weight: 700;
-        color: #ffffff; }
-      body #wrapper #first-interlude .container .row-1 .btn p {
-        font-family: "Poppins Light";
-        font-size: 24px;
-        color: #ffffff;
-        letter-spacing: 0px; }
-  body #wrapper #second-section #background-girl-image-3 {
-    background-position: 0%; }
-    body #wrapper #second-section #background-girl-image-3 .third-article {
-      padding-bottom: 100px; }
-      body #wrapper #second-section #background-girl-image-3 .third-article p {
-        font-size: 20px;
-        line-height: 32px; }
-      body #wrapper #second-section #background-girl-image-3 .third-article h2 {
-        font-size: 42px; }
-      body #wrapper #second-section #background-girl-image-3 .third-article .padding-maker {
-        padding-top: 30px; }
-      body #wrapper #second-section #background-girl-image-3 .third-article .accept-icon {
-        padding-right: 10px; }
-      body #wrapper #second-section #background-girl-image-3 .third-article h3 {
-        font-size: 26px;
-        line-height: 28px; }
-  body #wrapper #second-section .container .row .column-1 h2 {
-    font-size: 42px; }
-  body #wrapper #second-section .container .row .column-1 p {
-    font-size: 22px;
-    line-height: 34px; }
-  body #wrapper #second-section .container .row .column-1 p:nth-child(1) {
-    padding-top: 40px;
-    padding-bottom: 10px; }
-  body #wrapper #second-section .container .row .column-1 #student-info {
+  body #wrapper #second-section #background-girl-image-3 .third-article {
+    padding-bottom: 100px; }
+    body #wrapper #second-section #background-girl-image-3 .third-article p {
+      font-size: 24px;
+      line-height: 36px; }
+    body #wrapper #second-section #background-girl-image-3 .third-article h2 {
+      font-size: 42px; }
+    body #wrapper #second-section #background-girl-image-3 .third-article .padding-maker {
+      padding-top: 40px; }
+    body #wrapper #second-section #background-girl-image-3 .third-article .accept-icon {
+      padding-right: 10px; }
+    body #wrapper #second-section #background-girl-image-3 .third-article h3 {
+      font-size: 26px;
+      line-height: 26px;
+      padding-top: 20px; }
+  body #wrapper #second-section .container .row .student-info {
     text-align: right;
     padding-top: 40px; }
-  body #wrapper #second-section .container .row .column-1 img {
-    padding-top: 25px; }
-  body #wrapper #second-section .container .row .column-1 h4 {
+  body #wrapper #second-section .container .row h2 {
+    font-size: 42px; }
+  body #wrapper #second-section .container .row p {
+    font-size: 22px;
+    line-height: 34px; }
+  body #wrapper #second-section .container .row p:nth-child(1) {
+    padding-top: 40px;
+    padding-bottom: 10px; }
+  body #wrapper #second-section .container .row h4 {
     font-size: 20px;
     padding-left: 40px;
     float: right; }
-  body #wrapper #third-section .container h2 {
-    font-size: 42px; }
-  body #wrapper #third-section .container p {
-    font-family: "PT Serif";
-    font-size: 22px;
-    line-height: 32px; }
-  body #wrapper #third-section .container .box {
+  body #wrapper #third-section {
+    margin-top: 100px;
+    padding-top: 0; }
+    body #wrapper #third-section .container h2 {
+      font-size: 42px; }
+    body #wrapper #third-section .container p {
+      font-family: "PT Serif";
+      font-size: 24px;
+      line-height: 32px; }
+  body #wrapper #prices-section #prices .box {
     width: 100%;
     margin: 0 auto;
     padding-top: 50px;
     margin-top: 50px; }
-    body #wrapper #third-section .container .box h3 {
-      font-size: 22px;
+    body #wrapper #prices-section #prices .box h3 {
+      font-size: 20px;
       line-height: 32px; }
-    body #wrapper #third-section .container .box i {
+    body #wrapper #prices-section #prices .box i {
       margin-left: 10px; }
-    body #wrapper #third-section .container .box p {
-      font-size: 18px;
-      line-height: 32px;
+    body #wrapper #prices-section #prices .box p {
+      font-size: 16px;
+      line-height: 24px;
       padding: 10px 30px;
-      font-weight: bold; }
-    body #wrapper #third-section .container .box .button {
-      font-size: 22px; }
+      font-weight: 300; }
+    body #wrapper #prices-section #prices .box .button {
+      font-size: 18px; }
   body #wrapper #carousel {
     display: none; }
   body #wrapper .arrow {
     display: none; }
-  body #wrapper #second-interlude .row-1 h2 {
-    font-size: 32px;
-    line-height: 16px;
-    font-weight: 700;
-    color: #ffffff; }
-  body #wrapper #second-interlude .row-1 p {
-    font-family: "Poppins Light";
-    font-size: 20px;
-    color: #ffffff;
-    letter-spacing: 0px; }
-  body #wrapper #second-interlude .row-1 .btn {
-    height: 57px;
-    width: 200px;
-    background-color: #ffffff; }
-    body #wrapper #second-interlude .row-1 .btn p {
+  body #wrapper #second-interlude .container {
+    max-width: 100%; }
+    body #wrapper #second-interlude .container h2 {
+      display: inline;
+      font-family: "PT Serif";
+      color: #ffffff;
+      font-size: 32px;
+      line-height: 36px;
+      font-weight: 700; }
+    body #wrapper #second-interlude .container img {
+      margin-top: 40px; }
+    body #wrapper #second-interlude .container p {
+      font-family: "Poppins Light";
+      font-size: 20px;
+      line-height: 30px;
+      color: #ffffff;
+      letter-spacing: -0.3px;
+      padding-top: 10px;
+      padding-bottom: 30px; }
+    body #wrapper #second-interlude .container .btn {
+      height: 57px;
+      max-height: 100%;
+      width: 270px;
+      max-width: 100%;
+      background-color: #ffffff;
       font-family: "PT Serif";
       font-size: 16px;
       color: #66a900;
-      line-height: 26px; } }
+      line-height: 26px; }
+  body #wrapper #second-interlude .column-3 {
+    padding-top: 20px; }
+  body #wrapper #second-interlude .second-int {
+    height: 120px; }
+  body #wrapper footer {
+    padding-top: 0px;
+    padding-bottom: 20px; }
+    body #wrapper footer .logo-box {
+      margin-top: 20px; }
+    body #wrapper footer img {
+      margin: 10px; }
+    body #wrapper footer p {
+      font-family: "PT Serif";
+      font-size: 14px;
+      line-height: 28px; }
+    body #wrapper footer li {
+      display: block;
+      margin: 10px;
+      float: right; }
+      body #wrapper footer li a {
+        font-family: "PT Serif";
+        font-size: 14px;
+        line-height: 14px;
+        color: #aeaeae; }
+      body #wrapper footer li a:hover {
+        font-size: 16px;
+        text-decoration: underline;
+        transition-duration: 10s; } }
 
 /*# sourceMappingURL=main.css.map */

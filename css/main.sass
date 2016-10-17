@@ -384,91 +384,91 @@ body
         background-repeat: no-repeat
         background-position: bottom center
         background-size: 100% 150px
-        .container
-          .box
-            z-index: 1
-            width: 100%
-            max-width: 350px
-            display: inline-block
-            height: 460px
-            -webkit-box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.3)
-            -moz-box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.3)
-            box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.3)
-            text-align: center
+
+        .box
+          z-index: 1
+          width: 100%
+          max-width: 350px
+          display: inline-block
+          height: 460px
+          -webkit-box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.3)
+          -moz-box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.3)
+          box-shadow: 0px 0px 45px -10px rgba(0,0,0,0.3)
+          text-align: center
+          padding: 0
+          padding: 50px 0 100px
+          margin-top: 50px
+          
+          h2
+            display: inline
+            font-family: $poppins
+            font-size: 40px
+            line-height: 28px
+            color: $dark-grey
+
+          p
+            font-family: $serif
+            font-size: 16px
+            line-height: 30px
+          h3
+            font-size: 14px
+            line-height: 28px
+            text-transform: uppercase
+            font-family: $poppins
+
+          i
+            margin-left: 10px
+
+          .button:hover
+            background: #66a900
+            cursor: pointer
+            transition-duration: 0.5s
+            color: $white
+
+          h3:hover
+            color: #66a900
+            cursor: pointer
+            text-decoration: underline
+            transition-duration: 0.3s
+
+
+          p
+            padding-top: 10px
+            font-size: 14px
+            line-height: 28px
+            font-family: $serif
+            padding: 10px
+            font-weight: bold
+
+          .button
+            background: #f6f6f6
+            height: 42px
             padding: 0
-            padding: 50px 0 100px
-            margin-top: 50px
-            
-            h2
-              display: inline
-              font-family: $poppins
-              font-size: 40px
-              line-height: 28px
-              color: $dark-grey
-
-            p
-              font-family: $serif
-              font-size: 16px
-              line-height: 30px
-            h3
-              font-size: 14px
-              line-height: 28px
-              text-transform: uppercase
-              font-family: $poppins
-
-            i
-              margin-left: 10px
-
-            .button:hover
-              background: #66a900
-              cursor: pointer
-              transition-duration: 0.5s
-              color: $white
-
-            h3:hover
-              color: #66a900
-              cursor: pointer
-              text-decoration: underline
-              transition-duration: 0.3s
+            text-transform: uppercase
+            letter-spacing: 1.4px
+            line-height: 42px
+            border-left: 3px solid #66a900
+            border-right: 3px solid #66a900
+            padding-top: 10px
+            font-size: 14px
+            line-height: 28px
+            font-family: $poppins
 
 
-            p
-              padding-top: 10px
-              font-size: 14px
-              line-height: 28px
-              font-family: $serif
-              padding: 10px
-              font-weight: bold
+        .box-1
+          background-image: url('../img/images/price-box-overlay-1.png')
+          background-repeat: no-repeat
+          background-position: bottom center
 
-            .button
-              background: #f6f6f6
-              height: 42px
-              padding: 0
-              text-transform: uppercase
-              letter-spacing: 1.4px
-              line-height: 42px
-              border-left: 3px solid #66a900
-              border-right: 3px solid #66a900
-              padding-top: 10px
-              font-size: 14px
-              line-height: 28px
-              font-family: $poppins
+        .box-2
+          background-image: url('../img/images/price-box-overlay-2.png')
+          background-repeat: no-repeat
+          background-position: bottom center
 
-
-          .box-1
-            background-image: url('../img/images/price-box-overlay-1.png')
-            background-repeat: no-repeat
-            background-position: bottom center
-
-          .box-2
-            background-image: url('../img/images/price-box-overlay-2.png')
-            background-repeat: no-repeat
-            background-position: bottom center
-
-          .box-3
-            background-image: url('../img/images/images/price-box-overlay-3.png')
-            background-repeat: no-repeat
-            background-position: bottom center
+        .box-3
+          background-image: url('../img/images/images/price-box-overlay-3.png')
+          background-repeat: no-repeat
+          background-position: bottom center
 
     #second-interlude
       .container
@@ -476,6 +476,9 @@ body
 
         .row-1
           margin-top: -120px
+
+          .column-2
+            margin-top: -20px
 
         .col-md-3:last-of-type
           padding-top: 20px
@@ -489,7 +492,7 @@ body
           font-weight: 700
 
         img
-          margin-top: 40px
+          margin-top: 60px
 
         p
           font-family: "Poppins Light"
@@ -774,8 +777,8 @@ body
           text-align: center
 
       #first-interlude
-        margin-top: 500px
-        height: 380px
+        margin-top: 150px
+        height: 250px
         display: block
         background-image: url("../img/images/first-shape.png")
         background-size: 100%
@@ -787,14 +790,14 @@ body
 
           .row-1
             .column-1
-              text-align: center
+              text-align: left
               padding-top: 50px
 
             .column-2
               display: none
 
             .column-3
-              text-align: center
+              padding-top: 70px
 
             h2
               display: inline
@@ -806,11 +809,10 @@ body
 
             p
               font-family: "Poppins Light"
-              font-size: 16px
+              font-size: 20px
               line-height: 30px
               color: $white
-              letter-spacing: 0.5px
-              padding-top: 20px
+              padding-top: 10px
               padding-bottom: 30px
 
             .btn
@@ -820,75 +822,61 @@ body
               max-width: 200
               background-color: $white
               font-family: $serif
-              font-size: 16px
+              font-size: 18px
               color: #66a900
               line-height: 26px
-
-              h2
-                font-size: 32px
-                line-height: 16px
-                font-weight: 700
-                color: $white
-
-              p
-                font-family: "Poppins Light"
-                font-size: 24px
-                color: $white
-                letter-spacing: 0px
 
       #second-section
 
         #background-girl-image-3
-          background-position: 0%
 
           .third-article
             padding-bottom: 100px
 
             p
-              font-size: 20px
-              line-height: 32px
+              font-size: 24px
+              line-height: 36px
 
             h2
               font-size: 42px
 
             .padding-maker
-              padding-top: 30px
+              padding-top: 40px
 
             .accept-icon
               padding-right: 10px
 
             h3
               font-size: 26px
-              line-height: 28px
+              line-height: 26px
+              padding-top: 20px
 
         .container
           .row
-            .column-1
+            .student-info
+              text-align: right
+              padding-top: 40px
 
-              h2
-                font-size: 42px
+            h2
+              font-size: 42px
 
-              p
-                font-size: 22px
-                line-height: 34px
+            p
+              font-size: 22px
+              line-height: 34px
 
-              p:nth-child(1)
-                padding-top: 40px
-                padding-bottom: 10px
+            p:nth-child(1)
+              padding-top: 40px
+              padding-bottom: 10px
 
-              #student-info
-                text-align: right
-                padding-top: 40px
-              
-              img
-                padding-top: 25px
-
-              h4
-                font-size: 20px
-                padding-left: 40px
-                float: right
+            h4
+              font-size: 20px
+              padding-left: 40px
+              float: right
 
       #third-section
+        margin-top: 100px
+        padding-top: 0
+
         .container
 
           h2
@@ -896,9 +884,10 @@ body
 
           p
             font-family: $serif
-            font-size: 22px
+            font-size: 24px
             line-height: 32px
-
+      #prices-section
+        #prices
           .box
             width: 100%
             margin: 0 auto
@@ -906,20 +895,20 @@ body
             margin-top: 50px
 
             h3
-              font-size: 22px
+              font-size: 20px
               line-height: 32px
 
             i
               margin-left: 10px
 
             p
-              font-size: 18px
-              line-height: 32px
+              font-size: 16px
+              line-height: 24px
               padding: 10px 30px
-              font-weight: bold
+              font-weight: 300
 
             .button
-              font-size: 22px
+              font-size: 18px
 
       #carousel
         display: none
@@ -928,26 +917,73 @@ body
         display: none
 
       #second-interlude
-        .row-1
+        .container
+          max-width: 100%
+
           h2
-            font-size: 32px
-            line-height: 16px
-            font-weight: 700
+            display: inline
+            font-family: $serif
             color: $white
+            font-size: 32px
+            line-height: 36px
+            font-weight: 700
+
+          img
+            margin-top: 40px
 
           p
             font-family: "Poppins Light"
             font-size: 20px
+            line-height: 30px
             color: $white
-            letter-spacing: 0px
-
+            letter-spacing: -0.3px
+            padding-top: 10px
+            padding-bottom: 30px
+          
           .btn
             height: 57px
-            width: 200px
+            max-height: 100%
+            width: 270px
+            max-width: 100%
             background-color: $white
+            font-family: $serif
+            font-size: 16px
+            color: #66a900
+            line-height: 26px
 
-            p
-              font-family: $serif
-              font-size: 16px
-              color: #66a900
-              line-height: 26px
+        .column-3
+          padding-top: 20px
+
+        .second-int
+          height: 120px
+
+      footer
+        padding-top: 0px
+        padding-bottom: 20px
+
+        .logo-box
+          margin-top: 20px
+
+        img
+          margin: 10px
+
+        p
+          font-family: $serif
+          font-size: 14px
+          line-height: 28px
+
+        li
+          display: block
+          margin: 10px
+          float: right
+          
+          a
+            font-family: $serif
+            font-size: 14px
+            line-height: 14px
+            color: #aeaeae
+
+          a:hover
+            font-size: 16px
+            text-decoration: underline
+            transition-duration: 10s
