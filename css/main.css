@@ -161,6 +161,8 @@ body #wrapper {
         font-size: 16px;
         color: #66a900;
         line-height: 26px; }
+    body #wrapper #first-interlude .top-int {
+      width: 100%; }
   body #wrapper #second-section #carousel {
     position: relative;
     width: 1600px;
@@ -438,6 +440,9 @@ body #wrapper {
         text-decoration: underline;
         transition-duration: 10s; }
 
+@media (min-width: 1700px) {
+  body #wrapper #first-interlude {
+    height: 300px; } }
 @media (max-width: 1300px) {
   body #wrapper #about #background-girl-image-1 {
     background-image: url("../img/images/girl-image-1-bg.png");
@@ -507,13 +512,15 @@ body #wrapper {
       line-height: 26px; }
   body #wrapper #second-interlude .second-int {
     height: 200px; } }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   body #wrapper #about #background-girl-image-1 {
     background-image: none; }
   body #wrapper #about #background-girl-image-2 {
     background-image: none; }
   body #wrapper #second-section #background-girl-image-3 {
     background: none; }
+  body #wrapper #carousel {
+    display: none; }
   body #wrapper #prices-section #prices .container .box-1 {
     background-image: none; }
   body #wrapper #prices-section #prices .container .box-2 {
@@ -662,23 +669,25 @@ body #wrapper {
       font-size: 26px;
       line-height: 26px;
       padding-top: 20px; }
-  body #wrapper #second-section .container .row .student-info {
-    text-align: right;
-    padding-top: 40px; }
-  body #wrapper #second-section .container .row h2 {
-    font-size: 42px; }
-  body #wrapper #second-section .container .row p {
-    font-size: 22px;
-    line-height: 34px; }
-  body #wrapper #second-section .container .row p:nth-child(1) {
-    padding-top: 40px;
-    padding-bottom: 10px; }
-  body #wrapper #second-section .container .row h4 {
-    font-size: 20px;
-    padding-left: 40px;
-    float: right; }
+  body #wrapper #second-section .quotes {
+    margin-top: 50px; }
+    body #wrapper #second-section .quotes .row .student-info {
+      text-align: right;
+      padding-top: 40px; }
+    body #wrapper #second-section .quotes .row h2 {
+      font-size: 42px; }
+    body #wrapper #second-section .quotes .row p {
+      font-size: 22px;
+      line-height: 34px; }
+    body #wrapper #second-section .quotes .row p:nth-child(1) {
+      padding-top: 40px;
+      padding-bottom: 10px; }
+    body #wrapper #second-section .quotes .row h4 {
+      font-size: 20px;
+      padding-left: 40px;
+      float: right; }
   body #wrapper #third-section {
-    margin-top: 100px;
+    margin-top: 150px;
     padding-top: 0; }
     body #wrapper #third-section .container h2 {
       font-size: 42px; }
@@ -744,7 +753,7 @@ body #wrapper {
     padding-top: 0px;
     padding-bottom: 20px; }
     body #wrapper footer .logo-box {
-      margin-top: 20px; }
+      margin-top: 30px; }
     body #wrapper footer img {
       margin: 10px; }
     body #wrapper footer p {
@@ -764,5 +773,8 @@ body #wrapper {
         font-size: 16px;
         text-decoration: underline;
         transition-duration: 10s; } }
+@media (max-width: 320px) {
+  body #wrapper nav img {
+    width: 60%; } }
 
 /*# sourceMappingURL=main.css.map */

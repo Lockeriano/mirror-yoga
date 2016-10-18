@@ -208,6 +208,9 @@ body
           color: #66a900
           line-height: 26px
 
+      .top-int
+        width: 100%
+
     #second-section
       #carousel
         position: relative
@@ -541,6 +544,12 @@ body
           text-decoration: underline
           transition-duration: 10s
 
+@media (min-width: 1700px)
+  body
+    #wrapper
+      #first-interlude
+        height: 300px
+
 @media (max-width: 1300px)
   body
     #wrapper
@@ -635,7 +644,7 @@ body
         .second-int
           height: 200px
 
-@media (max-width: 992px)
+@media (max-width: 991px)
   body
     #wrapper
       #about
@@ -648,6 +657,9 @@ body
       #second-section
         #background-girl-image-3
           background: none
+
+      #carousel
+        display: none
 
       #prices-section
         #prices
@@ -852,6 +864,8 @@ body
               padding-top: 20px
 
         .container
+        .quotes
+          margin-top: 50px
           .row
             .student-info
               text-align: right
@@ -874,7 +888,7 @@ body
               float: right
 
       #third-section
-        margin-top: 100px
+        margin-top: 150px
         padding-top: 0
 
         .container
@@ -962,7 +976,7 @@ body
         padding-bottom: 20px
 
         .logo-box
-          margin-top: 20px
+          margin-top: 30px
 
         img
           margin: 10px
@@ -987,3 +1001,10 @@ body
             font-size: 16px
             text-decoration: underline
             transition-duration: 10s
+
+@media (max-width: 320px)
+  body
+    #wrapper
+      nav
+        img
+          width: 60%
