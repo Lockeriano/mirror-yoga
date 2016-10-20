@@ -77,3 +77,21 @@ findRight.addEventListener("click", function (){
       rightImg.style.transform = ("translate(0px,0px)");
   }
 });
+
+var openBtn = document.querySelector(".open-btn");
+var closeBtn = document.querySelector(".close-btn");
+var navMenu = document.querySelector(".nav-menu");
+
+openBtn.addEventListener("click", function (){
+  if (navMenu.className === "nav-menu") {
+    navMenu.className = "nav-menu-open";
+    openBtn.style.display = ("none");
+    closeBtn.style.display = ("block");
+  }
+
+  else {
+    navMenu.className = "nav-menu";
+    openBtn.style.display = ("block");
+    closeBtn.style.display = ("none");
+  }
+});
