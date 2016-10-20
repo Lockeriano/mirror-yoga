@@ -81,17 +81,44 @@ findRight.addEventListener("click", function (){
 var openBtn = document.querySelector(".open-btn");
 var closeBtn = document.querySelector(".close-btn");
 var navMenu = document.querySelector(".nav-menu");
+var navMenuOpen = document.querySelector(".nav-menu-open");
+var mobileViewport = window.matchMedia("screen and (min-width: 767px)");
 
-openBtn.addEventListener("click", function (){
-  if (navMenu.className === "nav-menu") {
-    navMenu.className = "nav-menu-open";
+openBtn.addEventListener("click", function open(){
+  if (navMenu.className === ("nav-menu")) {
+    navMenu.className = ("nav-menu-open");
     openBtn.style.display = ("none");
     closeBtn.style.display = ("block");
   }
+    else {
+      navMenu.className = ("nav-menu");
+      closeBtn.style.display = ("none");
+      openBtn.style.display = ("block");
+    }
+});
 
-  else {
-    navMenu.className = "nav-menu";
-    openBtn.style.display = ("block");
+closeBtn.addEventListener("click", function close(){
+  if (navMenu.className === ("nav-menu-open")){
+    navMenu.className = ("nav-menu");
     closeBtn.style.display = ("none");
+    openBtn.style.display = ("block");
+}
+    else {
+      navMenu.className = ("nav-menu-open");
+      openBtn.style.display = ("none");
+      closeBtn.style.display = ("block");
+    }
+});
+
+mobileViewport.addListener(function(mq) {
+  if(mq.matches) {
+    closeBtn.style.display = ("none");
+    openBtn.style.display = ("none");
+  }
+  else if (navMenu.className === ("nav-menu-open")){
+    closeBtn.style.display = ("block");
+  }
+  else if (navMenu.className === ("nav-menu")){
+    openBtn.style.display = ("block");
   }
 });
