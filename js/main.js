@@ -3,78 +3,88 @@ var findRight = document.getElementById("car-right");
 var frontImg = document.querySelector(".client-1");
 var leftImg = document.querySelector(".client-2");
 var rightImg = document.querySelector(".client-3");
-var firstQuote = document.querySelector(".quote");
-
-findLeft.addEventListener("click", function (){
-  if (frontImg.style.opacity === ("1")) {
-    frontImg.style.opacity = ("0.1");
-    frontImg.style.zIndex = ("300");
-    frontImg.style.transform = ("translate(-120px,0px)");
-    leftImg.style.opacity = ("0.1");
-    leftImg.style.zIndex = ("300");
-    leftImg.style.transform = ("translate(285px,0px)");
-    rightImg.style.opacity = ("1");
-    rightImg.style.zIndex = ("500");
-    rightImg.style.transform = ("translate(-150px,20px)");
-
-  }
-    else if (leftImg.style.opacity === ("1")) {
-      frontImg.style.opacity = ("1");
-      frontImg.style.zIndex = ("500");
-      frontImg.style.transform = ("translate(30px,20px)");
-      leftImg.style.opacity = ("0.1");
-      leftImg.style.zIndex = ("300");
-      leftImg.style.transform = ("translate(10px,0px)");
-      rightImg.style.opacity = ("0.1");
-      rightImg.style.zIndex = ("300");
-      rightImg.style.transform = ("translate(0px,0px)");
-  }
-    else {
-      frontImg.style.opacity = ("0.1");
-      frontImg.style.zIndex = ("300");
-      frontImg.style.transform = ("translate(175px,0px)");
-      leftImg.style.opacity = ("1");
-      leftImg.style.zIndex = ("500");
-      leftImg.style.transform = ("translate(130px,20px)");
-      rightImg.style.opacity = ("0.1");
-      rightImg.style.zIndex = ("300");
-      rightImg.style.transform = ("translate(-295px,0px)");
-  }
-});
+var firstQuote = document.querySelector(".first-quote");
+var secondQuote = document.querySelector(".second-quote");
+var thirdQuote = document.querySelector(".third-quote");
 
 findRight.addEventListener("click", function (){
   if (frontImg.style.opacity === ("1")) {
     frontImg.style.opacity = ("0.1");
     frontImg.style.zIndex = ("300");
-    frontImg.style.transform = ("translate(175px,0px)");
+    frontImg.style.transform = ("translate(160px,0px)");
     leftImg.style.opacity = ("1");
     leftImg.style.zIndex = ("500");
-    leftImg.style.transform = ("translate(130px,20px)");
+    leftImg.style.transform = ("translate(125px,20px)");
     rightImg.style.opacity = ("0.1");
     rightImg.style.zIndex = ("300");
-    rightImg.style.transform = ("translate(-295px,0px)");
+    rightImg.style.transform = ("translate(-150px,0px)");
   }
     else if (leftImg.style.opacity === ("1")) {
       frontImg.style.opacity = ("0.1");
       frontImg.style.zIndex = ("300");
-      frontImg.style.transform = ("translate(-120px,0px)");
+      frontImg.style.transform = ("translate(-100px,0px)");
       leftImg.style.opacity = ("0.1");
       leftImg.style.zIndex = ("300");
-      leftImg.style.transform = ("translate(285px,0px)");
+      leftImg.style.transform = ("translate(250px,0px)");
       rightImg.style.opacity = ("1");
       rightImg.style.zIndex = ("500");
-      rightImg.style.transform = ("translate(-150px,20px)");
-  }
+      rightImg.style.transform = ("translate(-25px,20px)");
+    }
     else {
       frontImg.style.opacity = ("1");
       frontImg.style.zIndex = ("500");
       frontImg.style.transform = ("translate(30px,20px)");
       leftImg.style.opacity = ("0.1");
       leftImg.style.zIndex = ("300");
-      leftImg.style.transform = ("translate(10px,0px)");
+      leftImg.style.transform = ("translate(0px,0px)");
       rightImg.style.opacity = ("0.1");
       rightImg.style.zIndex = ("300");
-      rightImg.style.transform = ("translate(0px,0px)");
+      rightImg.style.transform = ("translate(90px,0px)");
+    }
+});
+
+findLeft.addEventListener("click", function (){
+  if (frontImg.style.opacity === ("1")) {
+    frontImg.style.opacity = ("0.1");
+    frontImg.style.zIndex = ("300");
+    frontImg.style.transform = ("translate(-100px,0px)");
+    leftImg.style.opacity = ("0.1");
+    leftImg.style.zIndex = ("300");
+    leftImg.style.transform = ("translate(245px,0px)");
+    rightImg.style.opacity = ("1");
+    rightImg.style.zIndex = ("500");
+    rightImg.style.transform = ("translate(-25px,20px)");
+    firstQuote.style.display = ("none");
+    secondQuote.style.display = ("none");
+    thirdQuote.style.display = ("block");
+  }
+    else if (leftImg.style.opacity === ("1")) {
+      frontImg.style.opacity = ("1");
+      frontImg.style.zIndex = ("500");
+      frontImg.style.transform = ("translate(30px,20px)");
+      leftImg.style.opacity = ("0.1");
+      leftImg.style.zIndex = ("300");
+      leftImg.style.transform = ("translate(0px,0px)");
+      rightImg.style.opacity = ("0.1");
+      rightImg.style.zIndex = ("300");
+      rightImg.style.transform = ("translate(100px,0px)");
+      firstQuote.style.display = ("none");
+      secondQuote.style.display = ("none");
+      thirdQuote.style.display = ("block");
+  }
+    else {
+      frontImg.style.opacity = ("0.1");
+      frontImg.style.zIndex = ("300");
+      frontImg.style.transform = ("translate(165px,0px)");
+      leftImg.style.opacity = ("1");
+      leftImg.style.zIndex = ("500");
+      leftImg.style.transform = ("translate(120px,20px)");
+      rightImg.style.opacity = ("0.1");
+      rightImg.style.zIndex = ("300");
+      rightImg.style.transform = ("translate(-150px,0px)");
+      firstQuote.style.display = ("none");
+      secondQuote.style.display = ("none");
+      thirdQuote.style.display = ("block");
   }
 });
 
@@ -82,7 +92,7 @@ var openBtn = document.querySelector(".open-btn");
 var closeBtn = document.querySelector(".close-btn");
 var navMenu = document.querySelector(".nav-menu");
 var navMenuOpen = document.querySelector(".nav-menu-open");
-var mobileViewport = window.matchMedia("screen and (min-width: 767px)");
+var mobileViewport = window.matchMedia("screen and (min-width: 768px)");
 
 openBtn.addEventListener("click", function open(){
   if (navMenu.className === ("nav-menu")) {

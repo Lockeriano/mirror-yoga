@@ -174,9 +174,11 @@ body #wrapper {
       width: 100%; }
   body #wrapper #second-section #carousel {
     position: relative;
-    width: 1600px;
+    width: 600px;
+    height: 500px;
     max-width: 100%;
-    padding-top: 100px; }
+    padding-top: 100px;
+    left: 10%; }
     body #wrapper #second-section #carousel img {
       position: absolute;
       text-align: center;
@@ -213,9 +215,6 @@ body #wrapper {
       transition-duration: 0.5s; }
     body #wrapper #second-section #carousel #car-buttons {
       position: absolute;
-      height: 300px;
-      width: 500px;
-      margin-left: 120px;
       max-width: 100%; }
       body #wrapper #second-section #carousel #car-buttons #car-left {
         position: absolute;
@@ -226,8 +225,8 @@ body #wrapper {
         z-index: 600;
         font-size: 18px;
         line-height: 35px;
-        left: 20%;
-        top: 130px;
+        left: 25%;
+        top: 25%;
         max-width: 100%; }
       body #wrapper #second-section #carousel #car-buttons #car-left:hover {
         background-color: #66a900;
@@ -238,12 +237,12 @@ body #wrapper {
         width: 34px;
         height: 34px;
         background-color: #333333;
-        border-radius: 75%;
+        border-radius: 50%;
         z-index: 600;
         font-size: 18px;
         line-height: 35px;
-        right: 15%;
-        top: 130px; }
+        right: 25%;
+        top: 25%; }
       body #wrapper #second-section #carousel #car-buttons #car-right:hover {
         background-color: #66a900;
         border: solid 4px #BBD196;
@@ -274,32 +273,34 @@ body #wrapper {
     font-family: "Poppins";
     font-size: 18px;
     line-height: 28px; }
-  body #wrapper #second-section .quotes .quote-block p {
-    font-family: "PT Serif";
-    font-size: 14px;
-    line-height: 24px;
-    padding-left: 40px;
-    letter-spacing: -0.5px; }
-  body #wrapper #second-section .quotes .quote-block p:before {
-    font-family: "FontAwesome";
-    content: "";
-    font-size: 20px;
-    position: absolute;
-    font-style: normal;
-    font-weight: normal;
-    top: 80px;
-    left: 15px;
-    color: #333333;
-    opacity: 0.1; }
-  body #wrapper #second-section .quotes .quote-block p:nth-of-type(1) {
-    font-style: italic;
-    padding-top: 50px;
-    padding-bottom: 15px; }
-  body #wrapper #second-section .quotes .quote-block h4 {
-    font-family: "Poppins";
-    font-size: 16px;
-    line-height: 14px;
-    padding-left: 40px; }
+  body #wrapper #second-section .quotes {
+    margin-top: -350px; }
+    body #wrapper #second-section .quotes .quote-block p {
+      font-family: "PT Serif";
+      font-size: 14px;
+      line-height: 24px;
+      padding-left: 40px;
+      letter-spacing: -0.5px; }
+    body #wrapper #second-section .quotes .quote-block p:before {
+      font-family: "FontAwesome";
+      content: "";
+      font-size: 20px;
+      position: absolute;
+      font-style: normal;
+      font-weight: normal;
+      top: 80px;
+      left: 15px;
+      color: #333333;
+      opacity: 0.1; }
+    body #wrapper #second-section .quotes .quote-block p:nth-of-type(1) {
+      font-style: italic;
+      padding-top: 50px;
+      padding-bottom: 15px; }
+    body #wrapper #second-section .quotes .quote-block h4 {
+      font-family: "Poppins";
+      font-size: 16px;
+      line-height: 14px;
+      padding-left: 40px; }
   body #wrapper #third-section {
     padding-top: 200px; }
     body #wrapper #third-section h2 {
