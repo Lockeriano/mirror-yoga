@@ -18,6 +18,9 @@ findRight.addEventListener("click", function (){
     rightImg.style.opacity = ("0.1");
     rightImg.style.zIndex = ("300");
     rightImg.style.transform = ("translate(-150px,0px)");
+    firstQuote.style.display = ("none");
+    secondQuote.style.display = ("block");
+    thirdQuote.style.display = ("none");
   }
     else if (leftImg.style.opacity === ("1")) {
       frontImg.style.opacity = ("0.1");
@@ -29,6 +32,9 @@ findRight.addEventListener("click", function (){
       rightImg.style.opacity = ("1");
       rightImg.style.zIndex = ("500");
       rightImg.style.transform = ("translate(-25px,20px)");
+      firstQuote.style.display = ("none");
+      secondQuote.style.display = ("none");
+      thirdQuote.style.display = ("block");
     }
     else {
       frontImg.style.opacity = ("1");
@@ -40,6 +46,9 @@ findRight.addEventListener("click", function (){
       rightImg.style.opacity = ("0.1");
       rightImg.style.zIndex = ("300");
       rightImg.style.transform = ("translate(90px,0px)");
+      firstQuote.style.display = ("block");
+      secondQuote.style.display = ("none");
+      thirdQuote.style.display = ("none");
     }
 });
 
@@ -68,9 +77,9 @@ findLeft.addEventListener("click", function (){
       rightImg.style.opacity = ("0.1");
       rightImg.style.zIndex = ("300");
       rightImg.style.transform = ("translate(100px,0px)");
-      firstQuote.style.display = ("none");
+      firstQuote.style.display = ("block");
       secondQuote.style.display = ("none");
-      thirdQuote.style.display = ("block");
+      thirdQuote.style.display = ("none");
   }
     else {
       frontImg.style.opacity = ("0.1");
@@ -83,8 +92,8 @@ findLeft.addEventListener("click", function (){
       rightImg.style.zIndex = ("300");
       rightImg.style.transform = ("translate(-150px,0px)");
       firstQuote.style.display = ("none");
-      secondQuote.style.display = ("none");
-      thirdQuote.style.display = ("block");
+      secondQuote.style.display = ("block");
+      thirdQuote.style.display = ("none");
   }
 });
 

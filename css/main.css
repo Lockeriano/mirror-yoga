@@ -226,9 +226,9 @@ body #wrapper {
         font-size: 18px;
         line-height: 35px;
         left: 25%;
-        top: 25%;
-        max-width: 100%; }
+        top: 25%; }
       body #wrapper #second-section #carousel #car-buttons #car-left:hover {
+        transition-duration: 0.1s;
         background-color: #66a900;
         border: solid 4px #BBD196;
         line-height: 27px; }
@@ -244,6 +244,7 @@ body #wrapper {
         right: 25%;
         top: 25%; }
       body #wrapper #second-section #carousel #car-buttons #car-right:hover {
+        transition-duration: 0.1s;
         background-color: #66a900;
         border: solid 4px #BBD196;
         font-size: 18px;
@@ -274,7 +275,8 @@ body #wrapper {
     font-size: 18px;
     line-height: 28px; }
   body #wrapper #second-section .quotes {
-    margin-top: -350px; }
+    margin-top: -350px;
+    transition-timing-function: ease-in; }
     body #wrapper #second-section .quotes .quote-block p {
       font-family: "PT Serif";
       font-size: 14px;

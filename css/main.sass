@@ -285,9 +285,9 @@ body
             line-height: 35px
             left: 25%
             top: 25%
-            max-width: 100%
 
           #car-left:hover
+            transition-duration: 0.1s
             background-color: #66a900
             border: solid 4px #BBD196
             line-height: 27px
@@ -305,6 +305,7 @@ body
             top: 25%
 
           #car-right:hover
+            transition-duration: 0.1s
             background-color: #66a900
             border: solid 4px #BBD196
             font-size: 18px
@@ -344,6 +345,10 @@ body
 
       .quotes
         margin-top: -350px
+        transition-timing-function: ease-in
+
+        .second-quote
+
         .quote-block
           p
             font-family: $serif
