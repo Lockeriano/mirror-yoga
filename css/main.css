@@ -818,25 +818,25 @@ body #wrapper {
       line-height: 26px; }
   body #wrapper #second-section .quotes .quote-block p:before {
     top: 80px; }
-  body #wrapper #second-section #background-girl-image-3 .third-article {
-    padding-bottom: 300px; }
-    body #wrapper #second-section #background-girl-image-3 .third-article .third-article-column h3:last-of-type {
-      text-align: right; }
-    body #wrapper #second-section #background-girl-image-3 .third-article .third-article-column p:last-of-type {
-      text-align: right; }
-    body #wrapper #second-section #background-girl-image-3 .third-article p {
-      font-size: 24px;
-      line-height: 36px; }
-    body #wrapper #second-section #background-girl-image-3 .third-article h2 {
-      font-size: 42px; }
-    body #wrapper #second-section #background-girl-image-3 .third-article .padding-maker {
-      padding-top: 40px; }
-    body #wrapper #second-section #background-girl-image-3 .third-article .accept-icon {
-      padding-right: 10px; }
-    body #wrapper #second-section #background-girl-image-3 .third-article h3 {
-      font-size: 26px;
-      line-height: 26px;
-      padding-top: 20px; }
+  body #wrapper #second-section #background-girl-image-3 {
+    margin-bottom: 100px; }
+    body #wrapper #second-section #background-girl-image-3 .third-article {
+      padding-bottom: 300px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article .third-article-column {
+        text-align: center; }
+      body #wrapper #second-section #background-girl-image-3 .third-article p {
+        font-size: 24px;
+        line-height: 36px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article h2 {
+        font-size: 42px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article .padding-maker {
+        padding-top: 40px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article .accept-icon {
+        padding-right: 10px; }
+      body #wrapper #second-section #background-girl-image-3 .third-article h3 {
+        font-size: 26px;
+        line-height: 26px;
+        padding-top: 20px; }
   body #wrapper #second-section .quotes {
     margin-top: -500px;
     padding-bottom: 200px; }
@@ -856,7 +856,7 @@ body #wrapper {
       padding-left: 40px;
       float: right; }
   body #wrapper #third-section {
-    margin-top: 150px;
+    margin-top: 300px;
     padding-top: 0; }
     body #wrapper #third-section .container h2 {
       font-size: 42px; }
@@ -884,8 +884,7 @@ body #wrapper {
       body #wrapper #prices-section #prices .box .button {
         font-size: 18px; }
   body #wrapper #carousel {
-    display: block;
-    margin-bottom: -650px;
+    margin-bottom: -800px;
     transform: scale(1, 1);
     margin-left: 50px; }
   body #wrapper .arrow {
@@ -920,10 +919,9 @@ body #wrapper {
     color: #66a900;
     line-height: 26px; }
   body #wrapper #second-interlude .column-1 {
-    margin-top: -100px;
+    margin-top: -120px;
     text-align: center; }
   body #wrapper #second-interlude .column-3 {
-    margin-top: 20px;
     text-align: center; }
   body #wrapper #second-interlude .second-int {
     height: 200px; }
@@ -951,9 +949,27 @@ body #wrapper {
         font-size: 16px;
         text-decoration: underline;
         transition-duration: 10s; } }
+@media (max-width: 708px) {
+  body #wrapper #second-section .quotes {
+    margin-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 100px; }
+    body #wrapper #second-section .quotes h2 {
+      line-height: 60px; }
+    body #wrapper #second-section .quotes .quote-block p:before {
+      top: 120px; }
+  body #wrapper #second-section #background-girl-image-3 .third-article {
+    padding-bottom: 50px; } }
 @media (max-width: 667px) {
   body #wrapper #carousel {
-    display: none; } }
+    margin-left: -25px; }
+  body #wrapper #second-section #background-girl-image-3 .third-article .row p {
+    font-size: 20px; } }
+@media (max-width: 568px) {
+  body #wrapper #carousel {
+    display: none; }
+  body #wrapper #third-section {
+    margin-top: 50px; } }
 @media (max-width: 320px) {
   body #wrapper nav img {
     width: 60%; }
