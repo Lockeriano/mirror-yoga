@@ -21,17 +21,6 @@ $dark-grey: #333333
   color: #e8e8e8
 
 body
-  #background-girl-image-1
-    background-image: url("../img/images/girl-image-1-bg.png")
-    background-size: cover
-    background-position: 100%
-    margin-top: 50px
-
-  #background-girl-image-2
-    background-image: url("../img/images/girl-image-2-bg.png")
-    background-size: cover
-    background-position: 1%
-    margin-top: 100px
   p
     color: #aeaeae
     font-family: $serif
@@ -47,6 +36,23 @@ body
     max-width: 100%
     margin: 0 auto
 
+    #background-girl-image-1
+      background-image: url("../img/images/girl-image-1-bg.png")
+      background-size: cover
+      background-position: 100%
+      margin-top: 50px
+      min-height: 500px
+      .col-lg-7
+        margin-top: 100px
+
+    #background-girl-image-2
+      background-image: url("../img/images/girl-image-2-bg.png")
+      background-size: cover
+      background-position: 1%
+      margin-top: 100px
+      min-height: 500px
+      .col-lg-7
+        margin-top: 100px
     .top-shape
       width: 100%
 
@@ -1262,6 +1268,12 @@ body
 @media (max-width: 420px)
   body
     #wrapper
+      #background-girl-image-1
+        .col-lg-7
+          margin-top: 0
+      #background-girl-image-2
+        .col-lg-7
+          margin-top: 0
       .p-number
         font-size: 32px
         line-height: 16px
@@ -1284,8 +1296,8 @@ body
           padding: 0 8%
 
           h1
-            font-size: 32px
-            line-height: 32px
+            font-size: 36px
+            line-height: 36px
 
           p
             padding-bottom: 0
@@ -1319,10 +1331,16 @@ body
               font-size: 36px
               line-height: 36px
               margin: 5px 0
-          .quote-block 
+          .quote-block
+            p
+              font-size: 18px
+              line-height: 26px
             p:before
-              top: 160px
-
+              top: 120px
+            p:nth-child(1)
+              margin-bottom: 30px
+            .student-info
+              font-size: 16px
       #third-section
         .container
           .row
@@ -1330,3 +1348,119 @@ body
               font-size: 36px
               line-height: 36px
               margin: 5px 0 
+            p
+              font-size: 20px
+
+      #second-interlude
+        .second-int
+          height: 250px
+        .container 
+          .row-1
+            margin-top: -125px
+      footer
+        padding-top: 0px
+        padding-bottom: 10px
+        text-align: none
+
+        .logo-box
+          margin-top: 20px
+
+        img
+          width: 14%
+          padding-right: 0
+          margin: 0 10px
+
+        p
+          font-family: $serif
+          font-size: 14px
+          line-height: 24px
+        ul
+          margin-top: 120px
+          text-align: center
+          padding: 0
+
+          li
+            box-sizing: border-box
+            display: block
+            margin: 20px
+            float: none
+            
+            a
+              font-family: $serif
+              font-size: 14px
+              line-height: 28px
+              color: #aeaeae
+
+            a:hover
+              font-size: 16px
+              text-decoration: underline
+              transition-duration: 10s
+
+@media (max-width: 415px)
+  body
+    #wrapper
+      header
+        nav
+          .open-btn
+            margin-top: 32px
+          .close-btn
+            margin-top: 30px
+        .heading
+          margin-top: 200px
+
+      #second-section
+        .quotes
+          .row
+            h2
+              font-size: 36px
+              line-height: 36px
+              margin: 5px 0
+          .quote-block
+            p
+              font-size: 18px
+              line-height: 26px
+            p:before
+              top: 160px
+      #second-interlude
+        .second-int
+          height: 300px
+        .container 
+          .row-1
+            margin-top: -180px
+
+      footer
+        p
+          font-family: $serif
+          font-size: 12px
+          line-height: 24px
+          text-align: center
+          img
+            display: block
+            position: absolute
+            left: 40%
+            top: 100%
+
+@media (max-width: 375px)
+  body
+    #wrapper
+      header
+        .heading
+          margin-top: 180px
+          h1
+            font-size: 32px
+            line-height: 32px
+      #first-interlude
+        margin-top: 200px
+        height: 380px
+
+@media (max-width: 320px)
+  body
+    #wrapper
+      header
+        .heading
+          text-align: center
+          margin-top: 120px
+          padding: 0px
+          h1
+            font-size: 30px
+            line-height: 30px

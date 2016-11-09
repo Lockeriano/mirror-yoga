@@ -14,16 +14,6 @@
   line-height: 28px;
   color: #e8e8e8; }
 
-body #background-girl-image-1 {
-  background-image: url("../img/images/girl-image-1-bg.png");
-  background-size: cover;
-  background-position: 100%;
-  margin-top: 50px; }
-body #background-girl-image-2 {
-  background-image: url("../img/images/girl-image-2-bg.png");
-  background-size: cover;
-  background-position: 1%;
-  margin-top: 100px; }
 body p {
   color: #aeaeae;
   font-family: "PT Serif";
@@ -36,6 +26,22 @@ body .second-int {
 body #wrapper {
   max-width: 100%;
   margin: 0 auto; }
+  body #wrapper #background-girl-image-1 {
+    background-image: url("../img/images/girl-image-1-bg.png");
+    background-size: cover;
+    background-position: 100%;
+    margin-top: 50px;
+    min-height: 500px; }
+    body #wrapper #background-girl-image-1 .col-lg-7 {
+      margin-top: 100px; }
+  body #wrapper #background-girl-image-2 {
+    background-image: url("../img/images/girl-image-2-bg.png");
+    background-size: cover;
+    background-position: 1%;
+    margin-top: 100px;
+    min-height: 500px; }
+    body #wrapper #background-girl-image-2 .col-lg-7 {
+      margin-top: 100px; }
   body #wrapper .top-shape {
     width: 100%; }
   body #wrapper header {
@@ -971,6 +977,10 @@ body #wrapper {
   body #wrapper #third-section {
     margin-top: 50px; } }
 @media (max-width: 420px) {
+  body #wrapper #background-girl-image-1 .col-lg-7 {
+    margin-top: 0; }
+  body #wrapper #background-girl-image-2 .col-lg-7 {
+    margin-top: 0; }
   body #wrapper .p-number {
     font-size: 32px;
     line-height: 16px;
@@ -989,8 +999,8 @@ body #wrapper {
       margin-top: 200px;
       padding: 0 8%; }
       body #wrapper header .heading h1 {
-        font-size: 32px;
-        line-height: 32px; }
+        font-size: 36px;
+        line-height: 36px; }
       body #wrapper header .heading p {
         padding-bottom: 0;
         margin-bottom: 0; }
@@ -1013,11 +1023,103 @@ body #wrapper {
     font-size: 36px;
     line-height: 36px;
     margin: 5px 0; }
+  body #wrapper #second-section .quotes .quote-block p {
+    font-size: 18px;
+    line-height: 26px; }
   body #wrapper #second-section .quotes .quote-block p:before {
-    top: 160px; }
+    top: 120px; }
+  body #wrapper #second-section .quotes .quote-block p:nth-child(1) {
+    margin-bottom: 30px; }
+  body #wrapper #second-section .quotes .quote-block .student-info {
+    font-size: 16px; }
   body #wrapper #third-section .container .row h2 {
     font-size: 36px;
     line-height: 36px;
-    margin: 5px 0; } }
+    margin: 5px 0; }
+  body #wrapper #third-section .container .row p {
+    font-size: 20px; }
+  body #wrapper #second-interlude .second-int {
+    height: 250px; }
+  body #wrapper #second-interlude .container .row-1 {
+    margin-top: -125px; }
+  body #wrapper footer {
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: none; }
+    body #wrapper footer .logo-box {
+      margin-top: 20px; }
+    body #wrapper footer img {
+      width: 14%;
+      padding-right: 0;
+      margin: 0 10px; }
+    body #wrapper footer p {
+      font-family: "PT Serif";
+      font-size: 14px;
+      line-height: 24px; }
+    body #wrapper footer ul {
+      margin-top: 120px;
+      text-align: center;
+      padding: 0; }
+      body #wrapper footer ul li {
+        box-sizing: border-box;
+        display: block;
+        margin: 20px;
+        float: none; }
+        body #wrapper footer ul li a {
+          font-family: "PT Serif";
+          font-size: 14px;
+          line-height: 28px;
+          color: #aeaeae; }
+        body #wrapper footer ul li a:hover {
+          font-size: 16px;
+          text-decoration: underline;
+          transition-duration: 10s; } }
+@media (max-width: 415px) {
+  body #wrapper header nav .open-btn {
+    margin-top: 32px; }
+  body #wrapper header nav .close-btn {
+    margin-top: 30px; }
+  body #wrapper header .heading {
+    margin-top: 200px; }
+  body #wrapper #second-section .quotes .row h2 {
+    font-size: 36px;
+    line-height: 36px;
+    margin: 5px 0; }
+  body #wrapper #second-section .quotes .quote-block p {
+    font-size: 18px;
+    line-height: 26px; }
+  body #wrapper #second-section .quotes .quote-block p:before {
+    top: 160px; }
+  body #wrapper #second-interlude .second-int {
+    height: 300px; }
+  body #wrapper #second-interlude .container .row-1 {
+    margin-top: -180px; }
+  body #wrapper footer p {
+    font-family: "PT Serif";
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center; }
+    body #wrapper footer p img {
+      display: block;
+      position: absolute;
+      left: 40%;
+      top: 100%; } }
+@media (max-width: 375px) {
+  body #wrapper header .heading {
+    margin-top: 180px; }
+    body #wrapper header .heading h1 {
+      font-size: 32px;
+      line-height: 32px; }
+  body #wrapper #first-interlude {
+    margin-top: 200px;
+    height: 380px; } }
+@media (max-width: 320px) {
+  body #wrapper header .heading {
+    text-align: center;
+    margin-top: 120px;
+    padding: 0px; }
+    body #wrapper header .heading h1 {
+      font-size: 30px;
+      line-height: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
