@@ -101,7 +101,7 @@ var openBtn = document.querySelector(".open-btn");
 var closeBtn = document.querySelector(".close-btn");
 var navMenu = document.querySelector(".nav-menu");
 var navMenuOpen = document.querySelector(".nav-menu-open");
-var mobileViewport = window.matchMedia("screen and (min-width: 768px)");
+var smallViewport = window.matchMedia("screen and (min-width: 768px)");
 
 openBtn.addEventListener("click", function open(){
   if (navMenu.className === ("nav-menu")) {
@@ -129,7 +129,7 @@ closeBtn.addEventListener("click", function close(){
     }
 });
 
-mobileViewport.addListener(function(mq) {
+smallViewport.addListener(function(mq) {
   if(mq.matches) {
     closeBtn.style.display = ("none");
     openBtn.style.display = ("none");

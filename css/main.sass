@@ -87,6 +87,7 @@ body
         img
           padding-top: 36px
           float: left
+          min-height: 80px
 
         .open-btn
           display: none
@@ -326,6 +327,7 @@ body
         background: url("../img/images/girl-image-3-bg.png") no-repeat
         background-size: cover
         background-position: 80%
+        min-height: 500px
 
         .third-article
           margin-bottom: 50px
@@ -1264,6 +1266,23 @@ body
 
       #third-section
         margin-top: 50px
+
+      header
+
+        nav
+          img
+            width: 15%
+          .close-btn
+            display: none
+            position: absolute
+            right: 6%
+            margin-top: 32px
+
+          .open-btn
+            display: block
+            position: absolute
+            right: 6%
+            margin-top: 32px
         
 @media (max-width: 420px)
   body
@@ -1444,6 +1463,9 @@ body
   body
     #wrapper
       header
+        nav
+          img
+            min-height: 0
         .heading
           margin-top: 180px
           h1

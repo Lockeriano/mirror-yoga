@@ -70,7 +70,8 @@ body #wrapper {
       padding-bottom: 255px; }
     body #wrapper header nav img {
       padding-top: 36px;
-      float: left; }
+      float: left;
+      min-height: 80px; }
     body #wrapper header nav .open-btn {
       display: none;
       position: absolute;
@@ -265,7 +266,8 @@ body #wrapper {
     margin-top: 140px;
     background: url("../img/images/girl-image-3-bg.png") no-repeat;
     background-size: cover;
-    background-position: 80%; }
+    background-position: 80%;
+    min-height: 500px; }
     body #wrapper #second-section #background-girl-image-3 .third-article {
       margin-bottom: 50px; }
       body #wrapper #second-section #background-girl-image-3 .third-article p {
@@ -975,7 +977,19 @@ body #wrapper {
   body #wrapper #carousel {
     display: none; }
   body #wrapper #third-section {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  body #wrapper header nav img {
+    width: 15%; }
+  body #wrapper header nav .close-btn {
+    display: none;
+    position: absolute;
+    right: 6%;
+    margin-top: 32px; }
+  body #wrapper header nav .open-btn {
+    display: block;
+    position: absolute;
+    right: 6%;
+    margin-top: 32px; } }
 @media (max-width: 420px) {
   body #wrapper #background-girl-image-1 .col-lg-7 {
     margin-top: 0; }
@@ -1105,6 +1119,8 @@ body #wrapper {
       left: 40%;
       top: 100%; } }
 @media (max-width: 375px) {
+  body #wrapper header nav img {
+    min-height: 0; }
   body #wrapper header .heading {
     margin-top: 180px; }
     body #wrapper header .heading h1 {
