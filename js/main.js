@@ -141,3 +141,16 @@ smallViewport.addListener(function(mq) {
     openBtn.style.display = ("block");
   }
 });
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+      document.getElementById("navigation").style.position = ("fixed");
+      document.getElementById("navigation").style.backgroundColor = ("#333");
+  }
+  else if (document.body.scrollTop < 250 || document.documentElement.scrollTop < 250) {
+      document.getElementById("navigation").style.position = ("static");
+      document.getElementById("navigation").style.backgroundColor = ("transparent");
+  }
+}

@@ -68,40 +68,43 @@ body #wrapper {
       line-height: 28px;
       letter-spacing: 0.5px;
       padding-bottom: 255px; }
-    body #wrapper header nav img {
-      padding-top: 36px;
-      float: left;
-      min-height: 80px; }
-    body #wrapper header nav .open-btn {
-      display: none;
-      position: absolute;
-      z-index: 2; }
-    body #wrapper header nav .close-btn {
-      display: none;
-      position: absolute;
-      z-index: 2; }
-    body #wrapper header nav .fa-bars {
-      color: white; }
-    body #wrapper header nav .fa-times {
-      color: white; }
-    body #wrapper header nav ul {
-      padding-top: 36px;
-      text-align: right; }
-      body #wrapper header nav ul li {
-        display: inline; }
-        body #wrapper header nav ul li a {
-          display: inline-block;
-          text-decoration: none !important;
-          margin: 16px;
-          font-family: "PT Serif";
-          font-size: 14px;
-          color: #ffffff; }
-        body #wrapper header nav ul li a:hover {
-          color: #66a900; }
-      body #wrapper header nav ul li:last-child a {
-        margin-right: 0px; }
-      body #wrapper header nav ul li:first-child a {
-        margin-left: 0px; }
+    body #wrapper header nav {
+      width: 100%;
+      z-index: 999; }
+      body #wrapper header nav img {
+        padding-top: 36px;
+        float: left;
+        min-height: 80px; }
+      body #wrapper header nav .open-btn {
+        display: none;
+        position: absolute;
+        z-index: 2; }
+      body #wrapper header nav .close-btn {
+        display: none;
+        position: absolute;
+        z-index: 2; }
+      body #wrapper header nav .fa-bars {
+        color: white; }
+      body #wrapper header nav .fa-times {
+        color: white; }
+      body #wrapper header nav ul {
+        padding-top: 36px;
+        text-align: right; }
+        body #wrapper header nav ul li {
+          display: inline; }
+          body #wrapper header nav ul li a {
+            display: inline-block;
+            text-decoration: none !important;
+            margin: 16px;
+            font-family: "PT Serif";
+            font-size: 14px;
+            color: #ffffff; }
+          body #wrapper header nav ul li a:hover {
+            color: #66a900; }
+        body #wrapper header nav ul li:last-child a {
+          margin-right: 0px; }
+        body #wrapper header nav ul li:first-child a {
+          margin-left: 0px; }
   body #wrapper #about .first-article {
     margin-top: 65px;
     margin-bottom: 65px; }
