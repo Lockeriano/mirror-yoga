@@ -142,15 +142,13 @@ smallViewport.addListener(function(mq) {
   }
 });
 
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {fixedNavbar()};
 
-function myFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-      document.getElementById("navigation").style.position = ("fixed");
-      document.getElementById("navigation").style.backgroundColor = ("#333");
+function fixedNavbar() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.querySelector("nav").className = ("navbar-fixed");
   }
-  else if (document.body.scrollTop < 250 || document.documentElement.scrollTop < 250) {
-      document.getElementById("navigation").style.position = ("static");
-      document.getElementById("navigation").style.backgroundColor = ("transparent");
+  else if (document.body.scrollTop < 50 || document.documentElement.scrollTop < 50) {
+      document.querySelector("nav").className = ("");
   }
-}
+};
