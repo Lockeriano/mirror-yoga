@@ -146,9 +146,15 @@ window.onscroll = function() {fixedNavbar()};
 
 function fixedNavbar() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      document.querySelector("nav").className = ("navbar-fixed");
+    document.querySelector("nav").className = ("navbar-fixed");
   }
   else if (document.body.scrollTop < 50 || document.documentElement.scrollTop < 50) {
-      document.querySelector("nav").className = ("");
+    document.querySelector("nav").className = ("");
   }
 };
+
+/*smallViewport.addListener(function(matchquery) {
+  if (smallViewport.matches && document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+    openBtn.style.color = ("#333333");
+  }
+});*/

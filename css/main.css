@@ -68,8 +68,7 @@ body #wrapper {
       color: #ffffff;
       font-weight: 500;
       line-height: 28px;
-      letter-spacing: 0.5px;
-      padding-bottom: 255px; }
+      letter-spacing: 0.5px; }
     body #wrapper header .navbar-fixed {
       transition-duration: 0.3s;
       transition-timing-function: ease-in-out;
@@ -110,8 +109,8 @@ body #wrapper {
             font-family: "PT Serif";
             font-size: 14px;
             color: #ffffff; }
-          body #wrapper header nav ul li a:hover {
-            color: #66a900; }
+            body #wrapper header nav ul li a:hover {
+              color: #66a900; }
         body #wrapper header nav ul li:last-child a {
           margin-right: 0px; }
         body #wrapper header nav ul li:first-child a {
@@ -144,9 +143,9 @@ body #wrapper {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       margin-right: 10px; }
-    body #wrapper #about .lead #circle:hover {
-      background: #7ecc00;
-      text-decoration: none; }
+      body #wrapper #about .lead .circle:hover {
+        background: #7ecc00;
+        text-decoration: none; }
     body #wrapper #about .lead a {
       font-size: "Poppins";
       font-size: 15px;
@@ -195,8 +194,8 @@ body #wrapper {
         color: #66a900;
         line-height: 26px;
         transition-duration: 0.2s; }
-      body #wrapper #first-interlude .row-1 .btn:hover {
-        opacity: 0.6; }
+        body #wrapper #first-interlude .row-1 .btn:hover {
+          opacity: 0.6; }
     body #wrapper #first-interlude .top-int {
       width: 100%; }
   body #wrapper #second-section #carousel {
@@ -254,11 +253,11 @@ body #wrapper {
         line-height: 35px;
         left: 25%;
         top: 25%; }
-      body #wrapper #second-section #carousel #car-buttons #car-left:hover {
-        transition-duration: 0.1s;
-        background-color: #66a900;
-        border: solid 4px #BBD196;
-        line-height: 27px; }
+        body #wrapper #second-section #carousel #car-buttons #car-left:hover {
+          transition-duration: 0.1s;
+          background-color: #66a900;
+          border: solid 4px #BBD196;
+          line-height: 27px; }
       body #wrapper #second-section #carousel #car-buttons #car-right {
         position: absolute;
         width: 34px;
@@ -270,12 +269,12 @@ body #wrapper {
         line-height: 35px;
         right: 29%;
         top: 25%; }
-      body #wrapper #second-section #carousel #car-buttons #car-right:hover {
-        transition-duration: 0.1s;
-        background-color: #66a900;
-        border: solid 4px #BBD196;
-        font-size: 18px;
-        line-height: 27px; }
+        body #wrapper #second-section #carousel #car-buttons #car-right:hover {
+          transition-duration: 0.1s;
+          background-color: #66a900;
+          border: solid 4px #BBD196;
+          font-size: 18px;
+          line-height: 27px; }
   body #wrapper #second-section #background-girl-image-3 {
     margin-top: 140px;
     background: url("../img/images/girl-image-3-bg.png") no-repeat;
@@ -312,17 +311,17 @@ body #wrapper {
         line-height: 24px;
         padding-left: 40px;
         letter-spacing: -0.5px; }
-      body #wrapper #second-section .quotes .quote-block p:before {
-        font-family: "FontAwesome";
-        content: "";
-        font-size: 20px;
-        position: absolute;
-        font-style: normal;
-        font-weight: normal;
-        top: 80px;
-        left: 15px;
-        color: #333333;
-        opacity: 0.1; }
+        body #wrapper #second-section .quotes .quote-block p:before {
+          font-family: "FontAwesome";
+          content: "";
+          font-size: 20px;
+          position: absolute;
+          font-style: normal;
+          font-weight: normal;
+          top: 80px;
+          left: 15px;
+          color: #333333;
+          opacity: 0.1; }
       body #wrapper #second-section .quotes .quote-block p:nth-of-type(1) {
         font-style: italic;
         margin-top: 50px;
@@ -459,8 +458,8 @@ body #wrapper {
       color: #66a900;
       line-height: 26px;
       transition-duration: 0.2s; }
-    body #wrapper #second-interlude .container .btn:hover {
-      opacity: 0.6; }
+      body #wrapper #second-interlude .container .btn:hover {
+        opacity: 0.6; }
   body #wrapper footer {
     padding-top: 80px;
     padding-bottom: 20px; }
@@ -479,10 +478,10 @@ body #wrapper {
         font-size: 14px;
         line-height: 28px;
         color: #aeaeae; }
-      body #wrapper footer li a:hover {
-        font-size: 16px;
-        text-decoration: underline;
-        transition-duration: 10s; }
+        body #wrapper footer li a:hover {
+          font-size: 16px;
+          text-decoration: underline;
+          transition-duration: 10s; }
 
 @media (min-width: 1700px) {
   body #wrapper #first-interlude {
@@ -706,14 +705,18 @@ body #wrapper {
   body #wrapper .p-number {
     font-size: 72px; }
   body #wrapper header {
-    background-position: left;
-    padding-bottom: 180px; }
+    background-position: 50%;
+    padding-bottom: 0px; }
+    body #wrapper header .heading {
+      margin-left: 0;
+      margin-top: 220px;
+      text-align: center; }
     body #wrapper header nav .container {
-      padding-left: 0 !important; }
+      padding-left: 0; }
       body #wrapper header nav .container .row {
         margin: 0 auto; }
         body #wrapper header nav .container .row .nav-col-2 {
-          padding-left: 0 !important;
+          padding-left: 0;
           position: static; }
     body #wrapper header nav .nav-menu {
       display: none; }
@@ -721,12 +724,12 @@ body #wrapper {
       display: none;
       position: absolute;
       right: 6%;
-      margin-top: 42px; }
+      margin-top: 32px; }
     body #wrapper header nav .open-btn {
       display: block;
       position: absolute;
       right: 6%;
-      margin-top: 28px; }
+      margin-top: 32px; }
     body #wrapper header nav .nav-menu-open {
       display: block;
       position: absolute;
@@ -750,11 +753,8 @@ body #wrapper {
       margin-left: 20px;
       position: absolute;
       z-index: 2;
-      width: 10%; }
-    body #wrapper header nav .heading {
-      margin-left: 0;
-      margin-top: 200px; }
-      body #wrapper header nav .heading h1 {
+      top: 10px; }
+      body #wrapper header nav img h1 {
         text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.3);
         font-size: 64px;
         font-family: "Poppins";
@@ -762,7 +762,7 @@ body #wrapper {
         text-transform: uppercase;
         line-height: 64px;
         font-weight: 500; }
-      body #wrapper header nav .heading p {
+      body #wrapper header nav img p {
         padding-top: 20px;
         font-family: "PT Serif";
         font-size: 32px;
@@ -862,16 +862,16 @@ body #wrapper {
         line-height: 26px;
         padding-top: 20px; }
   body #wrapper #second-section .quotes {
-    margin-top: -500px;
-    margin-bottom: 200px; }
+    margin-top: -100px;
+    margin-bottom: -150px; }
     body #wrapper #second-section .quotes .row .student-info {
       text-align: right;
       clear: both; }
     body #wrapper #second-section .quotes .row h2 {
       font-size: 42px; }
     body #wrapper #second-section .quotes .row p {
-      font-size: 22px;
-      line-height: 34px; }
+      font-size: 16px;
+      line-height: 24px; }
     body #wrapper #second-section .quotes .row p:nth-child(1) {
       margin-top: 50px;
       margin-bottom: 10px; }
@@ -908,9 +908,7 @@ body #wrapper {
       body #wrapper #prices-section #prices .box .button {
         font-size: 18px; }
   body #wrapper #carousel {
-    margin-bottom: -800px;
-    transform: scale(1, 1);
-    margin-left: 50px; }
+    display: none; }
   body #wrapper .arrow {
     display: none; }
   body #wrapper #second-interlude .container .row-1 {
@@ -952,18 +950,23 @@ body #wrapper {
   body #wrapper footer {
     padding-top: 0px;
     padding-bottom: 20px; }
+    body #wrapper footer ul {
+      padding: 0; }
     body #wrapper footer .logo-box {
-      margin-top: 30px; }
+      margin-top: 30px;
+      text-align: center; }
     body #wrapper footer img {
-      margin: 10px; }
+      margin: 10px;
+      width: 8%; }
     body #wrapper footer p {
       font-family: "PT Serif";
       font-size: 14px;
       line-height: 28px; }
     body #wrapper footer li {
       display: block;
-      margin: 10px;
-      float: right; }
+      margin: 20px;
+      float: none;
+      text-align: center; }
       body #wrapper footer li a {
         font-family: "PT Serif";
         font-size: 14px;
@@ -977,16 +980,18 @@ body #wrapper {
   body #wrapper #second-section .quotes {
     margin-top: 50px;
     padding-bottom: 0px;
-    margin-bottom: 100px; }
+    margin-bottom: 0px; }
     body #wrapper #second-section .quotes h2 {
       line-height: 60px; }
     body #wrapper #second-section .quotes .quote-block p:before {
       top: 120px; }
   body #wrapper #second-section #background-girl-image-3 .third-article {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  body #wrapper #third-section {
+    margin-top: 0px; } }
 @media (max-width: 667px) {
-  body #wrapper #carousel {
-    margin-left: -25px; }
+  body #wrapper #third-section {
+    margin-top: 50px; }
   body #wrapper #second-section #background-girl-image-3 .third-article .row p {
     font-size: 20px; } }
 @media (max-width: 568px) {
@@ -994,8 +999,12 @@ body #wrapper {
     display: none; }
   body #wrapper #third-section {
     margin-top: 50px; }
-  body #wrapper header nav img {
-    width: 15%; }
+  body #wrapper header .heading h1 {
+    font-size: 34px;
+    line-height: 34px; }
+  body #wrapper header .heading p {
+    font-size: 18px;
+    line-height: 24px; }
   body #wrapper header nav .close-btn {
     display: none;
     position: absolute;
@@ -1005,7 +1014,34 @@ body #wrapper {
     display: block;
     position: absolute;
     right: 6%;
-    margin-top: 32px; } }
+    margin-top: 32px; }
+  body #wrapper #first-interlude {
+    margin-top: 300px; } }
+@media (max-width: 450px) {
+  body #wrapper header nav .open-btn {
+    margin-top: 32px; }
+  body #wrapper header nav .close-btn {
+    margin-top: 30px; }
+  body #wrapper header .heading {
+    margin-top: 200px; }
+  body #wrapper #second-section .quotes .row h2 {
+    font-size: 36px;
+    line-height: 36px;
+    margin: 5px 0; }
+  body #wrapper #second-section .quotes .quote-block p {
+    font-size: 18px;
+    line-height: 26px; }
+  body #wrapper #second-section .quotes .quote-block p:before {
+    top: 160px; }
+  body #wrapper #second-interlude .second-int {
+    height: 300px; }
+  body #wrapper #second-interlude .container .row-1 {
+    margin-top: -180px; }
+  body #wrapper footer p {
+    font-family: "PT Serif";
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center; } }
 @media (max-width: 420px) {
   body #wrapper #background-girl-image-1 .col-lg-7 {
     margin-top: 0; }
@@ -1019,7 +1055,6 @@ body #wrapper {
   body #wrapper header {
     padding-bottom: 0; }
     body #wrapper header nav img {
-      width: 16%;
       margin-left: 0px; }
     body #wrapper header nav .nav-menu-open {
       height: 100vh;
@@ -1033,6 +1068,8 @@ body #wrapper {
       body #wrapper header .heading p {
         padding-bottom: 0;
         margin-bottom: 0; }
+  body #wrapper #first-interlude {
+    margin-top: 0px; }
   body #wrapper #about h2 {
     font-size: 36px;
     line-height: 36px;
@@ -1071,71 +1108,9 @@ body #wrapper {
     height: 250px; }
   body #wrapper #second-interlude .container .row-1 {
     margin-top: -125px; }
-  body #wrapper footer {
-    padding-top: 0px;
-    padding-bottom: 10px;
-    text-align: none; }
-    body #wrapper footer .logo-box {
-      margin-top: 20px; }
-    body #wrapper footer img {
-      width: 14%;
-      padding-right: 0;
-      margin: 0 10px; }
-    body #wrapper footer p {
-      font-family: "PT Serif";
-      font-size: 14px;
-      line-height: 24px; }
-    body #wrapper footer ul {
-      margin-top: 120px;
-      text-align: center;
-      padding: 0; }
-      body #wrapper footer ul li {
-        box-sizing: border-box;
-        display: block;
-        margin: 20px;
-        float: none; }
-        body #wrapper footer ul li a {
-          font-family: "PT Serif";
-          font-size: 14px;
-          line-height: 28px;
-          color: #aeaeae; }
-        body #wrapper footer ul li a:hover {
-          font-size: 16px;
-          text-decoration: underline;
-          transition-duration: 10s; } }
-@media (max-width: 450px) {
-  body #wrapper header nav .open-btn {
-    margin-top: 32px; }
-  body #wrapper header nav .close-btn {
-    margin-top: 30px; }
-  body #wrapper header .heading {
-    margin-top: 200px; }
-  body #wrapper #second-section .quotes .row h2 {
-    font-size: 36px;
-    line-height: 36px;
-    margin: 5px 0; }
-  body #wrapper #second-section .quotes .quote-block p {
-    font-size: 18px;
-    line-height: 26px; }
-  body #wrapper #second-section .quotes .quote-block p:before {
-    top: 160px; }
-  body #wrapper #second-interlude .second-int {
-    height: 300px; }
-  body #wrapper #second-interlude .container .row-1 {
-    margin-top: -180px; }
-  body #wrapper footer p {
-    font-family: "PT Serif";
-    font-size: 12px;
-    line-height: 24px;
-    text-align: center; }
-    body #wrapper footer p img {
-      display: block;
-      position: absolute;
-      left: 40%;
-      top: 100%; } }
+  body #wrapper footer img {
+    width: 15%; } }
 @media (max-width: 375px) {
-  body #wrapper header nav img {
-    min-height: 0; }
   body #wrapper header .heading {
     margin-top: 180px; }
     body #wrapper header .heading h1 {
@@ -1143,7 +1118,9 @@ body #wrapper {
       line-height: 32px; }
   body #wrapper #first-interlude {
     margin-top: 200px;
-    height: 380px; } }
+    height: 380px; }
+  body #wrapper footer img {
+    width: 15%; } }
 @media (max-width: 320px) {
   body #wrapper header .heading {
     text-align: center;
@@ -1151,6 +1128,14 @@ body #wrapper {
     padding: 0px; }
     body #wrapper header .heading h1 {
       font-size: 30px;
-      line-height: 30px; } }
+      line-height: 30px; }
+  body #wrapper #second-interlude .container .row-1 {
+    margin-top: -180px; }
+  body #wrapper footer img {
+    width: 15%;
+    display: block;
+    margin-left: 45%; }
+  body #wrapper footer .logo-box {
+    line-height: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

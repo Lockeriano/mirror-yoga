@@ -308,16 +308,19 @@
       .p-number
         font-size: 72px
       header
-        background-position: left
-        padding-bottom: 180px
-
+        background-position: 50%
+        padding-bottom: 0px
+        .heading
+          margin-left: 0
+          margin-top: 220px
+          text-align: center
         nav
           .container
-            padding-left: 0 !important
+            padding-left: 0
             .row
               margin: 0 auto
               .nav-col-2
-                padding-left: 0 !important
+                padding-left: 0
                 position: static
           .nav-menu
             display: none
@@ -326,13 +329,13 @@
             display: none
             position: absolute
             right: 6%
-            margin-top: 42px
+            margin-top: 32px
 
           .open-btn
             display: block
             position: absolute
             right: 6%
-            margin-top: 28px
+            margin-top: 32px
 
           .nav-menu-open
             display: block
@@ -360,11 +363,7 @@
             margin-left: 20px
             position: absolute
             z-index: 2
-            width: 10%
-
-          .heading
-            margin-left: 0
-            margin-top: 200px
+            top: 10px
 
             h1
               text-shadow: 0px 2px 16px rgba(0,0,0,0.3)
@@ -508,8 +507,8 @@
               padding-top: 20px
 
         .quotes
-          margin-top: -500px
-          margin-bottom: 200px
+          margin-top: -100px
+          margin-bottom: -150px
           .row
             .student-info
               text-align: right
@@ -519,8 +518,8 @@
               font-size: 42px
 
             p
-              font-size: 22px
-              line-height: 34px
+              font-size: 16px
+              line-height: 24px
 
             p:nth-child(1)
               margin-top: 50px
@@ -570,9 +569,7 @@
               font-size: 18px
 
       #carousel
-        margin-bottom: -800px
-        transform: scale(1, 1)
-        margin-left: 50px
+        display: none
       
       .arrow
         display: none
@@ -626,12 +623,16 @@
       footer
         padding-top: 0px
         padding-bottom: 20px
+        ul
+          padding: 0
 
         .logo-box
           margin-top: 30px
+          text-align: center
 
         img
           margin: 10px
+          width: 8%
 
         p
           font-family: $serif
@@ -640,8 +641,9 @@
 
         li
           display: block
-          margin: 10px
-          float: right
+          margin: 20px
+          float: none
+          text-align: center
           
           a
             font-family: $serif
@@ -660,7 +662,7 @@
         .quotes
           margin-top: 50px
           padding-bottom: 0px
-          margin-bottom: 100px
+          margin-bottom: 0px
           h2
             line-height: 60px
           .quote-block
@@ -669,12 +671,14 @@
         #background-girl-image-3
           .third-article
             margin-bottom: 50px
+      #third-section
+        margin-top: 0px
 
 @media (max-width: 667px)
   body
     #wrapper
-      #carousel
-        margin-left: -25px
+      #third-section
+        margin-top: 50px
         
       #second-section 
         #background-girl-image-3 
@@ -693,10 +697,16 @@
         margin-top: 50px
 
       header
+        .heading
+          h1
+            font-size: 34px
+            line-height: 34px
 
+          p
+            font-size: 18px
+            line-height: 24px
         nav
           img
-            width: 15%
           .close-btn
             display: none
             position: absolute
@@ -708,7 +718,49 @@
             position: absolute
             right: 6%
             margin-top: 32px
-        
+
+      #first-interlude
+        margin-top: 300px
+
+@media (max-width: 450px)
+  body
+    #wrapper
+      header
+        nav
+          .open-btn
+            margin-top: 32px
+          .close-btn
+            margin-top: 30px
+        .heading
+          margin-top: 200px
+
+      #second-section
+        .quotes
+          .row
+            h2
+              font-size: 36px
+              line-height: 36px
+              margin: 5px 0
+          .quote-block
+            p
+              font-size: 18px
+              line-height: 26px
+            p:before
+              top: 160px
+      #second-interlude
+        .second-int
+          height: 300px
+        .container 
+          .row-1
+            margin-top: -180px
+
+      footer
+        p
+          font-family: $serif
+          font-size: 12px
+          line-height: 24px
+          text-align: center
+
 @media (max-width: 420px)
   body
     #wrapper
@@ -727,7 +779,6 @@
         padding-bottom: 0
         nav
           img
-            width: 16%
             margin-left: 0px
 
           .nav-menu-open
@@ -745,6 +796,8 @@
           p
             padding-bottom: 0
             margin-bottom: 0
+      #first-interlude
+        margin-top: 0px
       #about
         h2
           font-size: 36px
@@ -801,95 +854,14 @@
           .row-1
             margin-top: -125px
       footer
-        padding-top: 0px
-        padding-bottom: 10px
-        text-align: none
-
-        .logo-box
-          margin-top: 20px
-
         img
-          width: 14%
-          padding-right: 0
-          margin: 0 10px
-
-        p
-          font-family: $serif
-          font-size: 14px
-          line-height: 24px
-        ul
-          margin-top: 120px
-          text-align: center
-          padding: 0
-
-          li
-            box-sizing: border-box
-            display: block
-            margin: 20px
-            float: none
-            
-            a
-              font-family: $serif
-              font-size: 14px
-              line-height: 28px
-              color: #aeaeae
-
-            a:hover
-              font-size: 16px
-              text-decoration: underline
-              transition-duration: 10s
-
-@media (max-width: 450px)
-  body
-    #wrapper
-      header
-        nav
-          .open-btn
-            margin-top: 32px
-          .close-btn
-            margin-top: 30px
-        .heading
-          margin-top: 200px
-
-      #second-section
-        .quotes
-          .row
-            h2
-              font-size: 36px
-              line-height: 36px
-              margin: 5px 0
-          .quote-block
-            p
-              font-size: 18px
-              line-height: 26px
-            p:before
-              top: 160px
-      #second-interlude
-        .second-int
-          height: 300px
-        .container 
-          .row-1
-            margin-top: -180px
-
-      footer
-        p
-          font-family: $serif
-          font-size: 12px
-          line-height: 24px
-          text-align: center
-          img
-            display: block
-            position: absolute
-            left: 40%
-            top: 100%
+          width: 15%
 
 @media (max-width: 375px)
   body
     #wrapper
       header
         nav
-          img
-            min-height: 0
         .heading
           margin-top: 180px
           h1
@@ -898,6 +870,9 @@
       #first-interlude
         margin-top: 200px
         height: 380px
+      footer
+        img
+          width: 15%
 
 @media (max-width: 320px)
   body
@@ -910,3 +885,16 @@
           h1
             font-size: 30px
             line-height: 30px
+      #second-interlude
+        .container 
+          .row-1
+            margin-top: -180px
+
+      footer
+        img
+          width: 15%
+          display: block
+          margin-left: 45%
+
+        .logo-box
+          line-height: 10px
