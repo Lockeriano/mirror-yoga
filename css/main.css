@@ -1153,6 +1153,8 @@ body #wrapper {
     body #wrapper header .heading h1 {
       font-size: 30px;
       line-height: 30px; }
+  body #wrapper #first-interlude {
+    height: 380px; }
   body #wrapper #second-interlude .container .row-1 {
     margin-top: -180px; }
   body #wrapper footer img {
