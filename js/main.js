@@ -152,9 +152,3 @@ function fixedNavbar() {
     document.querySelector("nav").className = ("");
   }
 };
-
-/*smallViewport.addListener(function(matchquery) {
-  if (smallViewport.matches && document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
-    openBtn.style.color = ("#333333");
-  }
-});*/

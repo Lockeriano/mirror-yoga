@@ -338,12 +338,10 @@
             margin-top: 32px
 
           .nav-menu-open
-            display: block
-            position: absolute
-            padding-top: 100px
-            background-color: #333333
+            padding-top: 150px
+            background-color: transparentize(#333333, .05)
             width: 100%
-            height: 550px
+            height: 600px
             z-index: 1
             padding-left: 0
 
@@ -706,7 +704,6 @@
             font-size: 18px
             line-height: 24px
         nav
-          img
           .close-btn
             display: none
             position: absolute
@@ -862,6 +859,13 @@
     #wrapper
       header
         nav
+          .open-btn
+            margin-top: 25px
+          .close-btn
+            margin-top: 25px
+          .nav-menu-open
+            padding-top: 130px
+
         .heading
           margin-top: 180px
           h1
@@ -869,18 +873,34 @@
             line-height: 32px
       #first-interlude
         margin-top: 200px
-        height: 380px
+        height: 350px
+
+      #second-interlude
+        .container
+          .row-1
+            margin-top: -150px
       footer
         img
           width: 15%
 
-@media (max-width: 320px)
+@media only screen and (min-device-width : 320px) and (max-device-height : 568px)
   body
     #wrapper
       header
+        nav
+          .nav-menu-open
+            padding-top: 120px
+            background-color: transparentize(#333333, .05)
+            width: 100%
+            height: 100vh
+            z-index: 1
+            padding-left: 0
+            li
+              a
+                font-size: 20px
         .heading
           text-align: center
-          margin-top: 120px
+          margin-top: 150px
           padding: 0px
           h1
             font-size: 30px
@@ -898,3 +918,14 @@
 
         .logo-box
           line-height: 10px
+
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px)
+  body
+    #wrapper
+      header
+        nav
+          .nav-menu-open
+            padding-top: 90px
+
+        .heading
+          margin-top: 120px

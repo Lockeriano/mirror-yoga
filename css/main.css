@@ -93,6 +93,15 @@ body #wrapper {
         display: none;
         position: absolute;
         z-index: 2; }
+      body #wrapper header nav .nav-menu-open {
+        display: block;
+        position: absolute;
+        padding-top: 120px;
+        background-color: rgba(51, 51, 51, 0.95);
+        width: 100%;
+        height: 550px;
+        z-index: 1;
+        padding-left: 0; }
       body #wrapper header nav .fa-bars {
         color: white; }
       body #wrapper header nav .fa-times {
@@ -731,12 +740,10 @@ body #wrapper {
       right: 6%;
       margin-top: 32px; }
     body #wrapper header nav .nav-menu-open {
-      display: block;
-      position: absolute;
-      padding-top: 100px;
-      background-color: #333333;
+      padding-top: 150px;
+      background-color: rgba(51, 51, 51, 0.95);
       width: 100%;
-      height: 550px;
+      height: 600px;
       z-index: 1;
       padding-left: 0; }
     body #wrapper header nav ul {
@@ -1111,6 +1118,12 @@ body #wrapper {
   body #wrapper footer img {
     width: 15%; } }
 @media (max-width: 375px) {
+  body #wrapper header nav .open-btn {
+    margin-top: 25px; }
+  body #wrapper header nav .close-btn {
+    margin-top: 25px; }
+  body #wrapper header nav .nav-menu-open {
+    padding-top: 130px; }
   body #wrapper header .heading {
     margin-top: 180px; }
     body #wrapper header .heading h1 {
@@ -1118,13 +1131,24 @@ body #wrapper {
       line-height: 32px; }
   body #wrapper #first-interlude {
     margin-top: 200px;
-    height: 380px; }
+    height: 350px; }
+  body #wrapper #second-interlude .container .row-1 {
+    margin-top: -150px; }
   body #wrapper footer img {
     width: 15%; } }
-@media (max-width: 320px) {
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+  body #wrapper header nav .nav-menu-open {
+    padding-top: 120px;
+    background-color: rgba(51, 51, 51, 0.95);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    padding-left: 0; }
+    body #wrapper header nav .nav-menu-open li a {
+      font-size: 20px; }
   body #wrapper header .heading {
     text-align: center;
-    margin-top: 120px;
+    margin-top: 150px;
     padding: 0px; }
     body #wrapper header .heading h1 {
       font-size: 30px;
@@ -1137,5 +1161,10 @@ body #wrapper {
     margin-left: 45%; }
   body #wrapper footer .logo-box {
     line-height: 10px; } }
+@media only screen and (min-device-width: 320px) and (max-device-height: 480px) {
+  body #wrapper header nav .nav-menu-open {
+    padding-top: 90px; }
+  body #wrapper header .heading {
+    margin-top: 120px; } }
 
 /*# sourceMappingURL=main.css.map */
