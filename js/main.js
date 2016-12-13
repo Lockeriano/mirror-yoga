@@ -10,13 +10,13 @@ var thirdQuote = document.querySelector(".third-quote");
 findRight.addEventListener("click", function (){
   if (frontImg.style.opacity === ("1")) {
     frontImg.style.opacity = ("0.1");
-    frontImg.style.zIndex = ("300");
+    frontImg.style.zIndex = ("1");
     frontImg.style.transform = ("translate(160px,0px)");
     leftImg.style.opacity = ("1");
-    leftImg.style.zIndex = ("500");
+    leftImg.style.zIndex = ("2");
     leftImg.style.transform = ("translate(125px,20px)");
     rightImg.style.opacity = ("0.1");
-    rightImg.style.zIndex = ("300");
+    rightImg.style.zIndex = ("1");
     rightImg.style.transform = ("translate(-150px,0px)");
     firstQuote.style.display = ("none");
     secondQuote.style.display = ("block");
@@ -24,13 +24,13 @@ findRight.addEventListener("click", function (){
   }
     else if (leftImg.style.opacity === ("1")) {
       frontImg.style.opacity = ("0.1");
-      frontImg.style.zIndex = ("300");
+      frontImg.style.zIndex = ("1");
       frontImg.style.transform = ("translate(-100px,0px)");
       leftImg.style.opacity = ("0.1");
-      leftImg.style.zIndex = ("300");
+      leftImg.style.zIndex = ("1");
       leftImg.style.transform = ("translate(250px,0px)");
       rightImg.style.opacity = ("1");
-      rightImg.style.zIndex = ("500");
+      rightImg.style.zIndex = ("2");
       rightImg.style.transform = ("translate(-25px,20px)");
       firstQuote.style.display = ("none");
       secondQuote.style.display = ("none");
@@ -38,13 +38,13 @@ findRight.addEventListener("click", function (){
     }
     else {
       frontImg.style.opacity = ("1");
-      frontImg.style.zIndex = ("500");
+      frontImg.style.zIndex = ("2");
       frontImg.style.transform = ("translate(30px,20px)");
       leftImg.style.opacity = ("0.1");
-      leftImg.style.zIndex = ("300");
+      leftImg.style.zIndex = ("1");
       leftImg.style.transform = ("translate(0px,0px)");
       rightImg.style.opacity = ("0.1");
-      rightImg.style.zIndex = ("300");
+      rightImg.style.zIndex = ("1");
       rightImg.style.transform = ("translate(90px,0px)");
       firstQuote.style.display = ("block");
       secondQuote.style.display = ("none");
@@ -55,13 +55,13 @@ findRight.addEventListener("click", function (){
 findLeft.addEventListener("click", function (){
   if (frontImg.style.opacity === ("1")) {
     frontImg.style.opacity = ("0.1");
-    frontImg.style.zIndex = ("300");
+    frontImg.style.zIndex = ("1");
     frontImg.style.transform = ("translate(-100px,0px)");
     leftImg.style.opacity = ("0.1");
-    leftImg.style.zIndex = ("300");
+    leftImg.style.zIndex = ("1");
     leftImg.style.transform = ("translate(245px,0px)");
     rightImg.style.opacity = ("1");
-    rightImg.style.zIndex = ("500");
+    rightImg.style.zIndex = ("2");
     rightImg.style.transform = ("translate(-25px,20px)");
     firstQuote.style.display = ("none");
     secondQuote.style.display = ("none");
@@ -69,13 +69,13 @@ findLeft.addEventListener("click", function (){
   }
     else if (leftImg.style.opacity === ("1")) {
       frontImg.style.opacity = ("1");
-      frontImg.style.zIndex = ("500");
+      frontImg.style.zIndex = ("2");
       frontImg.style.transform = ("translate(30px,20px)");
       leftImg.style.opacity = ("0.1");
-      leftImg.style.zIndex = ("300");
+      leftImg.style.zIndex = ("1");
       leftImg.style.transform = ("translate(0px,0px)");
       rightImg.style.opacity = ("0.1");
-      rightImg.style.zIndex = ("300");
+      rightImg.style.zIndex = ("1");
       rightImg.style.transform = ("translate(100px,0px)");
       firstQuote.style.display = ("block");
       secondQuote.style.display = ("none");
@@ -83,13 +83,13 @@ findLeft.addEventListener("click", function (){
   }
     else {
       frontImg.style.opacity = ("0.1");
-      frontImg.style.zIndex = ("300");
+      frontImg.style.zIndex = ("1");
       frontImg.style.transform = ("translate(165px,0px)");
       leftImg.style.opacity = ("1");
-      leftImg.style.zIndex = ("500");
+      leftImg.style.zIndex = ("2");
       leftImg.style.transform = ("translate(120px,20px)");
       rightImg.style.opacity = ("0.1");
-      rightImg.style.zIndex = ("300");
+      rightImg.style.zIndex = ("1");
       rightImg.style.transform = ("translate(-150px,0px)");
       firstQuote.style.display = ("none");
       secondQuote.style.display = ("block");

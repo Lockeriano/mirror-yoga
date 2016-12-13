@@ -3,11 +3,10 @@
   <head>
     <title>Mirror Yoga</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Poppins:600' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Poppins:600|PT+Serif' rel='stylesheet' type='text/css'>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet" type='text/css'>
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
@@ -17,7 +16,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-4 col-md-4 nav-col-1">
-                <a href="#"><img src="img/images/header-logo.png" alt="Logo"></a>
+                <a href="#"><img src="img/images/header-logo.png" alt="Main page"></a>
               </div>
               <div class="col-lg-8 col-md-8 col-sm-10 nav-col-2">
                 <ul class="nav-menu">
@@ -28,8 +27,14 @@
                   <li><a href="#" title="Prices of our services">Pricing</a></li>
                   <li><a href="#" title="Take a look at our blog">Blog</a></li>
                 </ul>
-                <i class="fa fa-bars fa-3x open-btn" aria-hidden="true"></i>
-                <i class="fa fa-times fa-3x close-btn" aria-hidden="true"></i>
+                <button class="open-btn">
+                  <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+                  <span class="sr-only">Close menu</span>
+                </button>
+                <button class="close-btn">
+                  <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+                  <span class="sr-only">Close menu</span>
+                </button>
               </div>
             </div>
           </div>
@@ -44,13 +49,13 @@
           </div>
         </div>
       </header>
-      <section id="about">
-        <img class="top-shape" src="img/images/top-shape.gif" alt="Top shape">
+      <article id="main">
+        <img class="top-shape" src="img/images/top-shape.gif">
         <div id="background-girl-image-1">
           <div class="container first-article">
             <div class="row">
               <div class="col-lg-7 col-md-7">
-                <span class="p-number">01.</span><h2> What is <span class="green-text">Yoga?</span></h2>
+                <span class="p-number"><h2> What is <span class="green-text">Yoga?</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod 
                 tincidunt ut laoreet dolore magna aliquam erat volutpat.</p><br>
                 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel 
@@ -64,19 +69,21 @@
           <div class="container second-article">
             <div class="row">
               <div class="col-lg-7 col-lg-offset-5 col-md-7 col-md-offset-5">
-                <span class="p-number">02.</span><h2> Who can <span class="green-text">practice?</span></h2>
+                <span class="p-number"><h2> Who can <span class="green-text">practice?</span></h2>
                 <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat
                 illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
                 blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p><br>
-                <p class="lead"><a class="circle">1</a>Nam liber tempor cum soluta nobis eleifend option congue.</p>
-                <p class="lead"><a class="circle">2</a>Claritas est etiam processus dynamicus.</p>
+                <ol class="circle">
+                  <li class="circle__item">Nam liber tempor cum soluta nobis eleifend option congue.</li>
+                  <li class="circle__item">Claritas est etiam processus dynamicus.</li>
+                </ol>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </article>
       <section id="first-interlude">
-        <img class="img-responsive top-int" src="img/images/first-top-shape.png" alt="interlude">
+        <img class="img-responsive top-int" src="img/images/first-top-shape.png">
         <div class="container">
           <div class="row row-1">
             <div class="column-1 col-lg-6 col-md-8 col-sm-12">
@@ -84,7 +91,7 @@
               <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
             </div>
             <div class="column-2 col-lg-3">
-              <img class="arrow" src="img/images/arrow.png" alt="Pointing arrow">
+              <img class="arrow" src="img/images/arrow.png">
             </div>
             <div class="column-3 col-lg-3 col-md-4 col-sm-12">
               <button class="btn">Get your free registration</button>
@@ -97,26 +104,26 @@
           <div class="container third-article">
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-12">
-                <h2><span class="p-number">03.</span> Why choose <span class="green-text">us?</span></h2>
+                <span class="p-number"><h2> Why choose <span class="green-text">us?</span></h2>
                 <p class="padding-maker">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                 tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                 <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 third-article-column">
-                    <h3><img src="img/accept-icon.png" class="accept-icon" alt="accept-icon">Expert Trainers</h3>
+                    <h3><img src="img/accept-icon.png" class="accept-icon">Expert Trainers</h3>
                     <p>Duis autem vel eum iriure dolor in hendrerit 
                     vulputate velit esse molestie consequat.</p>
 
-                    <h3><img src="img/accept-icon.png" class="accept-icon" alt="accept-icon">Awesome Support</h3>
+                    <h3><img src="img/accept-icon.png" class="accept-icon">Awesome Support</h3>
                     <p>Duis autem vel eum iriure dolor in hendrerit 
                     vulputate velit esse molestie consequat.</p>
                   </div>
 
                   <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 third-article-column">
-                    <h3><img src="img/accept-icon.png" class="accept-icon" alt="accept-icon">Training Sessions</h3>
+                    <h3><img src="img/accept-icon.png" class="accept-icon">Training Sessions</h3>
                     <p>Duis autem vel eum iriure dolor in hendrerit 
                     vulputate velit esse molestie consequat.</p>
 
-                    <h3><img src="img/accept-icon.png" class="accept-icon" alt="accept-icon">24/7 Open</h3>
+                    <h3><img src="img/accept-icon.png" class="accept-icon">24/7 Open</h3>
                     <p>Duis autem vel eum iriure dolor in hendrerit 
                     vulputate velit esse molestie consequat.</p>
                   </div>
@@ -126,9 +133,9 @@
           </div>
         </div>
         <div id="carousel">
-          <img src="img/images/client-1.png" class="client-1" alt="carousel-image" style="opacity: 1; z-index: 500; transform: translate(30px, 30px);">
-          <img src="img/images/client-2.png" class="client-2" alt="carousel-image" style="opacity: 0.1; z-index: 300; transform: translate(0px, 0px);">
-          <img src="img/images/client-3.png" class="client-3" alt="carousel-image" style="opacity: 0.1; z-index: 300; transform: translate(100px, 0px);">
+          <img src="img/images/client-1.png" class="client-1" alt="carousel-image" style="opacity: 1; z-index: 2; transform: translate(30px, 30px);">
+          <img src="img/images/client-2.png" class="client-2" alt="carousel-image" style="opacity: 0.1; z-index: 1; transform: translate(0px, 0px);">
+          <img src="img/images/client-3.png" class="client-3" alt="carousel-image" style="opacity: 0.1; z-index: 1; transform: translate(100px, 0px);">
           <div id="car-buttons">
             <div id="car-left"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
             <div id="car-right"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
@@ -137,24 +144,24 @@
         <div class="container quotes">
           <div class="row">
             <div class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6">
-              <h2><span class="p-number">04.</span> Some awesome <span class="green-text">speeches</span></h2><br>
+              <span class="p-number"><h2> Some awesome <span class="green-text">speeches</span></h2><br>
               <div class="quote-block first-quote" style="display: block">
                 <p class="quote>">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
                 vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim 
                 qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                <h4>Jenny Duren</h4>
+                <h3>Jenny Duren</h3>
                 <p class="student-info">Student, Age: 29</p>
               </div>
               <div class="quote-block second-quote" style="display: none">
                 <p class="quote>">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                 tincidunt ut laoreet dolore magna aliquam erat volutpat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh tincidunt dolore magna aliquam erat.</p>
-                <h4>Max Dwight</h4>
+                <h3>Max Dwight</h3>
                 <p class="student-info">Banker, Age: 26</p>
               </div>
               <div class="quote-block third-quote" style="display: none">
                 <p class="quote>">Eu feugiat nulla facilisis at vero eros in vulputate velit esse molestie consequat,
                 vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-                <h4>Kenny Blablovsky</h4>
+                <h3>Kenny Blablovsky</h3>
                 <p class="student-info">Dietetic, Age: 34</p>
               </div>
             </div>
@@ -165,7 +172,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-7 col-sm-12">
-              <h2><span class="p-number">05.</span> Our <span class="green-text">pricing & plans</span></h2>
+              <span class="p-number"><h2> Our <span class="green-text">pricing & plans</span></h2>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
               tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
             </div>
@@ -178,35 +185,35 @@
             <div class="row">
               <div class="col-md-4 col-sm-4"> 
                 <div class="box box-1">
-                  <h2>$150</h2>
+                  <h3>$150</h3>
                   <p>best for office workers</p>
                   <p class="button">basic</p>
                   <p>Duis autem vel eum iriure dolor in hendrerit in 
                   vulputate velit esse molestie consequat, vel illum 
                   dolore eu feugiat nulla facilisis.</p>
-                  <h3>order now <i class="fa fa-angle-right" aria-hidden="true"></i></h3>
+                  <h4>order now <i class="fa fa-angle-right" aria-hidden="true"></i></h4>
                 </div>
               </div>
               <div class="col-md-4 col-sm-4">
                 <div class="box box-2">
-                  <h2>$250</h2>
+                  <h3>$250</h3>
                   <p>best for students</p>
                   <p class="button">premium</p>
                   <p>Duis autem vel eum iriure dolor in hendrerit in 
                   vulputate velit esse molestie consequat, vel illum 
                   dolore eu feugiat nulla facilisis.</p>
-                  <h3>order now <i class="fa fa-angle-right" aria-hidden="true"></i></h3>
+                  <h4>order now <i class="fa fa-angle-right" aria-hidden="true"></i></h4>
                 </div>
               </div>
               <div class="col-md-4 col-sm-4">
                 <div class="box box-3">
-                  <h2>$299</h2>
+                  <h3>$299</h3>
                   <p>best for office workers</p>
                   <p class="button">golden</p>
                   <p>Duis autem vel eum iriure dolor in hendrerit in 
                   vulputate velit esse molestie consequat, vel illum 
                   dolore eu feugiat nulla facilisis.</p>
-                  <h3>order now <i class="fa fa-angle-right" aria-hidden="true"></i></h3>
+                  <h4>order now <i class="fa fa-angle-right" aria-hidden="true"></i></h4>
                 </div>
               </div>
             </div>
@@ -214,7 +221,7 @@
         </div>
       </section>
       <section id="second-interlude">
-        <img class="img-responsive second-int" src="img/images/second-shape.png" alt="interlude">
+        <img class="img-responsive second-int" src="img/images/second-shape.png">
         <div class="container">
           <div class="row row-1">
             <div class="column-1 col-lg-6 col-md-8 col-sm-12">
@@ -222,7 +229,7 @@
               <p>Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
             </div>
             <div class="column-2 col-lg-3">
-              <img class="arrow" src="img/images/arrow.png" alt="Pointing arrow">
+              <img class="arrow" src="img/images/arrow.png">
             </div>
             <div class="column-3 col-lg-3 col-md-4 col-sm-12">
               <button class="btn">Get your free registration</button>
@@ -247,7 +254,6 @@
         </div>
       </footer>
     </div>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
