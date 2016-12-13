@@ -398,21 +398,30 @@
         p:first-of-type
           padding-top: 20px
 
-        .lead
-          font-size: 20px
-          line-height: 40px
-          letter-spacing: 0px
-          padding-top: 20px
-
-        a
-          font-size: $poppins
-          font-size: 15px
-          height: 40px
-          line-height: 40px
-          color: $white
-          text-decoration: none
-          underline: none
-          text-align: center
+        .circle 
+          .circle__item
+            font-family: $poppins
+            font-size: 14px
+            color: #999999
+            margin-top: 20px
+            text-align: center
+          
+          .circle__item::before 
+            display: inline-block
+            height: 42px
+            width: 42px
+            border-radius: 50%
+            text-align: center
+            line-height: 40px
+            background-color: #66a900
+            margin-right: 10px
+            counter-increment: circle
+            content: counter( circle )
+            color: white
+          
+          .circle__item:hover::before 
+            background: #7ecc00
+            text-decoration: none
 
       #first-interlude
         margin-top: 0
