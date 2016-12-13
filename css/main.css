@@ -1019,7 +1019,7 @@ body {
     body #wrapper #second-section .quotes h2 {
       line-height: 60px; }
     body #wrapper #second-section .quotes .quote-block p:before {
-      top: 120px; }
+      top: 130px; }
   body #wrapper #second-section #background-girl-image-3 .third-article {
     margin-bottom: 50px; }
   body #wrapper #third-section {
@@ -1074,7 +1074,7 @@ body {
     font-size: 18px;
     line-height: 26px; }
   body #wrapper #second-section .quotes .quote-block p:before {
-    top: 160px; }
+    top: 100px; }
   body #wrapper #second-interlude .second-int {
     height: 250px; }
   body #wrapper #second-interlude .container .row-1 {
@@ -1137,7 +1137,7 @@ body {
     font-size: 18px;
     line-height: 26px; }
   body #wrapper #second-section .quotes .quote-block p:before {
-    top: 150px; }
+    top: 100px; }
   body #wrapper #second-section .quotes .quote-block p:nth-child(1) {
     margin-bottom: 30px; }
   body #wrapper #second-section .quotes .quote-block .student-info {
@@ -1177,9 +1177,9 @@ body {
   body #wrapper header nav {
     height: 14%; }
     body #wrapper header nav .open-btn {
-      margin-top: 7%; }
+      margin-top: 6%; }
     body #wrapper header nav .close-btn {
-      margin-top: 7%; }
+      margin-top: 6%; }
     body #wrapper header nav .nav-menu-open {
       padding-top: 120px;
       background-color: #477500;
