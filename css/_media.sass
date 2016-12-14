@@ -16,13 +16,9 @@
     #wrapper
       #main
         #background-girl-image-1
-          background-image: url("../img/images/girl-image-1-bg.png")
-          background-size: cover
           background-position: 72%
 
         #background-girl-image-2
-          background-image: url("../img/images/girl-image-2-bg.png")
-          background-size: cover 200px
           background-repeat: no-repeat
           background-position: 5%
           height: 490px
@@ -51,76 +47,19 @@
           .column-3
             padding-top: 0px
 
-      #main
-        .lead
-          font-family: $poppins
-          font-size: 12px
-          line-height: 20px
-          color: #999999
-          letter-spacing: 1px
-
       #second-section
         .quotes
           .quote-block
             p:before
-              font-family: "FontAwesome"
-              content: "\f10d"
-              font-size: 20px
-              position: absolute
-              font-style: normal
-              font-weight: normal
               top: 120px
-              left: 15px
-              color: #333333
-              opacity: .1
 
         #carousel
           left: 0%
         #background-girl-image-3
           margin-top: 100px
-          background: url("../img/images/girl-image-3-bg.png") no-repeat
-          background-size: cover
           background-position: 100%
 
-        
-
       #second-interlude
-        .container
-          max-width: 100%
-
-          .row-1
-            margin-top: -120px
-
-          h2
-            display: inline
-            font-family: $serif
-            color: $white
-            font-size: 32px
-            line-height: 16px
-            font-weight: 700
-
-          img
-            margin-top: 40px
-
-          p
-            font-family: "Poppins Light"
-            font-size: 14px
-            line-height: 30px
-            color: $white
-            letter-spacing: -0.3px
-            padding-top: 10px
-          
-          .btn
-            height: 57px
-            max-height: 100%
-            width: 270px
-            max-width: 100%
-            background-color: $white
-            font-family: $serif
-            font-size: 16px
-            color: #66a900
-            line-height: 26px
-
         .second-int
           height: 200px
 
@@ -139,9 +78,27 @@
 
         #background-girl-image-2
           background-image: none
-          margin-top: 50px
+          margin-top: -100px
           .lead
             font-size: 14px
+
+      #first-interlude
+        margin-top: 0px
+        height: 320px
+
+        .container
+          .column-1
+            text-align: center
+            h2
+              font-size: 36px
+            p
+              font-size: 20px
+          .column-3
+            text-align: center
+            padding-top: 20px
+
+          img
+            margin-top: 40px
 
       #second-section
         #background-girl-image-3
@@ -173,6 +130,7 @@
         padding-top: 0
         h2
           font-size: 30px
+
       #prices-section
         #prices
           
@@ -190,54 +148,6 @@
               background-image: none
               margin-bottom: 160px
 
-      #first-interlude
-        margin-top: 0px
-        height: 320px
-
-        .container
-
-          .row-1
-            margin-top: 0
-
-          .column-1
-            text-align: center
-            h2
-              font-size: 36px
-            p
-              font-size: 20px
-          .column-3
-            text-align: center
-            padding-top: 20px
-
-          h3
-            display: inline
-            font-family: $serif
-            color: $white
-            font-size: 36px
-            line-height: 16px
-            font-weight: 700
-
-          img
-            margin-top: 40px
-
-          p
-            font-family: "Poppins Light"
-            font-size: 16px
-            line-height: 30px
-            color: $white
-            letter-spacing: -0.3px
-            padding-top: 10px
-
-          .btn
-            height: 57px
-            max-height: 100%
-            width: 270px
-            max-width: 100%
-            background-color: $white
-            font-family: $serif
-            font-size: 16px
-            color: #66a900
-            line-height: 26px
       #second-interlude
         .container
           .row-1
@@ -255,47 +165,17 @@
 
           p
             font-size: 20px
-          
-          .btn
-            height: 57px
-            max-height: 100%
-            width: 270px
-            max-width: 100%
-            background-color: $white
-            font-family: $serif
-            font-size: 16px
-            color: #66a900
-            line-height: 26px
-
-        .second-int
-          height: 200px
 
       footer
         padding-top: 40px
 
-        img
-          padding-right: 10px
-
         p
-          font-family: $serif
-          font-size: 14px
           line-height: 14px
           margin-top: 20px
 
         li
-          display: inline-block
           margin: 0 10px
           text-align: center
-          
-          a
-            font-family: $serif
-            font-size: 14px
-            line-height: 28px
-            color: #aeaeae
-
-          a:hover
-            font-size: 14px
-            text-decoration: underline
 
 @media (max-width: 800px)
   body
@@ -308,7 +188,6 @@
     #wrapper
       header
         background-position: 50%
-        padding-bottom: 0px
         .heading
           margin-left: 0
           margin-top: 220px
@@ -337,11 +216,8 @@
             margin-top: 25px
           .nav-menu-open
             padding-top: 150px
-            background-color: transparentize(rgba(71, 117, 0, 1), 0)
-            width: 100%
+            background-color: transparentize(rgba(71, 117, 0, 1), 0.05)
             height: 600px
-            z-index: 1
-            padding-left: 0
 
           ul
             margin: 0
@@ -360,25 +236,6 @@
             position: absolute
             z-index: 2
 
-            h1
-              text-shadow: 0px 2px 16px rgba(0,0,0,0.3)
-              font-size: 64px
-              font-family: "Poppins"
-              color: $white
-              text-transform: uppercase
-              line-height: 64px
-              font-weight: 500
-
-            p
-              padding-top: 20px
-              font-family: $serif
-              font-size: 32px
-              color: $white
-              font-weight: 500
-              line-height: 36px
-              letter-spacing: 0.5px
-              padding-bottom: 255px
-
       #main
 
         .second-article
@@ -392,96 +249,42 @@
           font-size: 28px
           line-height: 42px
         p
-          font-size: 24px
-          line-height: 36px
-
+          font-size: 20px
+          line-height: 32px
         p:first-of-type
           padding-top: 20px
 
         .circle 
           .circle__item
-            font-family: $poppins
-            font-size: 14px
-            color: #999999
             margin-top: 20px
             text-align: center
-          
-          .circle__item::before 
-            display: inline-block
-            height: 42px
-            width: 42px
-            border-radius: 50%
-            text-align: center
-            line-height: 40px
-            background-color: #66a900
-            margin-right: 10px
-            counter-increment: circle
-            content: counter( circle )
-            color: white
-          
-          .circle__item:hover::before 
-            background: #7ecc00
-            text-decoration: none
 
       #first-interlude
         margin-top: 0
         height: 330px
-        display: block
-        background-image: url("../img/images/first-shape.png")
-        background-size: 100%
 
         .top-int
           margin-top: 100px
 
         .container
-
           .row-1
             .column-1
-              text-align: center
               padding-top: 50px
 
             .column-2
               display: none
-              margin: 0 auto
-              padding: 0 auto
 
             .column-3
-              text-align: center
               padding-top: 0
 
             h2
-              display: inline
-              font-family: $serif
-              color: $white
-              font-size: 32px
               line-height: 36px
-              font-weight: 700
 
             p
-              font-family: "Poppins Light"
               font-size: 20px
-              line-height: 30px
-              color: $white
-              padding-top: 10px
-              padding-bottom: 30px
-
-            .btn
-              height: 57px
-              max-height: 57px
-              width: 270px
-              max-width: 200
-              background-color: $white
-              font-family: $serif
-              font-size: 18px
-              color: #66a900
-              line-height: 26px
+              padding-bottom: 32px
 
       #second-section
-        .quotes
-          .quote-block
-            p:before
-              top: 80px
-
         #background-girl-image-3
           margin-bottom: 100px
 
@@ -491,27 +294,33 @@
             .third-article-column
               text-align: center
 
-            p
-              font-size: 24px
-              line-height: 36px
+              p
+                font-size: 16px
+                line-height: 24px
 
-            h2
-              font-size: 28px
+              h2
+                font-size: 28px
+          .container
+            .row
+              .padding-maker
+                padding-top: 20px
+                font-size: 20px
+                line-height: 32px
 
-            .padding-maker
-              padding-top: 40px
+              .accept-icon
+                padding-right: 10px
 
-            .accept-icon
-              padding-right: 10px
-
-            h3
-              font-size: 24px
-              line-height: 26px
-              padding-top: 20px
+              h3
+                font-size: 22px
+                line-height: 24px
+                padding-top: 20px
 
         .quotes
           margin-top: -100px
           margin-bottom: -150px
+          .quote-block
+            p:before
+              top: 80px
           .row
             .student-info
               text-align: right
@@ -521,31 +330,28 @@
               font-size: 42px
 
             p
-              font-size: 16px
-              line-height: 24px
+              font-size: 18px
+              line-height: 32px
 
             p:nth-child(1)
-              margin-top: 50px
               margin-bottom: 10px
+              font-size: 18px
+              line-height: 32px
 
             h3
               font-size: 20px
-              padding-left: 40px
               float: right
 
       #third-section
         margin-top: 300px
         padding-top: 0
+        p
+          font-size: 20px
+          line-height: 32px
+          &:first-of-type
+            padding-top: 20px
 
-        .container
 
-          h2
-            font-size: 42px
-
-          p
-            font-family: $serif
-            font-size: 24px
-            line-height: 32px
       #prices-section
         text-align: center
         #prices
@@ -573,9 +379,6 @@
 
       #carousel
         display: none
-      
-      .arrow
-        display: none
 
       #second-interlude
         .container
@@ -583,45 +386,14 @@
             margin-top: -80px
 
           h2
-            display: inline
-            font-family: $serif
-            color: $white
-            font-size: 32px
             line-height: 36px
-            font-weight: 700
-
-          img
-            margin-top: 40px
 
           p
-            font-family: "Poppins Light"
-            font-size: 20px
-            line-height: 30px
-            color: $white
-            letter-spacing: -0.3px
             padding-top: 10px
             padding-bottom: 30px
-          
-          .btn
-            height: 57px
-            max-height: 100%
-            width: 270px
-            max-width: 100%
-            background-color: $white
-            font-family: $serif
-            font-size: 16px
-            color: #66a900
-            line-height: 26px
 
         .column-1
           margin-top: -120px
-          text-align: center
-
-        .column-3
-          text-align: center
-
-        .second-int
-          height: 200px
 
       footer
         padding-top: 0px
@@ -635,29 +407,23 @@
 
         img
           margin: 10px
+          display: block
           width: 8%
+          margin-left: 47%
 
         p
-          font-family: $serif
-          font-size: 14px
           line-height: 28px
 
         li
           display: block
           margin: 20px
           float: none
-          text-align: center
           
           a
-            font-family: $serif
-            font-size: 14px
             line-height: 14px
-            color: #aeaeae
 
             &:hover
               font-size: 16px
-              text-decoration: underline
-              transition-duration: 10s
 @media (max-width: 708px)
   body
     #wrapper
@@ -726,15 +492,6 @@
         nav
           img
             margin-left: 12px
-          .close-btn
-            display: none
-            position: absolute
-            right: 6%
-
-          .open-btn
-            display: block
-            position: absolute
-            right: 6%
 
       #first-interlude
         margin-top: 200px
@@ -908,11 +665,6 @@
         nav
           .nav-menu-open
             padding-top: 120px
-            background-color: transparentize(rgba(71, 117, 0, 1), 0)
-            width: 100%
-            height: 100vh
-            z-index: 1
-            padding-left: 0
             li
               a
                 font-size: 20px
@@ -950,29 +702,14 @@
         .heading
           margin-top: 120px
 
-@media (min-device-width: 320px) and (orientation: landscape)
+@media (min-device-width: 320px) and (max-device-width: 700px) and (orientation: landscape)
   body
     #wrapper
       header
         nav
           .nav-menu-open
-            display: block
-            position: absolute
-            width: 100%
-            height: 100vh
-            z-index: 1
-            padding-left: 0
             padding-top: 65px
 
             li
-              display: inline
-
               a
-                display: block
-                text-decoration: none !important
-                margin: 0
-                font-family: $serif
                 font-size: 14px
-                color: $white
-                transition-duration: 0.2s
-                transition-timing-function: ease-in-out

@@ -80,7 +80,8 @@ body {
         color: #ffffff;
         font-weight: 500;
         line-height: 28px;
-        letter-spacing: 0.5px; }
+        letter-spacing: 0.5px;
+        text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.7); }
       body #wrapper header .navbar-fixed {
         top: 0;
         background-color: rgba(71, 117, 0, 0.9);
@@ -521,12 +522,8 @@ body {
     left: 5%; } }
 @media (max-width: 1300px) {
   body #wrapper #main #background-girl-image-1 {
-    background-image: url("../img/images/girl-image-1-bg.png");
-    background-size: cover;
     background-position: 72%; }
   body #wrapper #main #background-girl-image-2 {
-    background-image: url("../img/images/girl-image-2-bg.png");
-    background-size: cover 200px;
     background-repeat: no-repeat;
     background-position: 5%;
     height: 490px; }
@@ -545,60 +542,13 @@ body {
       padding-top: 40px; }
     body #wrapper #first-interlude .row-1 .column-3 {
       padding-top: 0px; }
-  body #wrapper #main .lead {
-    font-family: "Poppins";
-    font-size: 12px;
-    line-height: 20px;
-    color: #999999;
-    letter-spacing: 1px; }
   body #wrapper #second-section .quotes .quote-block p:before {
-    font-family: "FontAwesome";
-    content: "";
-    font-size: 20px;
-    position: absolute;
-    font-style: normal;
-    font-weight: normal;
-    top: 120px;
-    left: 15px;
-    color: #333333;
-    opacity: 0.1; }
+    top: 120px; }
   body #wrapper #second-section #carousel {
     left: 0%; }
   body #wrapper #second-section #background-girl-image-3 {
     margin-top: 100px;
-    background: url("../img/images/girl-image-3-bg.png") no-repeat;
-    background-size: cover;
     background-position: 100%; }
-  body #wrapper #second-interlude .container {
-    max-width: 100%; }
-    body #wrapper #second-interlude .container .row-1 {
-      margin-top: -120px; }
-    body #wrapper #second-interlude .container h2 {
-      display: inline;
-      font-family: "PT Serif";
-      color: #ffffff;
-      font-size: 32px;
-      line-height: 16px;
-      font-weight: 700; }
-    body #wrapper #second-interlude .container img {
-      margin-top: 40px; }
-    body #wrapper #second-interlude .container p {
-      font-family: "Poppins Light";
-      font-size: 14px;
-      line-height: 30px;
-      color: #ffffff;
-      letter-spacing: -0.3px;
-      padding-top: 10px; }
-    body #wrapper #second-interlude .container .btn {
-      height: 57px;
-      max-height: 100%;
-      width: 270px;
-      max-width: 100%;
-      background-color: #ffffff;
-      font-family: "PT Serif";
-      font-size: 16px;
-      color: #66a900;
-      line-height: 26px; }
   body #wrapper #second-interlude .second-int {
     height: 200px; } }
 @media (max-width: 991px) {
@@ -612,9 +562,23 @@ body {
     background-image: none; }
   body #wrapper #main #background-girl-image-2 {
     background-image: none;
-    margin-top: 50px; }
+    margin-top: -100px; }
     body #wrapper #main #background-girl-image-2 .lead {
       font-size: 14px; }
+  body #wrapper #first-interlude {
+    margin-top: 0px;
+    height: 320px; }
+    body #wrapper #first-interlude .container .column-1 {
+      text-align: center; }
+      body #wrapper #first-interlude .container .column-1 h2 {
+        font-size: 36px; }
+      body #wrapper #first-interlude .container .column-1 p {
+        font-size: 20px; }
+    body #wrapper #first-interlude .container .column-3 {
+      text-align: center;
+      padding-top: 20px; }
+    body #wrapper #first-interlude .container img {
+      margin-top: 40px; }
   body #wrapper #second-section #background-girl-image-3 {
     min-height: 0;
     background: none; }
@@ -645,46 +609,6 @@ body {
   body #wrapper #prices-section #prices .container .box-3 {
     background-image: none;
     margin-bottom: 160px; }
-  body #wrapper #first-interlude {
-    margin-top: 0px;
-    height: 320px; }
-    body #wrapper #first-interlude .container .row-1 {
-      margin-top: 0; }
-    body #wrapper #first-interlude .container .column-1 {
-      text-align: center; }
-      body #wrapper #first-interlude .container .column-1 h2 {
-        font-size: 36px; }
-      body #wrapper #first-interlude .container .column-1 p {
-        font-size: 20px; }
-    body #wrapper #first-interlude .container .column-3 {
-      text-align: center;
-      padding-top: 20px; }
-    body #wrapper #first-interlude .container h3 {
-      display: inline;
-      font-family: "PT Serif";
-      color: #ffffff;
-      font-size: 36px;
-      line-height: 16px;
-      font-weight: 700; }
-    body #wrapper #first-interlude .container img {
-      margin-top: 40px; }
-    body #wrapper #first-interlude .container p {
-      font-family: "Poppins Light";
-      font-size: 16px;
-      line-height: 30px;
-      color: #ffffff;
-      letter-spacing: -0.3px;
-      padding-top: 10px; }
-    body #wrapper #first-interlude .container .btn {
-      height: 57px;
-      max-height: 100%;
-      width: 270px;
-      max-width: 100%;
-      background-color: #ffffff;
-      font-family: "PT Serif";
-      font-size: 16px;
-      color: #66a900;
-      line-height: 26px; }
   body #wrapper #second-interlude .container .row-1 {
     margin-top: -200px; }
     body #wrapper #second-interlude .container .row-1 .column-1 {
@@ -696,46 +620,20 @@ body {
     font-size: 36px; }
   body #wrapper #second-interlude .container p {
     font-size: 20px; }
-  body #wrapper #second-interlude .container .btn {
-    height: 57px;
-    max-height: 100%;
-    width: 270px;
-    max-width: 100%;
-    background-color: #ffffff;
-    font-family: "PT Serif";
-    font-size: 16px;
-    color: #66a900;
-    line-height: 26px; }
-  body #wrapper #second-interlude .second-int {
-    height: 200px; }
   body #wrapper footer {
     padding-top: 40px; }
-    body #wrapper footer img {
-      padding-right: 10px; }
     body #wrapper footer p {
-      font-family: "PT Serif";
-      font-size: 14px;
       line-height: 14px;
       margin-top: 20px; }
     body #wrapper footer li {
-      display: inline-block;
       margin: 0 10px;
-      text-align: center; }
-      body #wrapper footer li a {
-        font-family: "PT Serif";
-        font-size: 14px;
-        line-height: 28px;
-        color: #aeaeae; }
-      body #wrapper footer li a:hover {
-        font-size: 14px;
-        text-decoration: underline; } }
+      text-align: center; } }
 @media (max-width: 800px) {
   body #wrapper #second-section #carousel {
     left: 0%; } }
 @media (max-width: 767px) {
   body #wrapper header {
-    background-position: 50%;
-    padding-bottom: 0px; }
+    background-position: 50%; }
     body #wrapper header .heading {
       margin-left: 0;
       margin-top: 220px;
@@ -763,11 +661,8 @@ body {
         margin-top: 25px; }
       body #wrapper header nav .nav-menu-open {
         padding-top: 150px;
-        background-color: #477500;
-        width: 100%;
-        height: 600px;
-        z-index: 1;
-        padding-left: 0; }
+        background-color: rgba(71, 117, 0, 0.95);
+        height: 600px; }
       body #wrapper header nav ul {
         margin: 0; }
         body #wrapper header nav ul li {
@@ -782,23 +677,6 @@ body {
         margin-left: 20px;
         position: absolute;
         z-index: 2; }
-        body #wrapper header nav img h1 {
-          text-shadow: 0px 2px 16px rgba(0, 0, 0, 0.3);
-          font-size: 64px;
-          font-family: "Poppins";
-          color: #ffffff;
-          text-transform: uppercase;
-          line-height: 64px;
-          font-weight: 500; }
-        body #wrapper header nav img p {
-          padding-top: 20px;
-          font-family: "PT Serif";
-          font-size: 32px;
-          color: #ffffff;
-          font-weight: 500;
-          line-height: 36px;
-          letter-spacing: 0.5px;
-          padding-bottom: 255px; }
   body #wrapper #main .second-article {
     padding-bottom: 0; }
   body #wrapper #main .first-article {
@@ -808,121 +686,78 @@ body {
     font-size: 28px;
     line-height: 42px; }
   body #wrapper #main p {
-    font-size: 24px;
-    line-height: 36px; }
+    font-size: 20px;
+    line-height: 32px; }
   body #wrapper #main p:first-of-type {
     padding-top: 20px; }
   body #wrapper #main .circle .circle__item {
-    font-family: "Poppins";
-    font-size: 14px;
-    color: #999999;
     margin-top: 20px;
     text-align: center; }
-  body #wrapper #main .circle .circle__item::before {
-    display: inline-block;
-    height: 42px;
-    width: 42px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    background-color: #66a900;
-    margin-right: 10px;
-    counter-increment: circle;
-    content: counter(circle);
-    color: white; }
-  body #wrapper #main .circle .circle__item:hover::before {
-    background: #7ecc00;
-    text-decoration: none; }
   body #wrapper #first-interlude {
     margin-top: 0;
-    height: 330px;
-    display: block;
-    background-image: url("../img/images/first-shape.png");
-    background-size: 100%; }
+    height: 330px; }
     body #wrapper #first-interlude .top-int {
       margin-top: 100px; }
     body #wrapper #first-interlude .container .row-1 .column-1 {
-      text-align: center;
       padding-top: 50px; }
     body #wrapper #first-interlude .container .row-1 .column-2 {
-      display: none;
-      margin: 0 auto;
-      padding: 0 auto; }
+      display: none; }
     body #wrapper #first-interlude .container .row-1 .column-3 {
-      text-align: center;
       padding-top: 0; }
     body #wrapper #first-interlude .container .row-1 h2 {
-      display: inline;
-      font-family: "PT Serif";
-      color: #ffffff;
-      font-size: 32px;
-      line-height: 36px;
-      font-weight: 700; }
+      line-height: 36px; }
     body #wrapper #first-interlude .container .row-1 p {
-      font-family: "Poppins Light";
       font-size: 20px;
-      line-height: 30px;
-      color: #ffffff;
-      padding-top: 10px;
-      padding-bottom: 30px; }
-    body #wrapper #first-interlude .container .row-1 .btn {
-      height: 57px;
-      max-height: 57px;
-      width: 270px;
-      max-width: 200;
-      background-color: #ffffff;
-      font-family: "PT Serif";
-      font-size: 18px;
-      color: #66a900;
-      line-height: 26px; }
-  body #wrapper #second-section .quotes .quote-block p:before {
-    top: 80px; }
+      padding-bottom: 32px; }
   body #wrapper #second-section #background-girl-image-3 {
     margin-bottom: 100px; }
     body #wrapper #second-section #background-girl-image-3 .third-article {
       margin-bottom: 300px; }
       body #wrapper #second-section #background-girl-image-3 .third-article .third-article-column {
         text-align: center; }
-      body #wrapper #second-section #background-girl-image-3 .third-article p {
-        font-size: 24px;
-        line-height: 36px; }
-      body #wrapper #second-section #background-girl-image-3 .third-article h2 {
-        font-size: 28px; }
-      body #wrapper #second-section #background-girl-image-3 .third-article .padding-maker {
-        padding-top: 40px; }
-      body #wrapper #second-section #background-girl-image-3 .third-article .accept-icon {
-        padding-right: 10px; }
-      body #wrapper #second-section #background-girl-image-3 .third-article h3 {
-        font-size: 24px;
-        line-height: 26px;
-        padding-top: 20px; }
+        body #wrapper #second-section #background-girl-image-3 .third-article .third-article-column p {
+          font-size: 16px;
+          line-height: 24px; }
+        body #wrapper #second-section #background-girl-image-3 .third-article .third-article-column h2 {
+          font-size: 28px; }
+    body #wrapper #second-section #background-girl-image-3 .container .row .padding-maker {
+      padding-top: 20px;
+      font-size: 20px;
+      line-height: 32px; }
+    body #wrapper #second-section #background-girl-image-3 .container .row .accept-icon {
+      padding-right: 10px; }
+    body #wrapper #second-section #background-girl-image-3 .container .row h3 {
+      font-size: 22px;
+      line-height: 24px;
+      padding-top: 20px; }
   body #wrapper #second-section .quotes {
     margin-top: -100px;
     margin-bottom: -150px; }
+    body #wrapper #second-section .quotes .quote-block p:before {
+      top: 80px; }
     body #wrapper #second-section .quotes .row .student-info {
       text-align: right;
       clear: both; }
     body #wrapper #second-section .quotes .row h2 {
       font-size: 42px; }
     body #wrapper #second-section .quotes .row p {
-      font-size: 16px;
-      line-height: 24px; }
+      font-size: 18px;
+      line-height: 32px; }
     body #wrapper #second-section .quotes .row p:nth-child(1) {
-      margin-top: 50px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      font-size: 18px;
+      line-height: 32px; }
     body #wrapper #second-section .quotes .row h3 {
       font-size: 20px;
-      padding-left: 40px;
       float: right; }
   body #wrapper #third-section {
     margin-top: 300px;
     padding-top: 0; }
-    body #wrapper #third-section .container h2 {
-      font-size: 42px; }
-    body #wrapper #third-section .container p {
-      font-family: "PT Serif";
-      font-size: 24px;
+    body #wrapper #third-section p {
+      font-size: 20px;
       line-height: 32px; }
+      body #wrapper #third-section p:first-of-type {
+        padding-top: 20px; }
   body #wrapper #prices-section {
     text-align: center; }
     body #wrapper #prices-section #prices .box {
@@ -944,44 +779,15 @@ body {
         font-size: 18px; }
   body #wrapper #carousel {
     display: none; }
-  body #wrapper .arrow {
-    display: none; }
   body #wrapper #second-interlude .container .row-1 {
     margin-top: -80px; }
   body #wrapper #second-interlude .container h2 {
-    display: inline;
-    font-family: "PT Serif";
-    color: #ffffff;
-    font-size: 32px;
-    line-height: 36px;
-    font-weight: 700; }
-  body #wrapper #second-interlude .container img {
-    margin-top: 40px; }
+    line-height: 36px; }
   body #wrapper #second-interlude .container p {
-    font-family: "Poppins Light";
-    font-size: 20px;
-    line-height: 30px;
-    color: #ffffff;
-    letter-spacing: -0.3px;
     padding-top: 10px;
     padding-bottom: 30px; }
-  body #wrapper #second-interlude .container .btn {
-    height: 57px;
-    max-height: 100%;
-    width: 270px;
-    max-width: 100%;
-    background-color: #ffffff;
-    font-family: "PT Serif";
-    font-size: 16px;
-    color: #66a900;
-    line-height: 26px; }
   body #wrapper #second-interlude .column-1 {
-    margin-top: -120px;
-    text-align: center; }
-  body #wrapper #second-interlude .column-3 {
-    text-align: center; }
-  body #wrapper #second-interlude .second-int {
-    height: 200px; }
+    margin-top: -120px; }
   body #wrapper footer {
     padding-top: 0px;
     padding-bottom: 20px; }
@@ -992,25 +798,19 @@ body {
       text-align: center; }
     body #wrapper footer img {
       margin: 10px;
-      width: 8%; }
+      display: block;
+      width: 8%;
+      margin-left: 47%; }
     body #wrapper footer p {
-      font-family: "PT Serif";
-      font-size: 14px;
       line-height: 28px; }
     body #wrapper footer li {
       display: block;
       margin: 20px;
-      float: none;
-      text-align: center; }
+      float: none; }
       body #wrapper footer li a {
-        font-family: "PT Serif";
-        font-size: 14px;
-        line-height: 14px;
-        color: #aeaeae; }
+        line-height: 14px; }
         body #wrapper footer li a:hover {
-          font-size: 16px;
-          text-decoration: underline;
-          transition-duration: 10s; } }
+          font-size: 16px; } }
 @media (max-width: 708px) {
   body #wrapper #second-section .quotes {
     margin-top: 50px;
@@ -1050,14 +850,6 @@ body {
     line-height: 24px; }
   body #wrapper header nav img {
     margin-left: 12px; }
-  body #wrapper header nav .close-btn {
-    display: none;
-    position: absolute;
-    right: 6%; }
-  body #wrapper header nav .open-btn {
-    display: block;
-    position: absolute;
-    right: 6%; }
   body #wrapper #first-interlude {
     margin-top: 200px; } }
 @media (max-width: 450px) {
@@ -1169,12 +961,7 @@ body {
     width: 15%; } }
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
   body #wrapper header nav .nav-menu-open {
-    padding-top: 120px;
-    background-color: #477500;
-    width: 100%;
-    height: 100vh;
-    z-index: 1;
-    padding-left: 0; }
+    padding-top: 120px; }
     body #wrapper header nav .nav-menu-open li a {
       font-size: 20px; }
   body #wrapper header .heading {
@@ -1199,25 +986,10 @@ body {
     padding-top: 90px; }
   body #wrapper header .heading {
     margin-top: 120px; } }
-@media (min-device-width: 320px) and (orientation: landscape) {
+@media (min-device-width: 320px) and (max-device-width: 700px) and (orientation: landscape) {
   body #wrapper header nav .nav-menu-open {
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    z-index: 1;
-    padding-left: 0;
     padding-top: 65px; }
-    body #wrapper header nav .nav-menu-open li {
-      display: inline; }
-      body #wrapper header nav .nav-menu-open li a {
-        display: block;
-        text-decoration: none !important;
-        margin: 0;
-        font-family: "PT Serif";
-        font-size: 14px;
-        color: #ffffff;
-        transition-duration: 0.2s;
-        transition-timing-function: ease-in-out; } }
+    body #wrapper header nav .nav-menu-open li a {
+      font-size: 14px; } }
 
 /*# sourceMappingURL=main.css.map */
