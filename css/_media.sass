@@ -314,7 +314,7 @@
           margin-top: 220px
           text-align: center
         nav
-          height: 12%
+          height: 85px
           .container
             padding-left: 0
             .row
@@ -329,12 +329,12 @@
             display: none
             position: absolute
             right: 6%
-            margin-top: 3%
+            margin-top: 25px
           .open-btn
             display: block
             position: absolute
             right: 6%
-            margin-top: 3%
+            margin-top: 25px
           .nav-menu-open
             padding-top: 150px
             background-color: transparentize(rgba(71, 117, 0, 1), 0)
@@ -654,10 +654,10 @@
             line-height: 14px
             color: #aeaeae
 
-          a:hover
-            font-size: 16px
-            text-decoration: underline
-            transition-duration: 10s
+            &:hover
+              font-size: 16px
+              text-decoration: underline
+              transition-duration: 10s
 @media (max-width: 708px)
   body
     #wrapper
@@ -724,17 +724,17 @@
             font-size: 18px
             line-height: 24px
         nav
+          img
+            margin-left: 12px
           .close-btn
             display: none
             position: absolute
             right: 6%
-            margin-top: 5%
 
           .open-btn
             display: block
             position: absolute
             right: 6%
-            margin-top: 5%
 
       #first-interlude
         margin-top: 200px
@@ -743,11 +743,8 @@
   body
     #wrapper
       header
-        nav
-          .open-btn
-            margin-top: 6%
-          .close-btn
-            margin-top: 6%
+        .navbar-fixed
+          box-shadow: 0px 3px 3px rgba(32, 37, 25, 0.6)
         .heading
           margin-top: 200px
 
@@ -884,10 +881,6 @@
     #wrapper
       header
         nav
-          .open-btn
-            margin-top: 5%
-          .close-btn
-            margin-top: 5%
           .nav-menu-open
             padding-top: 130px
 
@@ -907,16 +900,12 @@
       footer
         img
           width: 15%
-@media only screen and (min-device-width : 320px) and (max-device-height : 568px)
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px)
   body
     #wrapper
       header
         nav
-          height: 14%
-          .open-btn
-            margin-top: 6%
-          .close-btn
-            margin-top: 6%
           .nav-menu-open
             padding-top: 120px
             background-color: transparentize(rgba(71, 117, 0, 1), 0)
@@ -950,18 +939,40 @@
         .logo-box
           line-height: 10px
 
-@media only screen and (min-device-width : 320px) and (max-device-height : 480px)
+@media only screen and (min-device-width: 320px) and (max-device-height: 480px)
   body
     #wrapper
       header
         nav
-          height: 16%
-          .open-btn
-            margin-top: 6%
-          .close-btn
-            margin-top: 6%
           .nav-menu-open
             padding-top: 90px
 
         .heading
           margin-top: 120px
+
+@media (min-device-width: 320px) and (orientation: landscape)
+  body
+    #wrapper
+      header
+        nav
+          .nav-menu-open
+            display: block
+            position: absolute
+            width: 100%
+            height: 100vh
+            z-index: 1
+            padding-left: 0
+            padding-top: 65px
+
+            li
+              display: inline
+
+              a
+                display: block
+                text-decoration: none !important
+                margin: 0
+                font-family: $serif
+                font-size: 14px
+                color: $white
+                transition-duration: 0.2s
+                transition-timing-function: ease-in-out

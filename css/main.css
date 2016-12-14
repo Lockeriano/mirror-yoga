@@ -741,7 +741,7 @@ body {
       margin-top: 220px;
       text-align: center; }
     body #wrapper header nav {
-      height: 12%; }
+      height: 85px; }
       body #wrapper header nav .container {
         padding-left: 0; }
         body #wrapper header nav .container .row {
@@ -755,12 +755,12 @@ body {
         display: none;
         position: absolute;
         right: 6%;
-        margin-top: 3%; }
+        margin-top: 25px; }
       body #wrapper header nav .open-btn {
         display: block;
         position: absolute;
         right: 6%;
-        margin-top: 3%; }
+        margin-top: 25px; }
       body #wrapper header nav .nav-menu-open {
         padding-top: 150px;
         background-color: #477500;
@@ -1007,10 +1007,10 @@ body {
         font-size: 14px;
         line-height: 14px;
         color: #aeaeae; }
-      body #wrapper footer li a:hover {
-        font-size: 16px;
-        text-decoration: underline;
-        transition-duration: 10s; } }
+        body #wrapper footer li a:hover {
+          font-size: 16px;
+          text-decoration: underline;
+          transition-duration: 10s; } }
 @media (max-width: 708px) {
   body #wrapper #second-section .quotes {
     margin-top: 50px;
@@ -1048,23 +1048,21 @@ body {
   body #wrapper header .heading p {
     font-size: 18px;
     line-height: 24px; }
+  body #wrapper header nav img {
+    margin-left: 12px; }
   body #wrapper header nav .close-btn {
     display: none;
     position: absolute;
-    right: 6%;
-    margin-top: 5%; }
+    right: 6%; }
   body #wrapper header nav .open-btn {
     display: block;
     position: absolute;
-    right: 6%;
-    margin-top: 5%; }
+    right: 6%; }
   body #wrapper #first-interlude {
     margin-top: 200px; } }
 @media (max-width: 450px) {
-  body #wrapper header nav .open-btn {
-    margin-top: 6%; }
-  body #wrapper header nav .close-btn {
-    margin-top: 6%; }
+  body #wrapper header .navbar-fixed {
+    box-shadow: 0px 3px 3px rgba(32, 37, 25, 0.6); }
   body #wrapper header .heading {
     margin-top: 200px; }
   body #wrapper #second-section .quotes .row h2 {
@@ -1155,10 +1153,6 @@ body {
   body #wrapper footer img {
     width: 15%; } }
 @media (max-width: 375px) {
-  body #wrapper header nav .open-btn {
-    margin-top: 5%; }
-  body #wrapper header nav .close-btn {
-    margin-top: 5%; }
   body #wrapper header nav .nav-menu-open {
     padding-top: 130px; }
   body #wrapper header .heading {
@@ -1174,21 +1168,15 @@ body {
   body #wrapper footer img {
     width: 15%; } }
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
-  body #wrapper header nav {
-    height: 14%; }
-    body #wrapper header nav .open-btn {
-      margin-top: 6%; }
-    body #wrapper header nav .close-btn {
-      margin-top: 6%; }
-    body #wrapper header nav .nav-menu-open {
-      padding-top: 120px;
-      background-color: #477500;
-      width: 100%;
-      height: 100vh;
-      z-index: 1;
-      padding-left: 0; }
-      body #wrapper header nav .nav-menu-open li a {
-        font-size: 20px; }
+  body #wrapper header nav .nav-menu-open {
+    padding-top: 120px;
+    background-color: #477500;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    padding-left: 0; }
+    body #wrapper header nav .nav-menu-open li a {
+      font-size: 20px; }
   body #wrapper header .heading {
     text-align: center;
     margin-top: 150px;
@@ -1207,15 +1195,29 @@ body {
   body #wrapper footer .logo-box {
     line-height: 10px; } }
 @media only screen and (min-device-width: 320px) and (max-device-height: 480px) {
-  body #wrapper header nav {
-    height: 16%; }
-    body #wrapper header nav .open-btn {
-      margin-top: 6%; }
-    body #wrapper header nav .close-btn {
-      margin-top: 6%; }
-    body #wrapper header nav .nav-menu-open {
-      padding-top: 90px; }
+  body #wrapper header nav .nav-menu-open {
+    padding-top: 90px; }
   body #wrapper header .heading {
     margin-top: 120px; } }
+@media (min-device-width: 320px) and (orientation: landscape) {
+  body #wrapper header nav .nav-menu-open {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    padding-left: 0;
+    padding-top: 65px; }
+    body #wrapper header nav .nav-menu-open li {
+      display: inline; }
+      body #wrapper header nav .nav-menu-open li a {
+        display: block;
+        text-decoration: none !important;
+        margin: 0;
+        font-family: "PT Serif";
+        font-size: 14px;
+        color: #ffffff;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out; } }
 
 /*# sourceMappingURL=main.css.map */
