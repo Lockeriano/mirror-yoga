@@ -4,8 +4,7 @@
   padding: 0 !important; }
 
 .green-text {
-  color: #66a900;
-  line-height: 42px; }
+  color: #66a900; }
 
 button {
   margin: 0;
@@ -368,7 +367,7 @@ body {
       body #wrapper #third-section h2 {
         display: inline;
         font-family: "Poppins";
-        font-size: 40px;
+        font-size: 30px;
         line-height: 28px;
         color: #333333; }
       body #wrapper #third-section p {
@@ -740,7 +739,8 @@ body {
       text-align: right;
       clear: both; }
     body #wrapper #second-section .quotes .row h2 {
-      font-size: 42px; }
+      font-size: 30px;
+      line-height: 28px; }
     body #wrapper #second-section .quotes .row p {
       font-size: 18px;
       line-height: 32px; }
